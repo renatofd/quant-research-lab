@@ -1,0 +1,10 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H07",
+  "stage": 1,
+  "decision": "BLOCKED_DATA_RELEASE_TIME_AND_OFFICIAL_FLOW_PANEL_REQUIRED",
+  "required": ["fund_level_creations_redemptions", "actual_release_timestamp", "vintage_history", "NAV_and_shares", "revision_log"],
+  "forbidden_proxy": "AUM change without separating BTC valuation",
+  "unblock_condition": "Official or audited point-in-time ETF flow panel",
+  "code_written": false
+}

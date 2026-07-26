@@ -1,0 +1,215 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H02",
+  "user_agent": "DiscoveryV2-H02-D0-ManifestOnly/1.0",
+  "requests": [
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FADAUSDT%2F&max-keys=1000",
+      "http_status": 200,
+      "response_bytes": 268606
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FADAUSDT%2F&max-keys=1000&continuation-token=1cJ%2FkvB0meW8okC1KUN%2BBYecQOu7IgbrZ%2F%2F0HQiqrMnrMXJteIkkK57bZU87dQ1WjIVn4sDG7cuwvloMwe5mk7ylgoCZhgOi22JfCigxl18UsL9P1mET0JwCZvTm2os3o9yd6QbEBxf4%3D",
+      "http_status": 200,
+      "response_bytes": 276753
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FADAUSDT%2F&max-keys=1000&continuation-token=1TK8RxQ3fhdjTImTVdTWf7izAwZK4VGGfpybYvHzzZHxkyrUFUQ6F0wsX8lnrs6rn%2FwXFt2%2FZmshDmXh%2B3e2GGLTpyc5YB3Tr5XKSI4h%2BuqHdXujwPF79%2BW4CTuS%2FValzeigtPPIlp4w%3D",
+      "http_status": 200,
+      "response_bytes": 325858
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FADAUSDT%2F&max-keys=1000&continuation-token=1%2FMPRrW5d0c9yVS8viP9PJDJjZ26nB2PH7sfiakQ8W7SNZzL9XKHhqqy8Faeh56kdo3z%2FBdzaejbPGVVApOY0O3YwZ%2FeCISqCT%2FkljAUic6L5jNZriweWFzpOl4VBd3R2gcOrfKwWDac%3D",
+      "http_status": 200,
+      "response_bytes": 133614
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FAVAXUSDT%2F&max-keys=1000",
+      "http_status": 200,
+      "response_bytes": 270514
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FAVAXUSDT%2F&max-keys=1000&continuation-token=1%2FwmUWarZ8TKfunphV7LRLg%2BPu%2BG%2FALEOSsuyUaFoTjj8j2RIJr6zWaMVulLQDFvhJhLLJ5hdnNyY51HoBQ8H3uf9iD%2B2dDIjWdh532k1tY2cPF%2B3b2e3U4AvYeu%2Fd7JgolmqFuooHhM%3D",
+      "http_status": 200,
+      "response_bytes": 278578
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FAVAXUSDT%2F&max-keys=1000&continuation-token=1wHlHIRBFeHse8489f0LyV6mUFhIiVB1PVTf885w00UJnMPwmsCx7OsUO20IUZXuIw6QE%2FQcMzDaltDMIO34JDr%2Fe1C6w70SAwnnVLUq0tfkhSKbZSsdTy0%2BmVTBhrmVHO0kdoT%2B0on0%3D",
+      "http_status": 200,
+      "response_bytes": 327859
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FAVAXUSDT%2F&max-keys=1000&continuation-token=1%2BfqA4NR4oV4T9MzoCDC3hbkmWnrlUoEuGjqmqd75ckW4NAwXDUsPIMhOXfotLyf3DmkCPSLur0W8chKZYtSrXuBF8k82L15Dt10RlXMiEajtdymCXiuAgbUb7ITalJz9sbm0zFeUNvw%3D",
+      "http_status": 200,
+      "response_bytes": 134363
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FBNBUSDT%2F&max-keys=1000",
+      "http_status": 200,
+      "response_bytes": 268666
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FBNBUSDT%2F&max-keys=1000&continuation-token=16V8Xlg%2FnpHMSJ5BcoFMK8ROJ7m5AUIj9nzKx8km5DqYZwilmjGpnVfy6XJKO7YEPJJV5WDWdz%2F1TlTChKCbtSFWa6l%2FSB6SLvQaZ0NP4iwjbhQCehHXLdXqcto8F7YNi5yMWr5akEPQ%3D",
+      "http_status": 200,
+      "response_bytes": 276577
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FBNBUSDT%2F&max-keys=1000&continuation-token=1R08GCMhObrWULMhfqj3z%2BaFAdxEnKwZvyE2joLlX7v7V9%2BqqsRtQQFtmZx7OyZd6qpgui6xX1i2T3YGbgzPD9X18kfHo%2B02wduANxMclK99UDZyYrKNi7JO7dx3DPgLpCNf%2BRRY81yc%3D",
+      "http_status": 200,
+      "response_bytes": 325858
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FBNBUSDT%2F&max-keys=1000&continuation-token=1w6ecb%2BjGg%2FCbCeniPaxGQl0jduP8skoeR7UqE0gdSh8wvWjyNApvP5tiltFeLl4U27AbaepaCMiF3ETshmcHg%2B%2Bf5MaxmlYedtxTbMOaIssag1YY91dp9A1gQe1jWnp%2FGnU9bBnBBMQ%3D",
+      "http_status": 200,
+      "response_bytes": 133614
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FBTCUSDT%2F&max-keys=1000",
+      "http_status": 200,
+      "response_bytes": 348717
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FBTCUSDT%2F&max-keys=1000&continuation-token=1owZsiBL7f7hiZvV%2BZqLqqP0Fc7IYL%2BX2TTGDOFR7ZMUP3Gx2zs%2Bvd3mAyf1FUR%2FNVtGyzKrYydSgsPlUpsfGOCEqARGx%2BUS5oq0xsBTqyoJ6qMO3TulxAGYfHYhLH3rHrObuEYbPlHg%3D",
+      "http_status": 200,
+      "response_bytes": 268892
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FBTCUSDT%2F&max-keys=1000&continuation-token=1DCEEVlUpKnWbFYI9ekt28BSbvDyehNJjbtmMINWiPJ4nKlpEZOyMPr4GwM3%2BywF57nZvZsBXRwiGSCLHQ1z67Ej4dg2SZ2dyHfidkyWA6BmzaSp4V3I5IK94XsA4LbkNGbqH67puxMs%3D",
+      "http_status": 200,
+      "response_bytes": 276753
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FBTCUSDT%2F&max-keys=1000&continuation-token=1v0X%2F%2FR1%2BTv1IFq3TtC4OoE%2FeZVgqqTDOZ42b7sl3myfObhI0nMg8lnfUOQNexkxItOoU2sUQO6jZ2rZPYcGh6kdBd8UMmIVU0CxCOT%2FtG5Y2nlGHSpKGKRw5w3%2B76QZePDDVzG4nPF0%3D",
+      "http_status": 200,
+      "response_bytes": 333602
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FBTCUSDT%2F&max-keys=1000&continuation-token=1srT6aik7lwelscphpkuDQUItEPpQhiPFoGBzboqf19w1oN9YRcOKZKLBJISYX9ROUr5lC1nvILq3KJ2vbVqpjv1DSQlltv4EMYWevto2c6Icn9yiI%2Fpmdyjq%2F7WazDeGm4TIs4%2FZ2Y8%3D",
+      "http_status": 200,
+      "response_bytes": 102286
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FDOGEUSDT%2F&max-keys=1000",
+      "http_status": 200,
+      "response_bytes": 270872
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FDOGEUSDT%2F&max-keys=1000&continuation-token=1eMrrma3oLfIUZaOc8wdlmOQMSOaQZqdSyPUCl79WNN9ae5zAva7r3bSQSLcxT180KMrCAk3PdfCbGox%2F%2FGIT4r0SxnUXA3K9cU6lCU1nhifDlM6PLeoA6naSzr4nVWyJZze%2BN7nnaJg%3D",
+      "http_status": 200,
+      "response_bytes": 278578
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FDOGEUSDT%2F&max-keys=1000&continuation-token=1Mop585Y21Qd0cWUg65YhIE2ootQsdzQ2hFo81MafG1uFIOPXVJgQFjekKpsnw7A6N55UY28FAGdK4Ra5YTu%2FnsG1JMmMJ1uaaCpIeX4rX2yteHOlTA7mP1yVOPbvHhJg%2FQFEFyaVV4I%3D",
+      "http_status": 200,
+      "response_bytes": 327859
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FDOGEUSDT%2F&max-keys=1000&continuation-token=1MQqKRMWODxaEman0fUf6%2B%2B26Sq3hehLpsOnHs5HWcFF82xSSvyYsnk1y8UFQs2IJdiSQOw0YOO4SK1WLpd8jpUyd9hc0yZFtLC%2Bywd4%2FVvA0LWoguoGbXrMTopy8a3klx2EP78kB5Gk%3D",
+      "http_status": 200,
+      "response_bytes": 134363
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FETHUSDT%2F&max-keys=1000",
+      "http_status": 200,
+      "response_bytes": 268873
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FETHUSDT%2F&max-keys=1000&continuation-token=1iAI29CNrEhy5J3VClHFo0g7S42EAuXpbd2BMmmrh1tWiE7yaaOoq%2BgUeGAmOWtIEnw2K5tpC9YKO%2BmhfOEVUU9XeRZ%2FbWH0wTTpJQREAyXpeEeUBZt8nbt7BjYvKIfDT4HJcZ8KDwgA%3D",
+      "http_status": 200,
+      "response_bytes": 276577
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FETHUSDT%2F&max-keys=1000&continuation-token=1ozC2Lspqi4ADcqyRJd71pg3vtXg4YlOLSh%2BCLxTi9tTZQahhAwid9jKKwpVmBjdSvEJN4FznJR5yrO5l7bPQrWl7OMKVeLiXUn2VrbFdNiuj7Vr97sqGRk5PxEVgdT3dmvUhlT9rgUA%3D",
+      "http_status": 200,
+      "response_bytes": 325858
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FETHUSDT%2F&max-keys=1000&continuation-token=1%2F8kHMuvJc7vnnUc1MZTmht3cTdq%2Fz3yI9TgmtgyhJ1VgrKhUgVHzcpe2ONKkgxqkHzP2o2UUXbkGXROi3cjj%2BzR80gBaSKA4cNsUexSpR2WBmQ0wSyHlAndaTz2WXjOtKVgnZqv8FJo%3D",
+      "http_status": 200,
+      "response_bytes": 133614
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FLINKUSDT%2F&max-keys=1000",
+      "http_status": 200,
+      "response_bytes": 270872
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FLINKUSDT%2F&max-keys=1000&continuation-token=1TVEZz28O2vp3j6ibp2oex6cF2CIc1276JScXmNaphbDqK4yYTkKb5h8xJg11iHpfsjWp4ndyytjNeV7xWjhwvDCrbxyvZKeL4iI48M%2FA4sPf8D8tDG0uSMZjwz7c%2BjEN3X%2F%2FXVDSg9A%3D",
+      "http_status": 200,
+      "response_bytes": 278402
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FLINKUSDT%2F&max-keys=1000&continuation-token=1jcRNsvShEGPm6VYwUfQo6mMLVIQ2d%2FJoNf%2BGUwP2UFX61xq%2FFIqjkEfwRFIye%2BjIJx17fWNtz27FopUxOVmf3SvhoaWvJLt7TzEkbqOo1cwHFdPj%2BHLM1tWl6WSdWq%2B4f9xUMAuNeTc%3D",
+      "http_status": 200,
+      "response_bytes": 327859
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FLINKUSDT%2F&max-keys=1000&continuation-token=1xub6bYtEkQVAXtJVqx7PsZDMU4sCUyvJZ0wewZc18WST4M%2BWxVIhV67AM3QSYi%2Bf%2B0D9xFKnPiPWiHoGpBZdE2O%2FWVoFA8P0kG2VsOrMRZXwGNX2ek171WaM%2Bm1Ip0M46zlOLnTdtZE%3D",
+      "http_status": 200,
+      "response_bytes": 134363
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FLTCUSDT%2F&max-keys=1000",
+      "http_status": 200,
+      "response_bytes": 268697
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FLTCUSDT%2F&max-keys=1000&continuation-token=11lQjKFjcXBU89dIfEilEdkmHVOVYo6hFMczMz%2BMGyv%2BcVDsZTPu7G%2FcCYucHKMreQ6%2Bxkgaggne0dehgKOAMj%2FH0MEmRepqA6gPbOa3J50IunsJGDrTA%2FqK7OFqG0VDIICXV1yPF570%3D",
+      "http_status": 200,
+      "response_bytes": 276577
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FLTCUSDT%2F&max-keys=1000&continuation-token=1Db2vUGTCCpqy9OWXGuwQfwU3w5DdAfEMVnbvTsMicL43%2BjIIM6QjtUUJQ1cL5VFXm4uRHUfMsRVpiEE0sFzjq9%2FJvDqui16AI2iq4kGKh4WeBJQEf5k9ydYlpnHjIwzcZwSY67qdKp8%3D",
+      "http_status": 200,
+      "response_bytes": 325858
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FLTCUSDT%2F&max-keys=1000&continuation-token=1tJG1%2BoaLCX52KqZQ2EkXg%2BAdw7pYrDzI40ewbakbJs0K0YlpU7plGIqPzezpakSwWIpgERBhBsTEPU09ejnIa9FJsJhmurKctLHP5Mp1egpFL21ZXNCW79gmIpVQmPP0i%2BawTItVcvY%3D",
+      "http_status": 200,
+      "response_bytes": 133614
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FSOLUSDT%2F&max-keys=1000",
+      "http_status": 200,
+      "response_bytes": 268690
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FSOLUSDT%2F&max-keys=1000&continuation-token=1DWZstamTqB%2FcxSM0X%2Fuk6vL%2Fm2D3mpXnePKqMUinPT%2BVbCIbXJvHlmpL9mc%2B8aQ1r6E8zqGeyyhW5RJig1oUJTNYtTazHAiOJPx%2FwwDm3vHbYqbGWpGin%2BNK7NTzD6li0BeayaChKZY%3D",
+      "http_status": 200,
+      "response_bytes": 276929
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FSOLUSDT%2F&max-keys=1000&continuation-token=1uhpbrrZEaAUT5FYPsQ4RdjZmzYhP271Py0PUlkmDWb6LzDELV5DzJp6QkQmOcipO5RO4MUnbSWATvb%2BRuSbkxW0K7I5geWhm9aCYFlHl32mvka%2FLH3Ryq8fYZRzPDrhRgqFfvNwtGNI%3D",
+      "http_status": 200,
+      "response_bytes": 325858
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FSOLUSDT%2F&max-keys=1000&continuation-token=1oJehtoDUtgxmq6Emg9bkL70waZtkbiIIEtB%2ByKC408zTZiZgwBZxNxIAsEUlWsmYTQMl39mfYL3ITLnOXCn79zRrEJKxpnvlT1lQcjLAWTfLOp4ruSu1YY7KcPovHB1piR2VzVqOesI%3D",
+      "http_status": 200,
+      "response_bytes": 133614
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FXRPUSDT%2F&max-keys=1000",
+      "http_status": 200,
+      "response_bytes": 268699
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FXRPUSDT%2F&max-keys=1000&continuation-token=1JygLZbnrY%2BAwTpO2n9%2BQhyhh74Gqh7hnHJEjj8DDkB5lZcJnoUadt4Pbg2a01%2Bho7IesZEftM1Jz8RMiGOyq%2BNYx%2BZqzokwMs77cbXtMkJTtV9LmasRvkl3otO1jTRcklPqOQyumL88%3D",
+      "http_status": 200,
+      "response_bytes": 276753
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FXRPUSDT%2F&max-keys=1000&continuation-token=1Tj4yzPjB13jYxondCSTT5%2FZXPhDNgQ3upYHZYDrHncibgFdMR1IKnmlI3i5%2B0wx0mI0TeYNC06e5Mr2l8qT4N44bFKF9EobeB1tM3RCSym7iD5lWCHbuCZ7QkG1PAE494FGVZ%2BckPeE%3D",
+      "http_status": 200,
+      "response_bytes": 325858
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/data.binance.vision/?list-type=2&prefix=data%2Ffutures%2Fum%2Fdaily%2Fmetrics%2FXRPUSDT%2F&max-keys=1000&continuation-token=1iVknWtjx43%2BhZVjkZ3Krs5BDnuVYLsjSI1T%2BKvL%2FSeTm7IORYCxzf3ZVXXVlodaHcEwBEXOZZvHS9StOz3Ei%2BhA3BlQLflriJTujcK5mzitwHwLB%2FuOlD4RuJJxH9ORVKhHv5PYlIL4%3D",
+      "http_status": 200,
+      "response_bytes": 133614
+    }
+  ],
+  "request_count": 41,
+  "outcomes_inspected": false,
+  "zip_content_bytes": 0
+}

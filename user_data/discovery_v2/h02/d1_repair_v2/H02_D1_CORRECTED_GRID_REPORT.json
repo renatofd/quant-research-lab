@@ -1,0 +1,437 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H02",
+  "stage": "D1 final additive corrected-grid QA",
+  "generated_utc": "2026-07-15T12:34:16.144901Z",
+  "original_d1_result": "D1_QA_FAIL",
+  "first_repair_result": "D1_QA_FAIL",
+  "historical_results_unchanged": true,
+  "global_result": "D1_QA_FAIL",
+  "timestamp_semantics": "Each daily metrics archive reports 288 five-minute interval endpoints from 00:05 UTC through 00:00 UTC of the next day. create_time publication jitter is normalized deterministically by floor(create_time/300)*300.",
+  "coverage_semantics": "The unchanged 99.9% gate is evaluated over the frozen 24-month scientific window per asset, matching the permanent policy and H01 precedent; it is not a per-file all-or-nothing gate.",
+  "threshold": 0.999,
+  "outcomes_inspected": false,
+  "economic_columns_parsed": false,
+  "files": 7300,
+  "by_asset": {
+    "ADAUSDT": {
+      "files": 730,
+      "expected_slots": 210240,
+      "observed_slots": 210228,
+      "missing_slots": 12,
+      "coverage": 0.9999429223744293,
+      "passes_99_9pct": true,
+      "structural_pass": false
+    },
+    "AVAXUSDT": {
+      "files": 730,
+      "expected_slots": 210240,
+      "observed_slots": 210228,
+      "missing_slots": 12,
+      "coverage": 0.9999429223744293,
+      "passes_99_9pct": true,
+      "structural_pass": false
+    },
+    "BNBUSDT": {
+      "files": 730,
+      "expected_slots": 210240,
+      "observed_slots": 210228,
+      "missing_slots": 12,
+      "coverage": 0.9999429223744293,
+      "passes_99_9pct": true,
+      "structural_pass": false
+    },
+    "BTCUSDT": {
+      "files": 730,
+      "expected_slots": 210240,
+      "observed_slots": 210228,
+      "missing_slots": 12,
+      "coverage": 0.9999429223744293,
+      "passes_99_9pct": true,
+      "structural_pass": false
+    },
+    "DOGEUSDT": {
+      "files": 730,
+      "expected_slots": 210240,
+      "observed_slots": 210228,
+      "missing_slots": 12,
+      "coverage": 0.9999429223744293,
+      "passes_99_9pct": true,
+      "structural_pass": false
+    },
+    "ETHUSDT": {
+      "files": 730,
+      "expected_slots": 210240,
+      "observed_slots": 210228,
+      "missing_slots": 12,
+      "coverage": 0.9999429223744293,
+      "passes_99_9pct": true,
+      "structural_pass": false
+    },
+    "LINKUSDT": {
+      "files": 730,
+      "expected_slots": 210240,
+      "observed_slots": 210228,
+      "missing_slots": 12,
+      "coverage": 0.9999429223744293,
+      "passes_99_9pct": true,
+      "structural_pass": false
+    },
+    "LTCUSDT": {
+      "files": 730,
+      "expected_slots": 210240,
+      "observed_slots": 210228,
+      "missing_slots": 12,
+      "coverage": 0.9999429223744293,
+      "passes_99_9pct": true,
+      "structural_pass": false
+    },
+    "SOLUSDT": {
+      "files": 730,
+      "expected_slots": 210240,
+      "observed_slots": 210228,
+      "missing_slots": 12,
+      "coverage": 0.9999429223744293,
+      "passes_99_9pct": true,
+      "structural_pass": false
+    },
+    "XRPUSDT": {
+      "files": 730,
+      "expected_slots": 210240,
+      "observed_slots": 210229,
+      "missing_slots": 11,
+      "coverage": 0.9999476788432268,
+      "passes_99_9pct": true,
+      "structural_pass": false
+    }
+  },
+  "gap_rows": [
+    {
+      "symbol": "ADAUSDT",
+      "date": "2024-10-28",
+      "missing_slots": 2,
+      "timestamps": "2024-10-28T16:30:00Z;2024-10-28T16:35:00Z"
+    },
+    {
+      "symbol": "ADAUSDT",
+      "date": "2025-04-15",
+      "missing_slots": 5,
+      "timestamps": "2025-04-15T07:55:00Z;2025-04-15T08:00:00Z;2025-04-15T08:05:00Z;2025-04-15T08:10:00Z;2025-04-15T08:40:00Z"
+    },
+    {
+      "symbol": "ADAUSDT",
+      "date": "2025-07-21",
+      "missing_slots": 1,
+      "timestamps": "2025-07-21T16:25:00Z"
+    },
+    {
+      "symbol": "ADAUSDT",
+      "date": "2025-08-29",
+      "missing_slots": 3,
+      "timestamps": "2025-08-29T06:25:00Z;2025-08-29T06:30:00Z;2025-08-29T06:35:00Z"
+    },
+    {
+      "symbol": "ADAUSDT",
+      "date": "2026-06-12",
+      "missing_slots": 1,
+      "timestamps": "2026-06-13T00:00:00Z"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "date": "2024-10-28",
+      "missing_slots": 2,
+      "timestamps": "2024-10-28T16:30:00Z;2024-10-28T16:35:00Z"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "date": "2025-04-15",
+      "missing_slots": 5,
+      "timestamps": "2025-04-15T07:55:00Z;2025-04-15T08:00:00Z;2025-04-15T08:05:00Z;2025-04-15T08:10:00Z;2025-04-15T08:40:00Z"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "date": "2025-07-21",
+      "missing_slots": 1,
+      "timestamps": "2025-07-21T16:25:00Z"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "date": "2025-08-29",
+      "missing_slots": 3,
+      "timestamps": "2025-08-29T06:25:00Z;2025-08-29T06:30:00Z;2025-08-29T06:35:00Z"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "date": "2026-06-12",
+      "missing_slots": 1,
+      "timestamps": "2026-06-13T00:00:00Z"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "date": "2024-10-28",
+      "missing_slots": 2,
+      "timestamps": "2024-10-28T16:30:00Z;2024-10-28T16:35:00Z"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "date": "2025-04-15",
+      "missing_slots": 5,
+      "timestamps": "2025-04-15T07:55:00Z;2025-04-15T08:00:00Z;2025-04-15T08:05:00Z;2025-04-15T08:10:00Z;2025-04-15T08:40:00Z"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "date": "2025-07-21",
+      "missing_slots": 1,
+      "timestamps": "2025-07-21T16:25:00Z"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "date": "2025-08-29",
+      "missing_slots": 3,
+      "timestamps": "2025-08-29T06:25:00Z;2025-08-29T06:30:00Z;2025-08-29T06:35:00Z"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "date": "2026-06-12",
+      "missing_slots": 1,
+      "timestamps": "2026-06-13T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2024-10-28",
+      "missing_slots": 2,
+      "timestamps": "2024-10-28T16:30:00Z;2024-10-28T16:35:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2025-04-15",
+      "missing_slots": 5,
+      "timestamps": "2025-04-15T07:55:00Z;2025-04-15T08:00:00Z;2025-04-15T08:05:00Z;2025-04-15T08:10:00Z;2025-04-15T08:40:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2025-07-21",
+      "missing_slots": 1,
+      "timestamps": "2025-07-21T16:25:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2025-08-29",
+      "missing_slots": 3,
+      "timestamps": "2025-08-29T06:25:00Z;2025-08-29T06:30:00Z;2025-08-29T06:35:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "date": "2026-06-12",
+      "missing_slots": 1,
+      "timestamps": "2026-06-13T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "date": "2024-10-28",
+      "missing_slots": 2,
+      "timestamps": "2024-10-28T16:30:00Z;2024-10-28T16:35:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "date": "2025-04-15",
+      "missing_slots": 5,
+      "timestamps": "2025-04-15T07:55:00Z;2025-04-15T08:00:00Z;2025-04-15T08:05:00Z;2025-04-15T08:10:00Z;2025-04-15T08:40:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "date": "2025-07-21",
+      "missing_slots": 1,
+      "timestamps": "2025-07-21T16:25:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "date": "2025-08-29",
+      "missing_slots": 3,
+      "timestamps": "2025-08-29T06:25:00Z;2025-08-29T06:30:00Z;2025-08-29T06:35:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "date": "2026-06-12",
+      "missing_slots": 1,
+      "timestamps": "2026-06-13T00:00:00Z"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2024-10-28",
+      "missing_slots": 2,
+      "timestamps": "2024-10-28T16:30:00Z;2024-10-28T16:35:00Z"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2025-04-15",
+      "missing_slots": 5,
+      "timestamps": "2025-04-15T07:55:00Z;2025-04-15T08:00:00Z;2025-04-15T08:05:00Z;2025-04-15T08:10:00Z;2025-04-15T08:40:00Z"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2025-07-21",
+      "missing_slots": 1,
+      "timestamps": "2025-07-21T16:25:00Z"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2025-08-29",
+      "missing_slots": 3,
+      "timestamps": "2025-08-29T06:25:00Z;2025-08-29T06:30:00Z;2025-08-29T06:35:00Z"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "date": "2026-06-12",
+      "missing_slots": 1,
+      "timestamps": "2026-06-13T00:00:00Z"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "date": "2024-10-28",
+      "missing_slots": 2,
+      "timestamps": "2024-10-28T16:30:00Z;2024-10-28T16:35:00Z"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "date": "2025-04-15",
+      "missing_slots": 5,
+      "timestamps": "2025-04-15T07:55:00Z;2025-04-15T08:00:00Z;2025-04-15T08:05:00Z;2025-04-15T08:10:00Z;2025-04-15T08:40:00Z"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "date": "2025-07-21",
+      "missing_slots": 1,
+      "timestamps": "2025-07-21T16:25:00Z"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "date": "2025-08-29",
+      "missing_slots": 3,
+      "timestamps": "2025-08-29T06:25:00Z;2025-08-29T06:30:00Z;2025-08-29T06:35:00Z"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "date": "2026-06-12",
+      "missing_slots": 1,
+      "timestamps": "2026-06-13T00:00:00Z"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "date": "2024-10-28",
+      "missing_slots": 2,
+      "timestamps": "2024-10-28T16:30:00Z;2024-10-28T16:35:00Z"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "date": "2025-04-15",
+      "missing_slots": 5,
+      "timestamps": "2025-04-15T07:55:00Z;2025-04-15T08:00:00Z;2025-04-15T08:05:00Z;2025-04-15T08:10:00Z;2025-04-15T08:40:00Z"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "date": "2025-07-21",
+      "missing_slots": 1,
+      "timestamps": "2025-07-21T16:25:00Z"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "date": "2025-08-29",
+      "missing_slots": 3,
+      "timestamps": "2025-08-29T06:25:00Z;2025-08-29T06:30:00Z;2025-08-29T06:35:00Z"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "date": "2026-06-12",
+      "missing_slots": 1,
+      "timestamps": "2026-06-13T00:00:00Z"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "date": "2024-10-28",
+      "missing_slots": 2,
+      "timestamps": "2024-10-28T16:30:00Z;2024-10-28T16:35:00Z"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "date": "2025-04-15",
+      "missing_slots": 5,
+      "timestamps": "2025-04-15T07:55:00Z;2025-04-15T08:00:00Z;2025-04-15T08:05:00Z;2025-04-15T08:10:00Z;2025-04-15T08:40:00Z"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "date": "2025-07-21",
+      "missing_slots": 1,
+      "timestamps": "2025-07-21T16:25:00Z"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "date": "2025-08-29",
+      "missing_slots": 3,
+      "timestamps": "2025-08-29T06:25:00Z;2025-08-29T06:30:00Z;2025-08-29T06:35:00Z"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "date": "2026-06-12",
+      "missing_slots": 1,
+      "timestamps": "2026-06-13T00:00:00Z"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "date": "2024-10-28",
+      "missing_slots": 2,
+      "timestamps": "2024-10-28T16:30:00Z;2024-10-28T16:35:00Z"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "date": "2025-04-15",
+      "missing_slots": 5,
+      "timestamps": "2025-04-15T07:55:00Z;2025-04-15T08:00:00Z;2025-04-15T08:05:00Z;2025-04-15T08:10:00Z;2025-04-15T08:40:00Z"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "date": "2025-07-21",
+      "missing_slots": 1,
+      "timestamps": "2025-07-21T16:25:00Z"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "date": "2025-08-29",
+      "missing_slots": 3,
+      "timestamps": "2025-08-29T06:25:00Z;2025-08-29T06:30:00Z;2025-08-29T06:35:00Z"
+    }
+  ],
+  "common_gap_dates": [
+    "2024-10-28",
+    "2025-04-15",
+    "2025-07-21",
+    "2025-08-29",
+    "2026-06-12"
+  ],
+  "historical_artifacts_sha256_before": {
+    "d1\\h02_d1_acquire_qa.py": "1e94feef05dc2df3386b75afe1282f2d68aa7bd1f999656191cdf2016ec565a2",
+    "d1\\H02_D1_HOLDOUT.json": "20ef131f5f3818971f0dbec59de76e75b7ab924631f987cf1ba22b2f5018729f",
+    "d1\\H02_D1_INVENTORY.csv": "26b41a2942ae44e26a9dc6f74f71df4acb863e3c0b431b6b0e57c2a749970cf3",
+    "d1\\H02_D1_QA_MATRIX.csv": "c49e68297c25d1b6aa4c913699361f9daba1d81f2ec0524498122eba725a5b16",
+    "d1\\H02_D1_REPORT.json": "47220d4dee30526e718208eff66ee471577ee0b270b0e3db111a9b9c2479febe",
+    "d1\\H02_D1_REPORT.md": "71cabd430289bef99af61d84ea5be9e411feb4e13473b9c124c996daa02596e0",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_MATRIX.csv": "11bab1d2863c8e3521353251eb1ded1863c6019ca8d45147dee1a7ed5e8444ab",
+    "d1_repair\\h02_d1_time_alignment_repair.py": "77ed4126193ee26fc1de2ec95479636744869c2306838a5d55d6efede6918ed4",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.json": "0fb1e7de1cd690b2cf0c0d24d41cb775b5a9d279cbb6762de53ac7d9962d733a",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.md": "2c4b72fb7cb59c1ee30be11cb6f459b6518a69e3caeeddbeb23516285d3ff11d"
+  },
+  "historical_artifacts_sha256_after": {
+    "d1\\h02_d1_acquire_qa.py": "1e94feef05dc2df3386b75afe1282f2d68aa7bd1f999656191cdf2016ec565a2",
+    "d1\\H02_D1_HOLDOUT.json": "20ef131f5f3818971f0dbec59de76e75b7ab924631f987cf1ba22b2f5018729f",
+    "d1\\H02_D1_INVENTORY.csv": "26b41a2942ae44e26a9dc6f74f71df4acb863e3c0b431b6b0e57c2a749970cf3",
+    "d1\\H02_D1_QA_MATRIX.csv": "c49e68297c25d1b6aa4c913699361f9daba1d81f2ec0524498122eba725a5b16",
+    "d1\\H02_D1_REPORT.json": "47220d4dee30526e718208eff66ee471577ee0b270b0e3db111a9b9c2479febe",
+    "d1\\H02_D1_REPORT.md": "71cabd430289bef99af61d84ea5be9e411feb4e13473b9c124c996daa02596e0",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_MATRIX.csv": "11bab1d2863c8e3521353251eb1ded1863c6019ca8d45147dee1a7ed5e8444ab",
+    "d1_repair\\h02_d1_time_alignment_repair.py": "77ed4126193ee26fc1de2ec95479636744869c2306838a5d55d6efede6918ed4",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.json": "0fb1e7de1cd690b2cf0c0d24d41cb775b5a9d279cbb6762de53ac7d9962d733a",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.md": "2c4b72fb7cb59c1ee30be11cb6f459b6518a69e3caeeddbeb23516285d3ff11d"
+  },
+  "historical_artifacts_unchanged": true,
+  "next_action": "H02_STOP"
+}

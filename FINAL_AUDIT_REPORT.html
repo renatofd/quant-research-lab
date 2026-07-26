@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Final Audit Report</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:1180px;margin:0 auto;padding:32px;color:#17202a;background:#fff}
+    h1,h2,h3{line-height:1.2} h1{border-bottom:4px solid #9b1c1c;padding-bottom:12px} h2{margin-top:32px;border-bottom:1px solid #ccd1d1;padding-bottom:6px}
+    .decision{border:2px solid #9b1c1c;background:#fff4f4;padding:18px;margin:22px 0}.ok{color:#176b3a}.bad{color:#9b1c1c;font-weight:700}
+    table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #ccd1d1;padding:8px;text-align:left;vertical-align:top}th{background:#f2f4f4}
+    code{background:#f2f4f4;padding:1px 4px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.card{border:1px solid #ccd1d1;padding:14px}
+    footer{margin-top:36px;padding-top:16px;border-top:1px solid #ccd1d1;color:#555}
+  </style>
+</head>
+<body>
+  <h1>Auditoria Científica Independente do Encerramento</h1>
+  <div class="decision"><strong>Conclusão:</strong> a decisão de não promover um bot é suportada, mas o encerramento definitivo não é. Existem três hipóteses registradas e executáveis com OHLCV que não receberam estudo primário: <code>A08</code>, <code>A09</code> e <code>A11</code>.</div>
+
+  <h2>Achados críticos</h2>
+  <ol>
+    <li><strong>Gate C falso:</strong> o roadmap declara OHLCV suficiente ou parcial para A08, A09 e A11.</li>
+    <li><strong>Mudança de escopo:</strong> proxies brutos foram substituídos por alegações microestruturais mais fortes, e filtros de estratégia foram tratados como equivalentes a hipóteses brutas.</li>
+    <li><strong>Gate D não independente:</strong> 0% decorre de nenhum item estar marcado como acionável; não é probabilidade estimada.</li>
+    <li><strong>Rejeição excessiva:</strong> A02 e A05 têm efeitos fortes e replicados, mas falharam concentração por apenas 0,3708 e 0,3991 ponto percentual; devem ser inconclusivas, não nulas.</li>
+    <li><strong>Cobertura incompleta:</strong> 26 hipóteses foram resumidas por 10 fontes, 11 evidências e uma decisão global.</li>
+  </ol>
+
+  <h2>Classificação das 26 hipóteses</h2>
+  <table><thead><tr><th>ID</th><th>Classificação</th><th>Fundamento</th></tr></thead><tbody>
+    <tr><td>A01</td><td>Rejeitada</td><td>Economia líquida e especificidade BTC falharam.</td></tr>
+    <tr><td>A02</td><td>Inconclusiva</td><td>Forte previsão de risco; falha marginal de concentração e sem holdout.</td></tr>
+    <tr><td>A03</td><td>Rejeitada</td><td>IC da melhora incremental de MSE cruzou zero.</td></tr>
+    <tr><td>A04</td><td>Inconclusiva</td><td>Amostra mínima falhou em três blocos.</td></tr>
+    <tr><td>A05</td><td>Inconclusiva</td><td>Forte previsão de risco; falha marginal de concentração e sem holdout.</td></tr>
+    <tr><td>A06</td><td>Duplicada</td><td>Sobrepõe bottom-2 de RST04 e reversão já testada.</td></tr>
+    <tr><td>A07</td><td>Rejeitada</td><td>Beta na direção oposta à hipótese.</td></tr>
+    <tr><td>A08</td><td>Nunca testada</td><td>Sem estudo primário do proxy OHLCV incremental.</td></tr>
+    <tr><td>A09</td><td>Nunca testada</td><td>Filtro de volume não testa persistência bruta de atividade/risco.</td></tr>
+    <tr><td>A10</td><td>Bloqueada por dados</td><td>Mecanismo exige microestrutura ou liquidações.</td></tr>
+    <tr><td>A11</td><td>Nunca testada</td><td>Trades selecionados não testam sazonalidade bruta.</td></tr>
+    <tr><td>B12</td><td>Bloqueada por dados</td><td>Funding/basis/perp ausentes.</td></tr>
+    <tr><td>B13</td><td>Bloqueada por dados</td><td>OI/funding ausentes.</td></tr>
+    <tr><td>B14</td><td>Bloqueada por dados</td><td>Liquidações/OI/perp ausentes.</td></tr>
+    <tr><td>B15</td><td>Bloqueada por dados</td><td>Spot-perp sincronizado ausente.</td></tr>
+    <tr><td>B16</td><td>Bloqueada por dados</td><td>Trades agressor/passivo ausentes.</td></tr>
+    <tr><td>B17</td><td>Bloqueada por dados</td><td>Livro/profundidade/spread ausentes.</td></tr>
+    <tr><td>B18</td><td>Bloqueada por dados</td><td>Multi-exchange e custos ausentes.</td></tr>
+    <tr><td>B19</td><td>Bloqueada por dados</td><td>Painel de funding/carry ausente.</td></tr>
+    <tr><td>B20</td><td>Bloqueada por dados</td><td>Fluxos stablecoin/rótulos ausentes.</td></tr>
+    <tr><td>B21</td><td>Bloqueada por dados</td><td>Fluxos on-chain/rótulos ausentes.</td></tr>
+    <tr><td>B22</td><td>Bloqueada por dados</td><td>Surpresas macro timestampadas ausentes.</td></tr>
+    <tr><td>B23</td><td>Bloqueada por dados</td><td>Opções/superfícies/forwards ausentes.</td></tr>
+    <tr><td>B24</td><td>Bloqueada por dados</td><td>Unlocks/vesting/free float ausentes.</td></tr>
+    <tr><td>B25</td><td>Bloqueada por dados</td><td>Eventos prospectivos ausentes.</td></tr>
+    <tr><td>B26</td><td>Bloqueada por dados</td><td>Sentimento com proveniência ausente.</td></tr>
+  </tbody></table>
+
+  <h2>Hipóteses executáveis esquecidas</h2>
+  <div class="grid">
+    <div class="card"><h3>A08</h3><p>Proxy OHLCV de iliquidez/impacto sobre risco aproximado. OHLCV e volume atuais bastam para o escopo limitado; microestrutura real continua não identificada.</p></div>
+    <div class="card"><h3>A09</h3><p>Volume anormal e persistência de atividade/risco. É distinta do filtro de volume das estratégias e usa dados atuais.</p></div>
+    <div class="card"><h3>A11</h3><p>Sazonalidade bruta de retorno/risco. Market eligibility é condicionado a trades e não substitui o teste da grade completa.</p></div>
+  </div>
+
+  <h2>Critérios de parada</h2>
+  <table><thead><tr><th>Critério</th><th>Resultado</th></tr></thead><tbody>
+    <tr><td>A — 30 hipóteses testadas</td><td class="bad">Não atingido: 26 registradas e menos testadas diretamente.</td></tr>
+    <tr><td>B — nenhuma hipótese restante</td><td class="bad">Não atingido: A08, A09 e A11.</td></tr>
+    <tr><td>C — dados indisponíveis para todas</td><td class="bad">Não atingido: as três usam OHLCV atual no escopo limitado.</td></tr>
+    <tr><td>D — expectativa abaixo de 5%</td><td class="bad">Não demonstrado: 0% é derivado do registry.</td></tr>
+  </tbody></table>
+
+  <h2>Limite da conclusão</h2>
+  <p>Nenhuma estratégia robusta foi encontrada e nenhum bot deve ser promovido. A auditoria invalida somente a afirmação de que toda pesquisa executável terminou.</p>
+
+  <div class="decision"><h2>DECISÃO B</h2><p>Existe pelo menos uma hipótese executável ainda não investigada.</p><ul><li>A08 — Proxy OHLCV de iliquidez/impacto</li><li>A09 — Volume anormal e persistência de atividade/risco</li><li>A11 — Sazonalidade bruta de retorno/risco</li></ul></div>
+  <footer>Auditoria documental. Nenhum experimento, backtest, download ou alteração de código foi realizado.</footer>
+</body>
+</html>

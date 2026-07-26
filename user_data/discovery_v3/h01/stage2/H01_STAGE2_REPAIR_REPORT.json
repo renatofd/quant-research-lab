@@ -1,0 +1,16 @@
+{
+  "program": "Discovery V3",
+  "hypothesis": "H01",
+  "stage": 2,
+  "created_utc": "2026-07-24T16:16:25.353082Z",
+  "status": "REPAIR_COMPLETE",
+  "same_provider": true,
+  "same_schema": true,
+  "raw_monthly_archives_modified": false,
+  "holdout_state": "SEALED",
+  "economic_outcomes_computed": false,
+  "requested_objects": 84,
+  "repaired_objects": 84,
+  "unavailable_objects": [],
+  "repair_manifest_sha256": "0120a5b7e280ecf325f6a6aa4652d9690874ec120fd70cffa7d95357c2676b36"
+}

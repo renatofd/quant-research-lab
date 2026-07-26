@@ -1,3 +1,53 @@
-*.py    eol=lf
-*.sh    eol=lf
-*.ps1   eol=crlf
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.cff text eol=lf
+*.j2 text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.feather binary
+*.parquet binary
+*.sqlite binary
+*.db binary
+
+# Historical scientific artifacts are byte-preserved. Their mixed legacy line
+# endings are part of the recorded files and must not be silently normalized.
+/CURRENT_STATE.md -text
+/PROJECT.md -text
+/RESEARCH_HANDBOOK.md -text
+/PH*.md -text
+/PH*.json -text
+/DISCOVERY*.md -text
+/DISCOVERY*.json -text
+/DISCOVERY*.csv -text
+/FINAL*.md -text
+/FINAL*.json -text
+/FINAL*.html -text
+user_data/discovery/**/*.md -text
+user_data/discovery/**/*.json -text
+user_data/discovery/**/*.csv -text
+user_data/discovery_v2/**/*.md -text
+user_data/discovery_v2/**/*.json -text
+user_data/discovery_v2/**/*.csv -text
+user_data/discovery_v3/**/*.md -text
+user_data/discovery_v3/**/*.json -text
+user_data/discovery_v3/**/*.csv -text

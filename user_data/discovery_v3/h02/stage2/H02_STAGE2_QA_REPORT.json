@@ -1,0 +1,186 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H02",
+  "stage": 2,
+  "generated_utc": "2026-07-24T16:48:54.061586Z",
+  "status": "PASS",
+  "outcomes_inspected": false,
+  "economic_values_reported": false,
+  "archive_objects": 1150,
+  "archive_checksums_valid": 1150,
+  "archive_qa_pass": 1150,
+  "by_family": {
+    "spot_klines_5m": {
+      "files": 230,
+      "qa_pass": 230,
+      "observed_rows": 66240,
+      "expected_rows": 66240,
+      "coverage": 1.0
+    },
+    "usd_m_perp_klines_5m": {
+      "files": 230,
+      "qa_pass": 230,
+      "observed_rows": 66240,
+      "expected_rows": 66240,
+      "coverage": 1.0
+    },
+    "usd_m_markPriceKlines_5m": {
+      "files": 230,
+      "qa_pass": 230,
+      "observed_rows": 66240,
+      "expected_rows": 66240,
+      "coverage": 1.0
+    },
+    "usd_m_indexPriceKlines_5m": {
+      "files": 230,
+      "qa_pass": 230,
+      "observed_rows": 66240,
+      "expected_rows": 66240,
+      "coverage": 1.0
+    },
+    "usd_m_premiumIndexKlines_5m": {
+      "files": 230,
+      "qa_pass": 230,
+      "observed_rows": 66240,
+      "expected_rows": 66240,
+      "coverage": 1.0
+    }
+  },
+  "spot_perpetual_sync_lower_bound": 1.0,
+  "funding_qa": {
+    "status": "PASS",
+    "assets": [
+      {
+        "symbol": "ADAUSDT",
+        "records": 69,
+        "sorted": true,
+        "duplicates": 0,
+        "in_sealed_period": true,
+        "sha256": "d14e86ba413850c60a93304749d89824666896de37fea82043aceb7ca1143b94"
+      },
+      {
+        "symbol": "AVAXUSDT",
+        "records": 69,
+        "sorted": true,
+        "duplicates": 0,
+        "in_sealed_period": true,
+        "sha256": "039b8ffc0191d5c8421d964a62c3dc6d6a9d9d119623d5136cfc509f5d1b1a40"
+      },
+      {
+        "symbol": "BNBUSDT",
+        "records": 69,
+        "sorted": true,
+        "duplicates": 0,
+        "in_sealed_period": true,
+        "sha256": "f9442813be0574cac24ec467c7d93161d921f79e9d7775db23cbb58524f0f122"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "records": 69,
+        "sorted": true,
+        "duplicates": 0,
+        "in_sealed_period": true,
+        "sha256": "c283f2ef1ac1297d92efa89c330e9516fd2be880f515846b1d0f9262397cc695"
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "records": 69,
+        "sorted": true,
+        "duplicates": 0,
+        "in_sealed_period": true,
+        "sha256": "038e9d133ad28817adeb644a357cf53fc3081165849c20388c147ede94c0fdd1"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "records": 69,
+        "sorted": true,
+        "duplicates": 0,
+        "in_sealed_period": true,
+        "sha256": "7ec24bf77f393f5ab1fdff6e6eb681bf33b9b961ed4592b967f9d4d7f85456b9"
+      },
+      {
+        "symbol": "LINKUSDT",
+        "records": 69,
+        "sorted": true,
+        "duplicates": 0,
+        "in_sealed_period": true,
+        "sha256": "3a1aca20bcbb392e705f5ddf308fec589fa69daa136925b3c8ee94c73034382d"
+      },
+      {
+        "symbol": "LTCUSDT",
+        "records": 69,
+        "sorted": true,
+        "duplicates": 0,
+        "in_sealed_period": true,
+        "sha256": "3a9d41be5034eed769188c67aa645ad63dbef1d2d68dd1a20b808a1dd4d9f835"
+      },
+      {
+        "symbol": "SOLUSDT",
+        "records": 69,
+        "sorted": true,
+        "duplicates": 0,
+        "in_sealed_period": true,
+        "sha256": "6caa8f3fb2d26634bce785ebd389f47ff4f29980c776972bdb5754fadca1f61d"
+      },
+      {
+        "symbol": "XRPUSDT",
+        "records": 69,
+        "sorted": true,
+        "duplicates": 0,
+        "in_sealed_period": true,
+        "sha256": "488fa545f33998e4eebfb4ae3cf9cd02f94af038d5312fea98221c47198c4da1"
+      }
+    ]
+  },
+  "holdout": {
+    "project": "Discovery V3",
+    "hypothesis_id": "H02",
+    "state": "SEALED",
+    "sealed_before_new_archive_open": true,
+    "development_reference": {
+      "period": "2024-07-01/2026-06-30",
+      "classification": "development_only",
+      "location": "user_data/discovery_v2/h01/d1/raw",
+      "inventory_sha256": "3725748f376e3086421bdeee48e96535772d7b37c367381764a8ade606f5f77c",
+      "qa_matrix_sha256": "52644a7597032ce91376a9530dee0db19e44d21d679fe8478d8980eb22e2864e"
+    },
+    "sealed_holdout": {
+      "start_utc": "2026-07-01T00:00:00Z",
+      "end_utc": "2026-07-23T23:59:59.999Z"
+    },
+    "qa_scope": [
+      "checksums",
+      "zip_structure",
+      "schema",
+      "timestamps",
+      "gaps",
+      "duplicates",
+      "continuity",
+      "synchronization"
+    ],
+    "outcome_calculation_permitted": false,
+    "prohibited_during_stage2": [
+      "basis",
+      "returns",
+      "convergence",
+      "pnl",
+      "correlation",
+      "regression",
+      "funding aggregation",
+      "price statistics"
+    ],
+    "prospective_replication_still_required_if_positive": true,
+    "created_utc": "2026-07-24T16:45:38.953864Z"
+  },
+  "prohibitions_observed": {
+    "basis_calculated": false,
+    "returns_calculated": false,
+    "convergence_calculated": false,
+    "pnl_calculated": false,
+    "correlations_calculated": false,
+    "regressions_calculated": false,
+    "funding_values_aggregated": false,
+    "prices_read": false,
+    "gaps_filled": false
+  }
+}

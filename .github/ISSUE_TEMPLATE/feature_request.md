@@ -1,26 +1,31 @@
 ---
-name: Feature request
-about: Suggest a new feature or idea for this project
-title: ''
-labels: ''
-assignees: ''
-
+name: Maintenance proposal
+about: Propose a scoped improvement to maintainability or reproducibility
+title: "[MAINT] "
+labels: enhancement
+assignees: ""
 ---
 
-<!-- 
-Note: this section will not show up in the issue.
-Have you search for this feature before requesting it? It's highly likely that a similar request was already filed.
--->
+## Problem
 
-## Describe your environment
-(if applicable)
+What concrete maintenance or reproducibility problem exists?
 
-  * Operating system: ____
-  * Python Version: _____ (`python -V`)
-  * CCXT version: _____ (`pip freeze | grep ccxt`)
-  * Freqtrade Version: ____ (`freqtrade -V` or `docker compose run --rm freqtrade -V` for Freqtrade running in docker)
+## Proposed change
 
+Describe the smallest change that solves it.
 
-## Describe the enhancement
+## Scientific boundary
 
-*Explain the enhancement you would like*
+- Does it alter an estimand, protocol, threshold, cost or outcome?
+- Does it consume or expose a holdout?
+- Does it reopen a rejected hypothesis?
+
+If any answer is yes, use a research discussion before implementation.
+
+## Alternatives and cost
+
+What lower-complexity alternatives were considered?
+
+## Validation
+
+List tests and integrity checks. No campaign should run as a CI side effect.

@@ -1,0 +1,14 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H04",
+  "state": "SEALED",
+  "created_before_bybit_outcome_access": true,
+  "development": "2024-07-01T00:00:00Z/2026-06-30T23:59:59.999Z",
+  "holdout": "2026-07-01T00:00:00Z/2026-07-23T23:59:59.999Z",
+  "leader": "Binance USD-M",
+  "follower": "Bybit linear",
+  "frequency": "5m",
+  "outcome_calculation_permitted": false,
+  "qa_only": true,
+  "created_utc": "2026-07-24T17:05:01.527342+00:00"
+}

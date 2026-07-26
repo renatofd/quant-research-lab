@@ -1,0 +1,26 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H01",
+  "state": "SEALED",
+  "sealed_before_any_zip_open": true,
+  "development": {
+    "start_utc": "2024-07-01T00:00:00Z",
+    "end_utc": "2025-12-31T23:59:59.999Z"
+  },
+  "sealed_historical_holdout": {
+    "start_utc": "2026-01-01T00:00:00Z",
+    "end_utc": "2026-06-30T23:59:59.999Z",
+    "economic_analysis_permitted": false
+  },
+  "qa_scope": [
+    "schema",
+    "timestamps",
+    "gaps",
+    "duplicates",
+    "continuity",
+    "synchronization"
+  ],
+  "outcome_calculation_permitted": false,
+  "prospective_operational_replication_still_required": true,
+  "created_utc": "2026-07-14T21:25:57.386372Z"
+}

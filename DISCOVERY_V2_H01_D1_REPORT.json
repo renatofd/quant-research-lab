@@ -1,0 +1,717 @@
+{
+  "program": "Discovery V2",
+  "study": "V2-H01 D1 acquisition and structural QA",
+  "generated_utc": "2026-07-14T21:32:16.449619Z",
+  "mechanical_result": "D1_QA_MECHANICAL_FAIL",
+  "h01_state": "SELECTED_PENDING_DATA",
+  "active_hypotheses": [],
+  "tested_hypotheses": [],
+  "outcomes_inspected": false,
+  "economic_values_reported": false,
+  "d1_scope_complete": true,
+  "raw": {
+    "location": "/workspace/user_data/discovery_v2/h01/d1/raw",
+    "file_count": 1440,
+    "bytes": 321304758,
+    "immutable_read_only_requested": true
+  },
+  "downloads": {
+    "inventory_rows": 1440,
+    "checksum_match": 1440,
+    "downloaded_valid": 1440,
+    "reused_valid": 0,
+    "failed": 0
+  },
+  "qa": {
+    "matrix_rows": 1440,
+    "zip_valid": 1440,
+    "qa_pass": 1440,
+    "qa_fail": 0,
+    "duplicate_timestamps": 0
+  },
+  "structural_summary": {
+    "mechanical_result": "D1_QA_MECHANICAL_FAIL",
+    "criteria": {
+      "downloads_1440_and_100pct_checksum": true,
+      "all_zips_valid_no_path_traversal": true,
+      "schemas_identified_or_documented": true,
+      "timestamps_parseable_ordered_normalized": true,
+      "no_material_duplicates": true,
+      "all_kline_symbol_family_coverage_ge_99_9pct": false,
+      "sync_ge_99_5pct_for_at_least_8_assets": true,
+      "funding_ordered_no_material_gaps_for_at_least_8_assets": true,
+      "holdout_sealed_zero_outcome_inspection": true,
+      "no_gap_fill_or_raw_mutation": true
+    },
+    "by_family": {
+      "spot_klines_5m": {
+        "objects": 240,
+        "checksum_match": 240,
+        "zip_valid": 240,
+        "qa_pass": 240,
+        "rows": 2102400,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0,
+        "missing_grid_rows": 0,
+        "irregular_intervals": 0
+      },
+      "usd_m_perp_klines_5m": {
+        "objects": 240,
+        "checksum_match": 240,
+        "zip_valid": 240,
+        "qa_pass": 240,
+        "rows": 2102400,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0,
+        "missing_grid_rows": 0,
+        "irregular_intervals": 0
+      },
+      "usd_m_markPriceKlines_5m": {
+        "objects": 240,
+        "checksum_match": 240,
+        "zip_valid": 240,
+        "qa_pass": 240,
+        "rows": 2099520,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0,
+        "missing_grid_rows": 2880,
+        "irregular_intervals": 10
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "objects": 240,
+        "checksum_match": 240,
+        "zip_valid": 240,
+        "qa_pass": 240,
+        "rows": 2099520,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0,
+        "missing_grid_rows": 2880,
+        "irregular_intervals": 10
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "objects": 240,
+        "checksum_match": 240,
+        "zip_valid": 240,
+        "qa_pass": 240,
+        "rows": 2099520,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0,
+        "missing_grid_rows": 2880,
+        "irregular_intervals": 10
+      },
+      "usd_m_fundingRate": {
+        "objects": 240,
+        "checksum_match": 240,
+        "zip_valid": 240,
+        "qa_pass": 240,
+        "rows": 21900,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0,
+        "missing_grid_rows": null,
+        "irregular_intervals": 12310
+      }
+    },
+    "by_asset": {
+      "ADAUSDT": {
+        "objects": 144,
+        "checksum_match": 144,
+        "zip_valid": 144,
+        "qa_pass": 144,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0
+      },
+      "AVAXUSDT": {
+        "objects": 144,
+        "checksum_match": 144,
+        "zip_valid": 144,
+        "qa_pass": 144,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0
+      },
+      "BNBUSDT": {
+        "objects": 144,
+        "checksum_match": 144,
+        "zip_valid": 144,
+        "qa_pass": 144,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0
+      },
+      "BTCUSDT": {
+        "objects": 144,
+        "checksum_match": 144,
+        "zip_valid": 144,
+        "qa_pass": 144,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0
+      },
+      "DOGEUSDT": {
+        "objects": 144,
+        "checksum_match": 144,
+        "zip_valid": 144,
+        "qa_pass": 144,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0
+      },
+      "ETHUSDT": {
+        "objects": 144,
+        "checksum_match": 144,
+        "zip_valid": 144,
+        "qa_pass": 144,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0
+      },
+      "LINKUSDT": {
+        "objects": 144,
+        "checksum_match": 144,
+        "zip_valid": 144,
+        "qa_pass": 144,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0
+      },
+      "LTCUSDT": {
+        "objects": 144,
+        "checksum_match": 144,
+        "zip_valid": 144,
+        "qa_pass": 144,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0
+      },
+      "SOLUSDT": {
+        "objects": 144,
+        "checksum_match": 144,
+        "zip_valid": 144,
+        "qa_pass": 144,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0
+      },
+      "XRPUSDT": {
+        "objects": 144,
+        "checksum_match": 144,
+        "zip_valid": 144,
+        "qa_pass": 144,
+        "duplicate_timestamps": 0,
+        "out_of_month_rows": 0
+      }
+    },
+    "coverage": {
+      "ADAUSDT": {
+        "spot_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_perp_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_markPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_indexPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_premiumIndexKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        }
+      },
+      "AVAXUSDT": {
+        "spot_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_perp_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_markPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_indexPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_premiumIndexKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        }
+      },
+      "BNBUSDT": {
+        "spot_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_perp_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_markPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_indexPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_premiumIndexKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        }
+      },
+      "BTCUSDT": {
+        "spot_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_perp_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_markPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_indexPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_premiumIndexKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        }
+      },
+      "DOGEUSDT": {
+        "spot_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_perp_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_markPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_indexPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_premiumIndexKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        }
+      },
+      "ETHUSDT": {
+        "spot_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_perp_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_markPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_indexPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_premiumIndexKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        }
+      },
+      "LINKUSDT": {
+        "spot_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_perp_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_markPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_indexPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_premiumIndexKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        }
+      },
+      "LTCUSDT": {
+        "spot_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_perp_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_markPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_indexPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_premiumIndexKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        }
+      },
+      "SOLUSDT": {
+        "spot_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_perp_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_markPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_indexPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_premiumIndexKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        }
+      },
+      "XRPUSDT": {
+        "spot_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_perp_klines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 0,
+          "coverage_proportion": 1.0,
+          "passes_99_9pct": true
+        },
+        "usd_m_markPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_indexPriceKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        },
+        "usd_m_premiumIndexKlines_5m": {
+          "expected_grid_rows": 210240,
+          "missing_grid_rows": 288,
+          "coverage_proportion": 0.9986301369863013,
+          "passes_99_9pct": false
+        }
+      }
+    },
+    "synchronization": {
+      "ADAUSDT": {
+        "common_timestamps": 209952,
+        "expected_grid_rows": 210240,
+        "common_proportion": 0.9986301369863013,
+        "passes_99_5pct": true
+      },
+      "AVAXUSDT": {
+        "common_timestamps": 209952,
+        "expected_grid_rows": 210240,
+        "common_proportion": 0.9986301369863013,
+        "passes_99_5pct": true
+      },
+      "BNBUSDT": {
+        "common_timestamps": 209952,
+        "expected_grid_rows": 210240,
+        "common_proportion": 0.9986301369863013,
+        "passes_99_5pct": true
+      },
+      "BTCUSDT": {
+        "common_timestamps": 209952,
+        "expected_grid_rows": 210240,
+        "common_proportion": 0.9986301369863013,
+        "passes_99_5pct": true
+      },
+      "DOGEUSDT": {
+        "common_timestamps": 209952,
+        "expected_grid_rows": 210240,
+        "common_proportion": 0.9986301369863013,
+        "passes_99_5pct": true
+      },
+      "ETHUSDT": {
+        "common_timestamps": 209952,
+        "expected_grid_rows": 210240,
+        "common_proportion": 0.9986301369863013,
+        "passes_99_5pct": true
+      },
+      "LINKUSDT": {
+        "common_timestamps": 209952,
+        "expected_grid_rows": 210240,
+        "common_proportion": 0.9986301369863013,
+        "passes_99_5pct": true
+      },
+      "LTCUSDT": {
+        "common_timestamps": 209952,
+        "expected_grid_rows": 210240,
+        "common_proportion": 0.9986301369863013,
+        "passes_99_5pct": true
+      },
+      "SOLUSDT": {
+        "common_timestamps": 209952,
+        "expected_grid_rows": 210240,
+        "common_proportion": 0.9986301369863013,
+        "passes_99_5pct": true
+      },
+      "XRPUSDT": {
+        "common_timestamps": 209952,
+        "expected_grid_rows": 210240,
+        "common_proportion": 0.9986301369863013,
+        "passes_99_5pct": true
+      }
+    },
+    "sync_pass_assets": [
+      "ADAUSDT",
+      "AVAXUSDT",
+      "BNBUSDT",
+      "BTCUSDT",
+      "DOGEUSDT",
+      "ETHUSDT",
+      "LINKUSDT",
+      "LTCUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "funding": {
+      "ADAUSDT": {
+        "files": 24,
+        "material_gap_intervals": 0,
+        "passes": true
+      },
+      "AVAXUSDT": {
+        "files": 24,
+        "material_gap_intervals": 0,
+        "passes": true
+      },
+      "BNBUSDT": {
+        "files": 24,
+        "material_gap_intervals": 0,
+        "passes": true
+      },
+      "BTCUSDT": {
+        "files": 24,
+        "material_gap_intervals": 0,
+        "passes": true
+      },
+      "DOGEUSDT": {
+        "files": 24,
+        "material_gap_intervals": 0,
+        "passes": true
+      },
+      "ETHUSDT": {
+        "files": 24,
+        "material_gap_intervals": 0,
+        "passes": true
+      },
+      "LINKUSDT": {
+        "files": 24,
+        "material_gap_intervals": 0,
+        "passes": true
+      },
+      "LTCUSDT": {
+        "files": 24,
+        "material_gap_intervals": 0,
+        "passes": true
+      },
+      "SOLUSDT": {
+        "files": 24,
+        "material_gap_intervals": 0,
+        "passes": true
+      },
+      "XRPUSDT": {
+        "files": 24,
+        "material_gap_intervals": 0,
+        "passes": true
+      }
+    },
+    "funding_pass_assets": [
+      "ADAUSDT",
+      "AVAXUSDT",
+      "BNBUSDT",
+      "BTCUSDT",
+      "DOGEUSDT",
+      "ETHUSDT",
+      "LINKUSDT",
+      "LTCUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "schema_distribution": {
+      "spot_klines_5m": {
+        "kline_12cols_absent_ts0": 240
+      },
+      "usd_m_perp_klines_5m": {
+        "kline_12cols_present_ts0": 240
+      },
+      "usd_m_markPriceKlines_5m": {
+        "kline_12cols_present_ts0": 240
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "kline_12cols_present_ts0": 240
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "kline_12cols_present_ts0": 240
+      },
+      "usd_m_fundingRate": {
+        "funding_3cols_present_ts0": 240
+      }
+    },
+    "timestamp_unit_distribution": {
+      "spot_klines_5m": {
+        "ms": 60,
+        "us": 180
+      },
+      "usd_m_perp_klines_5m": {
+        "ms": 240
+      },
+      "usd_m_markPriceKlines_5m": {
+        "ms": 240
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "ms": 240
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "ms": 240
+      },
+      "usd_m_fundingRate": {
+        "ms": 240
+      }
+    },
+    "duplicate_timestamps_total": 0
+  },
+  "holdout": {
+    "state": "SEALED",
+    "development": "2024-07-01T00:00:00Z/2025-12-31T23:59:59.999Z",
+    "sealed_historical_holdout": "2026-01-01T00:00:00Z/2026-06-30T23:59:59.999Z",
+    "economic_analysis_permitted": false,
+    "prospective_replication_still_required": true
+  },
+  "prohibitions_observed": {
+    "returns_calculated": false,
+    "carry_calculated": false,
+    "pnl_calculated": false,
+    "correlations_calculated": false,
+    "regressions_calculated": false,
+    "funding_values_aggregated": false,
+    "gaps_filled": false,
+    "raw_corrected": false
+  },
+  "interpretation": "Mechanical QA only. No scientific interpretation or H01 activation."
+}

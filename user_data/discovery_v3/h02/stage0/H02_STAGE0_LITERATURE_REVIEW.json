@@ -1,0 +1,79 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H02",
+  "title": "Spot x Perpetual Divergence",
+  "stage": 0,
+  "decision_date": "2026-07-24",
+  "status": "STAGE0_PASS",
+  "authorized_next_stage": 1,
+  "scope": {
+    "included": "Transient same-asset, same-exchange, same-quote spot-perpetual divergence and subsequent delta-neutral convergence after all frictions",
+    "excluded": [
+      "directional asset prediction",
+      "price-discovery leadership",
+      "cross-exchange divergence",
+      "extreme funding as a standalone predictor",
+      "dated futures",
+      "technical indicators"
+    ]
+  },
+  "economic_mechanism": "Funding and arbitrage link spot and perpetual prices, while leverage demand, capital segmentation, margin, shorting, liquidity and execution constraints permit temporary deviations. Arbitrage flow should compress deviations that exceed equilibrium carry and frictions.",
+  "hypothesis": "Causally prior spot-perpetual divergences predict stable relative convergence across assets and time with gross magnitude sufficient to exceed two-leg costs, funding and execution risk.",
+  "null_hypothesis": "After contemporaneous returns, funding, costs and observable microstructure are controlled, divergence has no replicable incremental convergence information or its net magnitude is economically insufficient.",
+  "literature": [
+    {
+      "authors": "He, Manela, Ross, von Wachter",
+      "title": "Fundamentals of Perpetual Futures",
+      "url": "https://arxiv.org/abs/2212.06888",
+      "relevance": "No-arbitrage prices and bounds; perpetuals have no mandatory expiry convergence; deviations and trading frictions are empirically material."
+    },
+    {
+      "authors": "Schmeling, Schrimpf, Todorov",
+      "title": "Crypto Carry",
+      "url": "https://www.bis.org/publ/work1087.pdf",
+      "relevance": "Leverage demand and limits to arbitrage explain basis; cash-and-carry bears margin and liquidation risk."
+    },
+    {
+      "authors": "Cosenza, Stalder",
+      "title": "Where is the Price of Bitcoin Determined? Price Discovery in a Fragmented Market",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4983566",
+      "relevance": "High-liquidity, low-cost spot and perpetual venues dominate price discovery, implying fast adjustment and a demanding economic-size gate."
+    }
+  ],
+  "required_data": [
+    "same-asset same-exchange same-quote spot and perpetual prices",
+    "synchronized timestamps",
+    "mark index and premium",
+    "realized funding and payment calendar",
+    "volume and preferably bid-ask or depth",
+    "conservative two-leg fees and slippage",
+    "multiple assets and temporal blocks",
+    "sealed H02 holdout"
+  ],
+  "minimum_future_controls": [
+    "circular_shift",
+    "reverse_time",
+    "artificial_spot_perpetual_misalignment",
+    "mark_index_pseudo_divergence",
+    "contemporaneous_leg_returns",
+    "funding_payment_proximity",
+    "asset_and_temporal_replication",
+    "day_block_bootstrap",
+    "Holm_correction"
+  ],
+  "budget_assessment": {
+    "expected_cost": "low_to_moderate",
+    "expected_information": "high",
+    "false_positive_risk": "high_without_alignment_cost_and_preregistration_controls",
+    "probability_of_changing_current_conclusion": "moderate_to_low",
+    "information_value_per_cost": "sufficient"
+  },
+  "constraints": [
+    "No strategy",
+    "No parameter or lag search",
+    "No outcome analysis in Stage 0",
+    "No data download in Stage 0",
+    "H02 remains the only active hypothesis"
+  ],
+  "decision_rationale": "The mechanism is economically coherent and falsifiable, but literature does not establish a current executable edge. A data inventory is justified before any outcome analysis."
+}

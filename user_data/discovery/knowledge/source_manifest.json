@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-07-14T16:41:12.625404+00:00",
+  "mode": "read_only",
+  "legacy_lab_root": "/freqtrade/user_data/lab",
+  "artifacts": [
+    {
+      "path": "/freqtrade/user_data/lab/ph3_gate01_trend_decision.json",
+      "name": "ph3_gate01_trend_decision.json",
+      "sha256": "41f80127755908aa478f31521d5186d9a9feb4680b4e7aceee50bf95b3ae56fa",
+      "bytes": 17381,
+      "modified_utc": "2026-07-12T21:07:00.558101+00:00",
+      "decision": "STOP TREND ARCHITECTURE"
+    },
+    {
+      "path": "/freqtrade/user_data/lab/ph3_gate02_family_portfolio_decision.json",
+      "name": "ph3_gate02_family_portfolio_decision.json",
+      "sha256": "ecd3372c43157ef22a866eb41c7261f87b16d28bea1d4cf7c699c3348bd449a3",
+      "bytes": 20266,
+      "modified_utc": "2026-07-12T21:19:03.949219+00:00",
+      "decision": "STOP ALL EXISTING FAMILIES — SCIENTIFIC RESET"
+    },
+    {
+      "path": "/freqtrade/user_data/lab/ph3_rst_gate01_final_raw_signal_gate.json",
+      "name": "ph3_rst_gate01_final_raw_signal_gate.json",
+      "sha256": "13e431b2adff161866f284867883dbe647a70b2022f74d69c315631798d767b3",
+      "bytes": 18922,
+      "modified_utc": "2026-07-12T22:16:43.545068+00:00",
+      "decision": "STOP RAW SIGNAL SEARCH — NO ARCHITECTURE JUSTIFIED"
+    },
+    {
+      "path": "/freqtrade/user_data/lab/btc_leadership_report.json",
+      "name": "btc_leadership_report.json",
+      "sha256": "acf835142e0eb17bd4fccf12181fcb713440b5161345433fb62f269066615e8c",
+      "bytes": 579630,
+      "modified_utc": "2026-07-13T15:28:53.589247+00:00",
+      "decision": "BTC LEAD-LAG HYPOTHESIS REJECTED IN PRIMARY SCOPE"
+    },
+    {
+      "path": "/freqtrade/user_data/lab/ph4_a02_volatility_persistence_report.json",
+      "name": "ph4_a02_volatility_persistence_report.json",
+      "sha256": "04f030ce4b1a705e3530a6521aea9b0005ef59fe1e2b0f52c1d80ea6318844ab",
+      "bytes": 25767,
+      "modified_utc": "2026-07-14T15:36:49.697008+00:00",
+      "decision": "VOLATILITY PERSISTENCE HYPOTHESIS REJECTED IN PRIMARY SCOPE"
+    },
+    {
+      "path": "/freqtrade/user_data/lab/ph4_a03_signed_volatility_report.json",
+      "name": "ph4_a03_signed_volatility_report.json",
+      "sha256": "89101fa53c922cc1cca853061a4b3251e2ea7fc18e808508e7412dc000831c6f",
+      "bytes": 21656,
+      "modified_utc": "2026-07-14T15:51:52.859565+00:00",
+      "decision": "SIGNED VOLATILITY ASYMMETRY HYPOTHESIS REJECTED IN PRIMARY SCOPE"
+    },
+    {
+      "path": "/freqtrade/user_data/lab/ph4_a04_cojump_propagation_report.json",
+      "name": "ph4_a04_cojump_propagation_report.json",
+      "sha256": "68ec2147a84935c5a00e321c896a16466cab579f023d531f376c45a3b9a749f9",
+      "bytes": 14513,
+      "modified_utc": "2026-07-14T15:41:53.221605+00:00",
+      "decision": "INCONCLUSIVE CO-JUMP PROPAGATION AUDIT"
+    },
+    {
+      "path": "/freqtrade/user_data/lab/ph4_a05_dispersion_risk_report.json",
+      "name": "ph4_a05_dispersion_risk_report.json",
+      "sha256": "239c4d75d6c5949e3195d0cdd811817fa37d2a32d0ed39e3d7ef920708c1d301",
+      "bytes": 41246,
+      "modified_utc": "2026-07-14T15:47:21.826861+00:00",
+      "decision": "CROSS-SECTIONAL DISPERSION HYPOTHESIS REJECTED IN PRIMARY SCOPE"
+    },
+    {
+      "path": "/freqtrade/user_data/lab/ph4_a07_volatility_compression_report.json",
+      "name": "ph4_a07_volatility_compression_report.json",
+      "sha256": "aca90134c9432fc133629e2bd1db12fd3fffc2d7be3c8348a910fc313dfa561f",
+      "bytes": 19391,
+      "modified_utc": "2026-07-14T15:55:54.944147+00:00",
+      "decision": "VOLATILITY COMPRESSION HYPOTHESIS REJECTED IN PRIMARY SCOPE"
+    },
+    {
+      "path": "/freqtrade/user_data/lab/market_eligibility_final_report.json",
+      "name": "market_eligibility_final_report.json",
+      "sha256": "97fb84be8426b989cbf401d9f2e0728e2469f58a88ece68eb1b12b70d4939394",
+      "bytes": 599247,
+      "modified_utc": "2026-07-09T18:26:53.504474+00:00",
+      "decision": null
+    }
+  ]
+}

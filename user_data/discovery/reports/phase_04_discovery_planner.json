@@ -1,0 +1,37 @@
+{
+  "phase": 4,
+  "title": "Discovery Planner",
+  "status": "completed",
+  "result": "Planner evaluated cost, data availability, evidence, novelty, and stop gates.",
+  "planner": {
+    "action": "terminate",
+    "reason_code": "C_REQUIRED_DATA_UNAVAILABLE",
+    "reason": "Every scientifically plausible remaining hypothesis requires data absent from the project.",
+    "hypothesis_id": null,
+    "tested_count": 9,
+    "registered_count": 26,
+    "actionable_count": 0,
+    "blocked_count": 17,
+    "expected_success_probability": 0.0
+  },
+  "knowledge_summary": {
+    "counts": {
+      "hypotheses": 26,
+      "hypothesis_versions": 26,
+      "sources": 10,
+      "evidence": 11,
+      "decisions": 1,
+      "experiments": 0,
+      "runs": 1
+    },
+    "states": {
+      "blocked_data": 17,
+      "closed": 2,
+      "inconclusive_sample": 1,
+      "rejected": 6
+    },
+    "database": "/freqtrade/user_data/discovery/knowledge/discovery.sqlite"
+  },
+  "legacy_sources": 10,
+  "generated_at": "2026-07-14T16:41:12.792911+00:00"
+}

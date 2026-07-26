@@ -1,0 +1,57 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H02",
+  "stage": 1,
+  "decision_date": "2026-07-24",
+  "status": "STAGE1_PASS_WITH_HOLDOUT_CONSTRAINT",
+  "authorized_next_stage": 2,
+  "primary_contract": {
+    "exchange": "Binance",
+    "quote": "USDT",
+    "frequency": "5m",
+    "assets": ["ADAUSDT", "AVAXUSDT", "BNBUSDT", "BTCUSDT", "DOGEUSDT", "ETHUSDT", "LINKUSDT", "LTCUSDT", "SOLUSDT", "XRPUSDT"],
+    "families": ["spot_klines_5m", "usd_m_perp_klines_5m", "usd_m_markPriceKlines_5m", "usd_m_indexPriceKlines_5m", "usd_m_premiumIndexKlines_5m", "usd_m_fundingRate"]
+  },
+  "existing_data": {
+    "source": "https://data.binance.vision/",
+    "period": "2024-07-01/2026-06-30",
+    "object_count": 1440,
+    "bytes": 321304758,
+    "location": "user_data/discovery_v2/h01/d1/raw",
+    "inventory": "DISCOVERY_V2_H01_D1_INVENTORY.csv",
+    "inventory_sha256": "3725748f376e3086421bdeee48e96535772d7b37c367381764a8ade606f5f77c",
+    "qa_matrix": "DISCOVERY_V2_H01_D1_QA_MATRIX.csv",
+    "qa_matrix_sha256": "52644a7597032ce91376a9530dee0db19e44d21d679fe8478d8980eb22e2864e",
+    "spot_coverage": 1.0,
+    "perpetual_coverage": 1.0,
+    "mark_index_premium_coverage": 0.9986301369863013,
+    "funding_material_gaps": 0,
+    "reuse_mode": "read_only_reference",
+    "classification_for_h02": "development_only",
+    "reason_not_holdout": "Economic outcomes in this date range were opened in Discovery V2."
+  },
+  "incremental_acquisition": {
+    "source": "https://data.binance.vision/",
+    "period_start": "2026-07-01",
+    "period_end_rule": "last complete official daily archive available at seal time",
+    "same_assets_families_and_frequency": true,
+    "purpose": "new H02 sealed holdout",
+    "outcome_inspection_permitted": false
+  },
+  "stage2_gates": {
+    "checksum_pass_rate": 1.0,
+    "spot_perpetual_sync_minimum": 0.999,
+    "no_imputation": true,
+    "funding_no_material_gaps": true,
+    "holdout_sealed_before_outcomes": true,
+    "provenance_and_hashes_required": true
+  },
+  "limitations": [
+    "5m candle closes are not simultaneous executable quotes",
+    "effect may decay inside the candle",
+    "no historical bid-ask or depth",
+    "last-price divergence may differ from mark-index divergence",
+    "positive historical result cannot authorize operational promotion"
+  ],
+  "decision_rationale": "The existing official panel is sufficient for low-cost falsification, but all of it is development data for H02. A new sealed July 2026 incremental panel is required before outcome analysis."
+}

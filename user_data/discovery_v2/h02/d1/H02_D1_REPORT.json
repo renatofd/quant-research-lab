@@ -1,0 +1,85 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H02",
+  "stage": "D1 acquisition and structural QA",
+  "generated_utc": "2026-07-15T09:26:51.697661-03:00",
+  "mechanical_result": "D1_QA_FAIL",
+  "outcomes_inspected": false,
+  "economic_analysis_executed": false,
+  "inventory_rows": 7300,
+  "checksum_matches": 7300,
+  "bytes": 82954705,
+  "qa_rows": 7300,
+  "qa_pass": 9,
+  "complete_assets": [],
+  "by_asset": {
+    "ADAUSDT": {
+      "files": 730,
+      "qa_pass": 1,
+      "minimum_coverage": 0.8159722222222222,
+      "complete": false
+    },
+    "AVAXUSDT": {
+      "files": 730,
+      "qa_pass": 1,
+      "minimum_coverage": 0.7534722222222222,
+      "complete": false
+    },
+    "BNBUSDT": {
+      "files": 730,
+      "qa_pass": 1,
+      "minimum_coverage": 0.8194444444444444,
+      "complete": false
+    },
+    "BTCUSDT": {
+      "files": 730,
+      "qa_pass": 1,
+      "minimum_coverage": 0.8090277777777778,
+      "complete": false
+    },
+    "DOGEUSDT": {
+      "files": 730,
+      "qa_pass": 1,
+      "minimum_coverage": 0.7847222222222222,
+      "complete": false
+    },
+    "ETHUSDT": {
+      "files": 730,
+      "qa_pass": 1,
+      "minimum_coverage": 0.8784722222222222,
+      "complete": false
+    },
+    "LINKUSDT": {
+      "files": 730,
+      "qa_pass": 1,
+      "minimum_coverage": 0.75,
+      "complete": false
+    },
+    "LTCUSDT": {
+      "files": 730,
+      "qa_pass": 1,
+      "minimum_coverage": 0.7847222222222222,
+      "complete": false
+    },
+    "SOLUSDT": {
+      "files": 730,
+      "qa_pass": 1,
+      "minimum_coverage": 0.8784722222222222,
+      "complete": false
+    },
+    "XRPUSDT": {
+      "files": 730,
+      "qa_pass": 0,
+      "minimum_coverage": 0.7986111111111112,
+      "complete": false
+    }
+  },
+  "criteria": {
+    "objects_7300": true,
+    "checksums_100pct": true,
+    "at_least_8_complete_assets": false,
+    "holdout_sealed": true,
+    "no_outcome_inspection": true
+  },
+  "next_action": "H02_STOP_OR_DATA_LIMITATION_REVIEW"
+}

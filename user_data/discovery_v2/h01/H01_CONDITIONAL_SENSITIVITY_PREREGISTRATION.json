@@ -1,0 +1,44 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H01",
+  "document": "Conditional dataset limitation sensitivity preregistration",
+  "version": "1.0.0",
+  "registered_utc": "2026-07-15",
+  "outcome_blind": true,
+  "outcomes_inspected_at_registration": false,
+  "holdout_state_at_registration": "SEALED",
+  "purpose": "Test whether any H01 scientific conclusion depends on the unavoidable missing block rather than on the economic mechanism.",
+  "documented_missing_block": {
+    "start_utc": "2026-06-29T00:00:00Z",
+    "end_utc": "2026-06-29T23:55:00Z",
+    "duration_hours": 24,
+    "candles_5m": 288,
+    "affected_assets": 10,
+    "affected_feeds": [
+      "usd_m_markPriceKlines_5m",
+      "usd_m_indexPriceKlines_5m",
+      "usd_m_premiumIndexKlines_5m"
+    ]
+  },
+  "analysis_intersection": "Exclude the documented block globally from every asset and every required H01 feed, including feeds that are locally present in that block. Do not impute or substitute.",
+  "eligible_matched_blocks": "Every fully observed UTC day in the applicable development or holdout window, excluding the documented missing day and any day containing a gap in any required H01 feed or asset.",
+  "procedure": [
+    "Run the frozen D2-D4 decision pipeline on the common-intersection dataset.",
+    "Remove each eligible matched UTC day globally, exactly one day at a time.",
+    "Rerun the exact same frozen pipeline for every deletion; do not select, tune or stop early.",
+    "Record every candidate block, every stage decision and every final decision.",
+    "Compare each deletion result with the common-intersection primary conclusion."
+  ],
+  "decision_rule": "If any eligible matched-block deletion changes the final H01 conclusion, final H01 status is INCONCLUSIVE. Otherwise the primary conclusion is retained, subject to every other preregistered gate.",
+  "forbidden": [
+    "threshold changes",
+    "parameter changes",
+    "alternative horizons or variants",
+    "imputation or reconstruction",
+    "post-outcome candidate selection",
+    "using sensitivity to convert a failed primary gate into success"
+  ],
+  "gap_not_hypothesis_defining_event": true,
+  "basis_for_non_defining_judgment": "Pre-outcome H01 documents define a general funding/basis carry mechanism over a 24-month, multi-asset panel; no specific calendar day or June 2026 event defines the hypothesis.",
+  "prospective_operational_replication_still_required": true
+}

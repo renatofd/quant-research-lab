@@ -1,0 +1,151 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H01",
+  "stage": "D1 additive policy reclassification",
+  "generated_utc": "2026-07-15T11:51:06.946072Z",
+  "outcomes_inspected": false,
+  "economic_analysis_executed": false,
+  "historical_d1_artifacts_modified": false,
+  "raw_data_modified": false,
+  "mechanical_result_original_and_unchanged": "D1_QA_MECHANICAL_FAIL",
+  "cause": "DOCUMENTED_OFFICIAL_DATASET_LIMITATION",
+  "evidence": {
+    "mechanical_coverage_gate": 0.999,
+    "mechanical_coverage_pass": false,
+    "hard_integrity_gates_pass": true,
+    "official_source_gap_confirmed": true,
+    "reproducible_provenance": true,
+    "pipeline_integrity_pass": true,
+    "missing_timestamps_enumerated_immutable": true,
+    "classification_pre_outcome": true,
+    "same_source_recovery_unavailable": true,
+    "no_imputation_or_synthetic_reconstruction": true,
+    "coverage_proportion": 0.9986301369863013,
+    "max_contiguous_gap_hours": 24,
+    "max_affected_sessions_per_rolling_12m": 1,
+    "symmetric_common_intersection_policy_frozen": true,
+    "gap_not_hypothesis_defining_event": true,
+    "sample_and_replication_minima_preserved": true,
+    "holdout_sealed": true,
+    "sensitivity_preregistered": true
+  },
+  "policy_decision": {
+    "policy_version": "1.0.0",
+    "policy_sha256": "f6032dbd533a0e5b47cb7fd4249f8a71e418fe40ab058efd62443d6ab47a91ff",
+    "mechanical_subgate": {
+      "threshold": 0.999,
+      "coverage": 0.9986301369863013,
+      "result": "FAIL",
+      "unchanged": true
+    },
+    "conditional_criteria": [
+      {
+        "id": "C01",
+        "field": "official_source_gap_confirmed",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C02",
+        "field": "reproducible_provenance",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C03",
+        "field": "pipeline_integrity_pass",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C04",
+        "field": "missing_timestamps_enumerated_immutable",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C05",
+        "field": "classification_pre_outcome",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C06",
+        "field": "same_source_recovery_unavailable",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C07",
+        "field": "no_imputation_or_synthetic_reconstruction",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C08",
+        "field": "coverage_proportion",
+        "value": 0.9986301369863013,
+        "pass": true
+      },
+      {
+        "id": "C09",
+        "field": "max_contiguous_gap_hours",
+        "value": 24,
+        "pass": true
+      },
+      {
+        "id": "C10",
+        "field": "max_affected_sessions_per_rolling_12m",
+        "value": 1,
+        "pass": true
+      },
+      {
+        "id": "C11",
+        "field": "symmetric_common_intersection_policy_frozen",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C12",
+        "field": "gap_not_hypothesis_defining_event",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C13",
+        "field": "sample_and_replication_minima_preserved",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C14",
+        "field": "holdout_sealed",
+        "value": true,
+        "pass": true
+      },
+      {
+        "id": "C15",
+        "field": "sensitivity_preregistered",
+        "value": true,
+        "pass": true
+      }
+    ],
+    "all_15_conditional_criteria_pass": true,
+    "global_data_admissibility": "CONDITIONAL_PASS_DOCUMENTED_DATASET_LIMITATION",
+    "hypothesis_status": "UNTESTED",
+    "scientific_effect": {
+      "confirms_hypothesis": false,
+      "rejects_hypothesis": false,
+      "permits_threshold_relaxation": false,
+      "requires_block_matched_sensitivity": true
+    }
+  },
+  "d1_global_state": "CONDITIONAL_PASS_DOCUMENTED_DATASET_LIMITATION",
+  "h01_scientific_status": "UNTESTED",
+  "next_state": "D1_CONDITIONAL_PASS_AWAITING_D2_D4_PREREGISTRATION",
+  "mandatory_next_controls": [
+    "global common-intersection exclusion",
+    "block-matched sensitivity",
+    "frozen D2-D4 protocol before outcomes"
+  ]
+}

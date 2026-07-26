@@ -1,0 +1,53 @@
+title: "[Research] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to discuss scientific merit before implementation.
+        Do not include outcomes from an unregistered search.
+  - type: textarea
+    id: mechanism
+    attributes:
+      label: Economic mechanism
+      description: Why should the effect exist economically?
+    validations:
+      required: true
+  - type: textarea
+    id: falsifiable
+    attributes:
+      label: Falsifiable question and null
+      description: State the question and what evidence would reject it.
+    validations:
+      required: true
+  - type: textarea
+    id: novelty
+    attributes:
+      label: Novelty
+      description: Explain why this does not reopen an archived hypothesis.
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data and provenance
+      description: Identify point-in-time sources, availability, license and holdout.
+    validations:
+      required: true
+  - type: textarea
+    id: cost
+    attributes:
+      label: Expected information and cost
+      description: Compare expected information gain with compute, data and complexity cost.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safeguards
+    attributes:
+      label: Safeguards
+      options:
+        - label: No outcome was inspected to choose this proposal.
+          required: true
+        - label: The proposal requires no parameter search to become interesting.
+          required: true
+        - label: Promotion would still require economic and operational validation.
+          required: true

@@ -1,0 +1,6 @@
+{
+  "program":"Discovery V2","status":"CLOSED","recommendation":"DO_NOT_PROMOTE","robust_advantage_discovered":false,"bot_authorized":false,
+  "tested":2,"rejected":2,"confirmed":0,"inconclusive":0,"data_blocked":13,
+  "conclusion":"No scientific evidence is sufficient to justify an operational bot.",
+  "future_requirement":"A future generation requires new provenance-preserving microstructure, liquidation, options, institutional-flow, macro, on-chain or multi-venue data; OHLCV or parameter reformulations are not admissible substitutes."
+}

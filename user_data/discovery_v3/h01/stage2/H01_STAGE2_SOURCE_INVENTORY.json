@@ -1,0 +1,219 @@
+{
+  "program": "Discovery V3",
+  "hypothesis": "H01",
+  "stage": 2,
+  "created_utc": "2026-07-24T15:47:44.265659Z",
+  "source": "Binance Data Vision official public S3 archive",
+  "symbols": [
+    "BTCUSD_PERP",
+    "ETHUSD_PERP",
+    "BNBUSD_PERP",
+    "ADAUSD_PERP",
+    "LINKUSD_PERP",
+    "LTCUSD_PERP"
+  ],
+  "common_start": "2023-06-25",
+  "common_end": "2024-10-13",
+  "common_calendar_days": 477,
+  "development_start": "2023-06-25",
+  "development_end": "2024-07-09",
+  "holdout_start": "2024-07-10",
+  "holdout_end": "2024-10-13",
+  "manifest_rows": 5163,
+  "manifest_sha256": "4fec9e550694f178ab5cc1a55ee253c9e22c939f94f87ba047a1d35e14c2e1ed",
+  "coverage": {
+    "BTCUSD_PERP": {
+      "liquidation": {
+        "expected_periods": 477,
+        "present_periods": 471,
+        "period_coverage": 0.9874213836477987
+      },
+      "metrics_5m": {
+        "expected_periods": 477,
+        "present_periods": 378,
+        "period_coverage": 0.7924528301886793
+      },
+      "perp_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "mark_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "index_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "spot_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      }
+    },
+    "ETHUSD_PERP": {
+      "liquidation": {
+        "expected_periods": 477,
+        "present_periods": 473,
+        "period_coverage": 0.9916142557651991
+      },
+      "metrics_5m": {
+        "expected_periods": 477,
+        "present_periods": 379,
+        "period_coverage": 0.7945492662473794
+      },
+      "perp_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "mark_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "index_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "spot_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      }
+    },
+    "BNBUSD_PERP": {
+      "liquidation": {
+        "expected_periods": 477,
+        "present_periods": 396,
+        "period_coverage": 0.8301886792452831
+      },
+      "metrics_5m": {
+        "expected_periods": 477,
+        "present_periods": 378,
+        "period_coverage": 0.7924528301886793
+      },
+      "perp_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "mark_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "index_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "spot_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      }
+    },
+    "ADAUSD_PERP": {
+      "liquidation": {
+        "expected_periods": 477,
+        "present_periods": 425,
+        "period_coverage": 0.8909853249475891
+      },
+      "metrics_5m": {
+        "expected_periods": 477,
+        "present_periods": 374,
+        "period_coverage": 0.7840670859538784
+      },
+      "perp_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "mark_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "index_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "spot_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      }
+    },
+    "LINKUSD_PERP": {
+      "liquidation": {
+        "expected_periods": 477,
+        "present_periods": 392,
+        "period_coverage": 0.8218029350104822
+      },
+      "metrics_5m": {
+        "expected_periods": 477,
+        "present_periods": 379,
+        "period_coverage": 0.7945492662473794
+      },
+      "perp_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "mark_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "index_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "spot_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      }
+    },
+    "LTCUSD_PERP": {
+      "liquidation": {
+        "expected_periods": 477,
+        "present_periods": 331,
+        "period_coverage": 0.6939203354297694
+      },
+      "metrics_5m": {
+        "expected_periods": 477,
+        "present_periods": 379,
+        "period_coverage": 0.7945492662473794
+      },
+      "perp_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "mark_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "index_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      },
+      "spot_1m": {
+        "expected_periods": 17,
+        "present_periods": 17,
+        "period_coverage": 1.0
+      }
+    }
+  },
+  "outcomes_inspected": false
+}

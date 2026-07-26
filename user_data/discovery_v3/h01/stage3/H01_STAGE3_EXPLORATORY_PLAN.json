@@ -1,0 +1,33 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H01",
+  "stage": 3,
+  "frozen_date": "2026-07-24",
+  "outcomes_opened_before_freeze": false,
+  "holdout": "SEALED",
+  "question": "Does signed actual forced-liquidation flow predict same-direction future perpetual returns incrementally to the contemporaneous event-minute return?",
+  "primary_direction": "continuation",
+  "unit": "UTC event minute",
+  "predictor": "within-asset standardized signed log1p absolute net liquidation contracts",
+  "control": "event-minute perpetual open-to-close return",
+  "horizons_minutes": [1, 5, 15, 60],
+  "bootstrap": {"unit": "UTC day", "replicates": 500, "seed": 20260724},
+  "negative_control": "shift liquidation timestamps forward exactly 7 calendar days",
+  "advance_rule": {
+    "adjacent_horizons_required": 2,
+    "coefficient_ci95_lower": ">0",
+    "top_quartile_aligned_mean_minimum": 0.001,
+    "incremental_r2_minimum": 0.0001,
+    "positive_assets_minimum": 4,
+    "positive_temporal_blocks_minimum": 3,
+    "placebo_must_not_reproduce_pattern": true
+  },
+  "forbidden": [
+    "holdout outcomes",
+    "horizon selection",
+    "threshold search",
+    "asset selection",
+    "date selection",
+    "parameter optimization"
+  ]
+}

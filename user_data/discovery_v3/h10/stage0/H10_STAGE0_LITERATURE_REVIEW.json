@@ -1,0 +1,11 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H10",
+  "stage": 0,
+  "decision": "REJECTED_AT_STAGE0_PRIOR_OHLCV_CONCLUSION",
+  "reason": "Relative strength derived only from returns reopens the permanently closed OHLCV/momentum research family.",
+  "new_economic_data": false,
+  "code_written": false,
+  "backtest_executed": false,
+  "reopening_condition": "Materially new non-price economic exposure and a new research generation"
+}

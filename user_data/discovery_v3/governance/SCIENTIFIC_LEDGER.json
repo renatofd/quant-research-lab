@@ -1,0 +1,18 @@
+{
+  "project": "Discovery V3",
+  "as_of": "2026-07-24",
+  "active_hypothesis": null,
+  "project_status": "CONCLUDED_NO_ROBUST_EDGE",
+  "hypotheses": [
+    {"id": "H01", "name": "Liquidation Cascades", "stage": 3, "status": "REJECTED", "evidence": "Continuation failed size, cross-asset and temporal gates; holdout sealed and unopened"},
+    {"id": "H02", "name": "Spot x Perpetual Divergence", "stage": 3, "status": "REJECTED", "evidence": "Statistical convergence existed but gross mean was 1.23 bp versus 30 bp cost envelope; 0/10 assets and 0/4 blocks net positive; holdout unopened"},
+    {"id": "H03", "name": "Extreme Funding", "stage": 0, "status": "REJECTED", "evidence": "No novel incremental mechanism: preregistered V2 funding-only baseline was negative in development and near zero in holdout; no new data justify reopening"},
+    {"id": "H04", "name": "Cross-Exchange Leadership", "stage": 3, "status": "REJECTED", "evidence": "Binance leadership was statistically real but gross aligned effect was 0.37 bp versus 15 bp cost; 0/10 assets and 0/4 blocks net positive; holdout unopened"},
+    {"id": "H05", "name": "Liquidity Regimes", "stage": 1, "status": "BLOCKED", "evidence": "Requires point-in-time sequenced order book; OHLCV proxy forbidden by prior A08 rejection"},
+    {"id": "H06", "name": "On-chain Flows", "stage": 1, "status": "BLOCKED", "evidence": "Requires versioned point-in-time exchange-address labels; raw public chain alone is insufficient"},
+    {"id": "H07", "name": "ETF Flows", "stage": 1, "status": "BLOCKED", "evidence": "Requires official/audited fund-level flow vintages and actual release timestamps; AUM proxy invalid"},
+    {"id": "H08", "name": "Options Market", "stage": 1, "status": "BLOCKED", "evidence": "Requires historical point-in-time option quote surface; public trades/limited marks insufficient"},
+    {"id": "H09", "name": "Order Flow / CVD", "stage": 1, "status": "REJECTED", "evidence": "Correct trade+book experiment cost exceeds expected information; 5m CVD proxy invalid; no implementation"},
+    {"id": "H10", "name": "Cross-Asset Relative Strength", "stage": 0, "status": "REJECTED", "evidence": "Would reopen the prior definitive OHLCV/momentum conclusion without materially new economic data"}
+  ]
+}

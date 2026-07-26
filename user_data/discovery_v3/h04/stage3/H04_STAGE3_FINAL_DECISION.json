@@ -1,0 +1,18 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H04",
+  "stage": 3,
+  "decision_date": "2026-07-24",
+  "decision": "REJECTED",
+  "failed_gates": [
+    "net_mean_gt_zero",
+    "net_bootstrap_ci95_lower_gt_zero",
+    "gross_mean_ge_0_0015",
+    "positive_assets_ge_7",
+    "positive_blocks_eq_4"
+  ],
+  "holdout_state": "SEALED_UNOPENED",
+  "next_hypothesis_if_rejected": "H05",
+  "reopening_rule": "Do not alter leader, follower, lag, horizon, cost, decile or universe. Tick data is justified only if every gate passes.",
+  "results_sha256": "27b77d9271b5dc7d26d5a951fd721cbf9126322f0a47a94c93a94398ad7c4745"
+}

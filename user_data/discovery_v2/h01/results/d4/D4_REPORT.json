@@ -1,0 +1,15 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H01",
+  "stage": "D4",
+  "decision": "PASS_STABLE",
+  "primary_d2": "FAIL",
+  "primary_d3": "FAIL",
+  "primary_final": "REJECTED",
+  "eligible_matched_days": 729,
+  "tested_matched_days": 729,
+  "any_decision_flip": false,
+  "final_scientific_decision": "REJECTED",
+  "bot_authorized": false,
+  "prospective_confirmation_required": false
+}

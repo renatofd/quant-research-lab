@@ -1,0 +1,74 @@
+{
+  "program": "Discovery V2",
+  "study": "V2-H01 D1 acquisition and structural QA",
+  "authorization_text": "autorizo, e não precisa mais pedir autorização pra esse tipo de coisa",
+  "permanent_authorization_scope": "Free official public data, manifests/checksums, reversible ingestion, structural QA, and automatic resumption of already approved protocols.",
+  "authorization_exclusions": [
+    "paid data",
+    "private/authenticated source",
+    "credentials",
+    "destructive action",
+    "external spend",
+    "material hypothesis change",
+    "bot/orders/live operation"
+  ],
+  "start_utc": "2026-07-14T21:25:57.503835Z",
+  "end_utc": "2026-07-14T21:32:33.831554Z",
+  "source_urls": [
+    "https://data.binance.vision/"
+  ],
+  "source_domains": [
+    "data.binance.vision"
+  ],
+  "private_endpoints_used": false,
+  "credentials_used": false,
+  "script": {
+    "path": "user_data/discovery_v2/h01/d1_acquire_qa.py",
+    "version": "1.0.0",
+    "sha256": "15d39fd3f8d2db5301dff06d61f2d48e70de5e78cf68a9ceb7032272da0f82d4"
+  },
+  "network": {
+    "requests": 1440,
+    "http_status_counts": {
+      "200": 1440
+    },
+    "retries": [],
+    "bytes_downloaded": 321304758
+  },
+  "raw": {
+    "count": 1440,
+    "bytes": 321304758,
+    "location": "/workspace/user_data/discovery_v2/h01/d1/raw"
+  },
+  "initial_free_bytes": 8820871168,
+  "final_free_bytes": 8514383872,
+  "errors": [],
+  "no_outcome_analysis_declaration": "No returns, carry, PnL, correlations, regressions, price statistics, or funding-value aggregates were calculated.",
+  "artifact_hashes": {
+    "DISCOVERY_V2_H01_D1_INVENTORY.csv": {
+      "sha256": "3725748f376e3086421bdeee48e96535772d7b37c367381764a8ade606f5f77c",
+      "scope": "full_file"
+    },
+    "DISCOVERY_V2_H01_D1_QA_MATRIX.csv": {
+      "sha256": "52644a7597032ce91376a9530dee0db19e44d21d679fe8478d8980eb22e2864e",
+      "scope": "full_file"
+    },
+    "DISCOVERY_V2_H01_D1_HOLDOUT.json": {
+      "sha256": "11a917bfda428d758174dd8deb3505cc63dc6e6b2966617e2648fcebc7f858f2",
+      "scope": "full_file"
+    },
+    "DISCOVERY_V2_H01_D1_REPORT.json": {
+      "sha256": "eccc4076113a22972b79e65cff555d3c527585e17f029b5925b8184b947931d0",
+      "scope": "full_file"
+    },
+    "DISCOVERY_V2_H01_D1_REPORT.md": {
+      "sha256": "dd8ef5ead019277eeb6bcfe3c4d5712784ae1b9c52957513476e4c1fcf3c9500",
+      "scope": "full_file"
+    },
+    "DISCOVERY_V2_H01_D1_PROVENANCE.json": {
+      "sha256": "a2d3c9bc9ab5c477590a5ac4e269c44a6b7e889e8a0e694ed1d00968207bc3bc",
+      "scope": "canonical_payload_excluding_artifact_hashes"
+    }
+  },
+  "provenance_self_hash_method": "canonical JSON payload excluding artifact_hashes and self hash"
+}

@@ -1,0 +1,22 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H01",
+  "classification": "REJECTED",
+  "terminal_stage": 3,
+  "decision_date": "2026-07-24",
+  "holdout": "SEALED_UNOPENED",
+  "reason": "The preregistered exploratory continuation mechanism failed materiality, cross-asset, temporal and bootstrap screening at every fixed horizon.",
+  "observations_per_horizon": 49449,
+  "top_quartile_continuation_aligned_means": {
+    "1m": -0.00007486916373506219,
+    "5m": -0.00043912410680240605,
+    "15m": -0.0007007248124630778,
+    "60m": -0.001002119018430809
+  },
+  "passing_horizons": [],
+  "passing_adjacent_pairs": [],
+  "reversal_diagnostic": "Retained as exploratory knowledge only; changing direction or selecting 60m after observing the data is prohibited.",
+  "stage4_permitted": false,
+  "holdout_opening_permitted": false,
+  "deribit_replication_permitted": false
+}

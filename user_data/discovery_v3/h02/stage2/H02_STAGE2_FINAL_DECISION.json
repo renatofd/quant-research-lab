@@ -1,0 +1,14 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H02",
+  "stage": 2,
+  "decision_date": "2026-07-24",
+  "decision": "STAGE2_PASS",
+  "authorized_next_stage": 3,
+  "holdout_state": "SEALED_UNOPENED",
+  "outcomes_inspected": false,
+  "report_sha256": "2913e553b23908a4d9e73b8dd163ea445faa639cb5e160554e72769633d4902d",
+  "manifest_sha256": "b3453153f991caf79fea53ae3f8df32614180cf43aa61dbaac481fb8f6a78340",
+  "qa_matrix_sha256": "98c71cbffc972eb304b8439079ef9db4dfbccad3319108fd24003d953dbb3529",
+  "funding_manifest_sha256": "e687b6e94137438f5fdfc820674dbfe621f50b8290842aaccda339f2f6f3584e"
+}

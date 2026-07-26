@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this research framework, cite this repository and Freqtrade."
+title: "Quantitative Research Lab: falsifiable crypto-market hypothesis discovery"
+type: software
+version: 1.0.0
+date-released: 2026-07-25
+license: GPL-3.0-or-later
+authors:
+  - name: "Quantitative Research Lab contributors"
+keywords:
+  - quantitative-research
+  - reproducibility
+  - falsification
+  - cryptocurrency
+  - freqtrade
+references:
+  - type: article
+    title: "Freqtrade: A Free and Open Source Crypto Trading Bot"
+    doi: 10.21105/joss.04864

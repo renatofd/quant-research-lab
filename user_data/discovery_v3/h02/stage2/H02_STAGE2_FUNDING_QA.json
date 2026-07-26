@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "symbol": "ADAUSDT",
+      "records": 69,
+      "sorted": true,
+      "duplicates": 0,
+      "in_sealed_period": true,
+      "sha256": "d14e86ba413850c60a93304749d89824666896de37fea82043aceb7ca1143b94"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "records": 69,
+      "sorted": true,
+      "duplicates": 0,
+      "in_sealed_period": true,
+      "sha256": "039b8ffc0191d5c8421d964a62c3dc6d6a9d9d119623d5136cfc509f5d1b1a40"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "records": 69,
+      "sorted": true,
+      "duplicates": 0,
+      "in_sealed_period": true,
+      "sha256": "f9442813be0574cac24ec467c7d93161d921f79e9d7775db23cbb58524f0f122"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "records": 69,
+      "sorted": true,
+      "duplicates": 0,
+      "in_sealed_period": true,
+      "sha256": "c283f2ef1ac1297d92efa89c330e9516fd2be880f515846b1d0f9262397cc695"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "records": 69,
+      "sorted": true,
+      "duplicates": 0,
+      "in_sealed_period": true,
+      "sha256": "038e9d133ad28817adeb644a357cf53fc3081165849c20388c147ede94c0fdd1"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "records": 69,
+      "sorted": true,
+      "duplicates": 0,
+      "in_sealed_period": true,
+      "sha256": "7ec24bf77f393f5ab1fdff6e6eb681bf33b9b961ed4592b967f9d4d7f85456b9"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "records": 69,
+      "sorted": true,
+      "duplicates": 0,
+      "in_sealed_period": true,
+      "sha256": "3a1aca20bcbb392e705f5ddf308fec589fa69daa136925b3c8ee94c73034382d"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "records": 69,
+      "sorted": true,
+      "duplicates": 0,
+      "in_sealed_period": true,
+      "sha256": "3a9d41be5034eed769188c67aa645ad63dbef1d2d68dd1a20b808a1dd4d9f835"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "records": 69,
+      "sorted": true,
+      "duplicates": 0,
+      "in_sealed_period": true,
+      "sha256": "6caa8f3fb2d26634bce785ebd389f47ff4f29980c776972bdb5754fadca1f61d"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "records": 69,
+      "sorted": true,
+      "duplicates": 0,
+      "in_sealed_period": true,
+      "sha256": "488fa545f33998e4eebfb4ae3cf9cd02f94af038d5312fea98221c47198c4da1"
+    }
+  ]
+}

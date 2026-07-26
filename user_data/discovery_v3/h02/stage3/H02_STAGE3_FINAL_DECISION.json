@@ -1,0 +1,20 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H02",
+  "stage": 3,
+  "decision_date": "2026-07-24",
+  "decision": "REJECTED",
+  "failed_gates": [
+    "top_decile_net_mean_gt_zero",
+    "top_decile_net_ci95_lower_gt_zero",
+    "top_decile_gross_mean_ge_0_003",
+    "positive_assets_ge_7",
+    "positive_blocks_eq_4",
+    "quintile_means_non_decreasing"
+  ],
+  "holdout_state": "SEALED_UNOPENED",
+  "holdout_opened": false,
+  "reopening_rule": "Do not change horizon, decile, costs, direction, universe or controls to rescue H02.",
+  "next_hypothesis_if_rejected": "H03",
+  "results_sha256": "0336fd864ff07afef5b319cfa3b0f169571acc93c64061482cbf06228de99319"
+}

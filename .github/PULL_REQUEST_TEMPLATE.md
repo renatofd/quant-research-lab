@@ -1,22 +1,33 @@
-<!-- Thank you for sending your pull request. But first, have you included
-unit tests, and is your code PEP8 conformant? [More details](https://github.com/freqtrade/freqtrade/blob/develop/CONTRIBUTING.md)
-
-Did you use AI to create your changes?
-If so, please state it clearly in the PR description (failing to do so may result in your PR being closed).
-
-Also, please do a self review of the changes made before submitting the PR to make sure only relevant changes are included.
--->
 ## Summary
 
-<!-- Explain in one sentence the goal of this PR -->
+Describe the problem, the change and why this is the smallest safe solution.
 
-Solve the issue: #___
+## Scope
 
-## Quick changelog
+- Files created:
+- Files changed:
+- Files removed:
+- Upstream compatibility impact:
 
-- <change log 1>
-- <change log 1>
+## Scientific integrity
 
-## What's new?
+- [ ] No hypothesis, gate, threshold or cost was changed after outcome access.
+- [ ] No holdout was opened or consumed.
+- [ ] Existing final results and ledgers remain intact, or an explicit erratum is included.
+- [ ] No rejected family was reopened under a new name.
+- [ ] No experiment or backtest runs as a side effect.
 
-<!-- Explain in details what this PR solve or improve. You can include visuals. -->
+## Security and data
+
+- [ ] No credentials, `.env`, local config, database, log or raw data is included.
+- [ ] Paths and examples contain no personal data.
+- [ ] New dependencies and network access are justified.
+
+## Validation
+
+List exact commands and outcomes.
+
+## AI assistance
+
+- [ ] No AI assistance was used.
+- [ ] AI assistance was used, disclosed here, and the changes were reviewed by a human.

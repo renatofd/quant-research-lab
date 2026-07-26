@@ -1,0 +1,21 @@
+{
+  "program": "Discovery V3",
+  "hypothesis": "H01",
+  "state": "SEALED",
+  "created_utc": "2026-07-24T15:47:44.291143Z",
+  "sealed_before_any_price_archive_opened": true,
+  "development": {
+    "start": "2023-06-25",
+    "end": "2024-07-09",
+    "economic_analysis_permitted": true
+  },
+  "historical_holdout": {
+    "start": "2024-07-10",
+    "end": "2024-10-13",
+    "economic_analysis_permitted": false
+  },
+  "split_rule": "last 20% of common calendar interval, chronological",
+  "manifest_sha256": "4fec9e550694f178ab5cc1a55ee253c9e22c939f94f87ba047a1d35e14c2e1ed",
+  "outcome_calculation_permitted_in_stage2": false,
+  "prospective_confirmation_required": true
+}

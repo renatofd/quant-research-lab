@@ -1,0 +1,170 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H02",
+  "stage": "D1 definitive required-field contract QA",
+  "generated_utc": "2026-07-15T12:39:03.680019Z",
+  "global_result": "D1_QA_PASS_REQUIRED_FIELDS",
+  "required_fields": [
+    "sum_open_interest",
+    "sum_open_interest_value",
+    "sum_taker_long_short_vol_ratio"
+  ],
+  "optional_excluded_fields": [
+    "count_toptrader_long_short_ratio",
+    "sum_toptrader_long_short_ratio",
+    "count_long_short_ratio"
+  ],
+  "field_contract_basis": "The frozen V2-H02 catalog requires point-in-time open interest and taker flow; trader long/short ratios are not required and are excluded before preregistration, not imputed.",
+  "native_time_rule": "Use the latest metric whose native create_time is strictly earlier than the scientific decision time; no rounding or forward join.",
+  "coverage_gate": 0.999,
+  "by_asset": {
+    "ADAUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "required_invalid_values": 0,
+      "optional_invalid_values": 114,
+      "timestamps_unique_ordered": true
+    },
+    "AVAXUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "required_invalid_values": 0,
+      "optional_invalid_values": 114,
+      "timestamps_unique_ordered": true
+    },
+    "BNBUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "required_invalid_values": 0,
+      "optional_invalid_values": 115,
+      "timestamps_unique_ordered": true
+    },
+    "BTCUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "required_invalid_values": 0,
+      "optional_invalid_values": 113,
+      "timestamps_unique_ordered": true
+    },
+    "DOGEUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "required_invalid_values": 0,
+      "optional_invalid_values": 115,
+      "timestamps_unique_ordered": true
+    },
+    "ETHUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "required_invalid_values": 0,
+      "optional_invalid_values": 118,
+      "timestamps_unique_ordered": true
+    },
+    "LINKUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "required_invalid_values": 0,
+      "optional_invalid_values": 112,
+      "timestamps_unique_ordered": true
+    },
+    "LTCUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "required_invalid_values": 0,
+      "optional_invalid_values": 112,
+      "timestamps_unique_ordered": true
+    },
+    "SOLUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "required_invalid_values": 0,
+      "optional_invalid_values": 117,
+      "timestamps_unique_ordered": true
+    },
+    "XRPUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "required_invalid_values": 0,
+      "optional_invalid_values": 117,
+      "timestamps_unique_ordered": true
+    }
+  },
+  "optional_invalid_counts": {
+    "count_toptrader_long_short_ratio": 619,
+    "sum_toptrader_long_short_ratio": 254,
+    "count_long_short_ratio": 274
+  },
+  "imputation": false,
+  "outcomes_inspected": false,
+  "economic_statistics_calculated": false,
+  "historical_artifacts_sha256_before": {
+    "d1\\h02_d1_acquire_qa.py": "1e94feef05dc2df3386b75afe1282f2d68aa7bd1f999656191cdf2016ec565a2",
+    "d1\\H02_D1_HOLDOUT.json": "20ef131f5f3818971f0dbec59de76e75b7ab924631f987cf1ba22b2f5018729f",
+    "d1\\H02_D1_INVENTORY.csv": "26b41a2942ae44e26a9dc6f74f71df4acb863e3c0b431b6b0e57c2a749970cf3",
+    "d1\\H02_D1_QA_MATRIX.csv": "c49e68297c25d1b6aa4c913699361f9daba1d81f2ec0524498122eba725a5b16",
+    "d1\\H02_D1_REPORT.json": "47220d4dee30526e718208eff66ee471577ee0b270b0e3db111a9b9c2479febe",
+    "d1\\H02_D1_REPORT.md": "71cabd430289bef99af61d84ea5be9e411feb4e13473b9c124c996daa02596e0",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_MATRIX.csv": "11bab1d2863c8e3521353251eb1ded1863c6019ca8d45147dee1a7ed5e8444ab",
+    "d1_repair\\h02_d1_time_alignment_repair.py": "77ed4126193ee26fc1de2ec95479636744869c2306838a5d55d6efede6918ed4",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.json": "0fb1e7de1cd690b2cf0c0d24d41cb775b5a9d279cbb6762de53ac7d9962d733a",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.md": "2c4b72fb7cb59c1ee30be11cb6f459b6518a69e3caeeddbeb23516285d3ff11d",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_MATRIX.csv": "8160faede21ec9b817fc48d94d97ffe6c9048c9f6130aad322913836309cded6",
+    "d1_repair_v2\\h02_d1_corrected_grid_qa.py": "482c3d9439f5f6cd064f2e20264015a8c631d22dbb268c91350ae7fa0d6a8f03",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_REPORT.json": "d861f24b8afa0bf5157ac371cfe4fb7f0d9fd36a870dff66731030d6a4c24389",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_REPORT.md": "5505bc94bb817e3d5afd93ed2ea03a6dbd178d90fdd250814754164c3d1b8559",
+    "d1_repair_v3\\h02_d1_event_time_qa.py": "b6194d1f08e67d775302fca0178a29c27426fb7f2e3a2c529d522ca79fe70220",
+    "d1_repair_v3\\H02_D1_NATIVE_EVENT_TIME_REPORT.json": "76c12d3c5d27b76256a1cca24db010c4793b6462f5faeac96d0e0e27a3858fae",
+    "d1_repair_v3\\H02_D1_NATIVE_EVENT_TIME_REPORT.md": "3fde79f35ee1dbf145f7d7b0bc4f4e811128543d999d6ef2e153b96f1da8b247"
+  },
+  "historical_artifacts_sha256_after": {
+    "d1\\h02_d1_acquire_qa.py": "1e94feef05dc2df3386b75afe1282f2d68aa7bd1f999656191cdf2016ec565a2",
+    "d1\\H02_D1_HOLDOUT.json": "20ef131f5f3818971f0dbec59de76e75b7ab924631f987cf1ba22b2f5018729f",
+    "d1\\H02_D1_INVENTORY.csv": "26b41a2942ae44e26a9dc6f74f71df4acb863e3c0b431b6b0e57c2a749970cf3",
+    "d1\\H02_D1_QA_MATRIX.csv": "c49e68297c25d1b6aa4c913699361f9daba1d81f2ec0524498122eba725a5b16",
+    "d1\\H02_D1_REPORT.json": "47220d4dee30526e718208eff66ee471577ee0b270b0e3db111a9b9c2479febe",
+    "d1\\H02_D1_REPORT.md": "71cabd430289bef99af61d84ea5be9e411feb4e13473b9c124c996daa02596e0",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_MATRIX.csv": "11bab1d2863c8e3521353251eb1ded1863c6019ca8d45147dee1a7ed5e8444ab",
+    "d1_repair\\h02_d1_time_alignment_repair.py": "77ed4126193ee26fc1de2ec95479636744869c2306838a5d55d6efede6918ed4",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.json": "0fb1e7de1cd690b2cf0c0d24d41cb775b5a9d279cbb6762de53ac7d9962d733a",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.md": "2c4b72fb7cb59c1ee30be11cb6f459b6518a69e3caeeddbeb23516285d3ff11d",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_MATRIX.csv": "8160faede21ec9b817fc48d94d97ffe6c9048c9f6130aad322913836309cded6",
+    "d1_repair_v2\\h02_d1_corrected_grid_qa.py": "482c3d9439f5f6cd064f2e20264015a8c631d22dbb268c91350ae7fa0d6a8f03",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_REPORT.json": "d861f24b8afa0bf5157ac371cfe4fb7f0d9fd36a870dff66731030d6a4c24389",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_REPORT.md": "5505bc94bb817e3d5afd93ed2ea03a6dbd178d90fdd250814754164c3d1b8559",
+    "d1_repair_v3\\h02_d1_event_time_qa.py": "b6194d1f08e67d775302fca0178a29c27426fb7f2e3a2c529d522ca79fe70220",
+    "d1_repair_v3\\H02_D1_NATIVE_EVENT_TIME_REPORT.json": "76c12d3c5d27b76256a1cca24db010c4793b6462f5faeac96d0e0e27a3858fae",
+    "d1_repair_v3\\H02_D1_NATIVE_EVENT_TIME_REPORT.md": "3fde79f35ee1dbf145f7d7b0bc4f4e811128543d999d6ef2e153b96f1da8b247"
+  },
+  "historical_artifacts_unchanged": true,
+  "next_action": "H02_PREREGISTER_D2_D4"
+}

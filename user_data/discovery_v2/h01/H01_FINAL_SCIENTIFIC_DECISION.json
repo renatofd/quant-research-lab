@@ -1,0 +1,46 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H01",
+  "decision": "REJECTED",
+  "decision_utc": "2026-07-15",
+  "economic_claim": "Positive observed funding plus positive spot-perpetual basis produces robust, economically material fully funded cash-and-carry returns after a fixed 0.6% roundtrip envelope.",
+  "d1": {
+    "mechanical_coverage_subgate": "FAIL",
+    "global_admissibility": "CONDITIONAL_PASS_DOCUMENTED_DATASET_LIMITATION",
+    "hypothesis_effect": "NONE"
+  },
+  "d2": {
+    "decision": "FAIL",
+    "episodes": 471,
+    "mean_net_return": -0.005109863723075625,
+    "ci95": [-0.00553073102064104, -0.0046050913551271755],
+    "annualized_committed_capital_return": -0.7751232243113679,
+    "positive_assets": 0,
+    "positive_temporal_blocks": 0
+  },
+  "d3": {
+    "decision": "FAIL",
+    "episodes": 160,
+    "mean_net_return": -0.005797026394397933,
+    "ci95": [-0.005914564195031034, -0.005672554089847144],
+    "annualized_committed_capital_return": -1.7450842341898931,
+    "positive_assets": 0,
+    "positive_temporal_blocks": 0
+  },
+  "d4": {
+    "decision": "PASS_STABLE",
+    "matched_utc_days_tested": 729,
+    "decision_flips": 0,
+    "conclusion_depends_on_documented_gap": false
+  },
+  "interpretation": "The observed carry episodes did not cover the preregistered conservative execution envelope. Failure replicated in development and sealed holdout, across every asset and temporal block. The official 29 June 2026 data limitation did not drive the conclusion.",
+  "reopening_rule": "Do not reopen this exact unilateral funding/basis episode rule, holding logic, universe and data contract merely by changing thresholds, costs, horizons or parameters. A materially new mechanism and new preregistration would be a different hypothesis.",
+  "bot_authorized": false,
+  "promotion": "DO_NOT_PROMOTE",
+  "artifact_sha256": {
+    "H01_EXPERIMENT_SEAL.json": "0790e57469c31c4ecc417f2050175a36fa7c80809d9bbee178a687516d62ff60",
+    "D2_REPORT.json": "029c0a33dd9d6f00e9e4ca82f1526c0571bf6bedbda76f0a88969b9e881eef28",
+    "D3_REPORT.json": "0e314e8a9827c69c99335d923c16ed540264f380de867654d788c23f785f5150",
+    "D4_REPORT.json": "72993bd260e86098988fee81901c6d9e478e95b701af5cc018671f58b23234c7"
+  }
+}

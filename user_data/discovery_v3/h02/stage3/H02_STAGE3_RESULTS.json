@@ -1,0 +1,79 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H02",
+  "stage": 3,
+  "script_version": "1.0.0",
+  "plan_sha256": "95b730871e7a4b3e377e7b6da6b03bf6598e74d951f7f6041bb7c3eab01e1738",
+  "development_period": "2024-07-01/2026-06-30",
+  "holdout_state": "SEALED_UNOPENED",
+  "holdout_read": false,
+  "panel_observations": 350390,
+  "primary": {
+    "observations": 4653,
+    "gross_mean": 0.00012264795489850796,
+    "gross_median": 9.494859281361577e-05,
+    "funding_mean": 1.188332043842682e-05,
+    "net_mean": -0.002865468724663065,
+    "net_median": -0.002894896292573915,
+    "win_rate_net": 0.002364066193853428,
+    "gross_bootstrap_ci95": [
+      0.00010500322003337399,
+      0.00014839814714635657
+    ],
+    "net_bootstrap_ci95": [
+      -0.0028816188155165352,
+      -0.002839580474636653
+    ],
+    "roundtrip_cost_envelope": 0.003
+  },
+  "regression": {
+    "n": 46485,
+    "coefficient": 0.11438369368607862,
+    "standard_error": 0.005365204320378301,
+    "normal_p_value": 7.478825738392236e-101,
+    "r2": 0.04621693469610799,
+    "incremental_r2": 0.009326739487524272,
+    "bootstrap_ci95": [
+      0.06417150043431813,
+      0.18597512384715473
+    ]
+  },
+  "replication": {
+    "positive_assets": 0,
+    "asset_count": 10,
+    "positive_blocks": 0,
+    "block_count": 4,
+    "max_single_asset_share_positive_gross_pnl": 0.3001210855771581
+  },
+  "quintile_gross_means": [
+    2.661046296634124e-05,
+    1.4541954956945757e-05,
+    1.660792345239975e-05,
+    3.318505215283176e-05,
+    8.456853751524462e-05
+  ],
+  "controls_reproducing_primary": [],
+  "negative_basis_non_promotional_diagnostic": {
+    "observations": 29899,
+    "gross_mean": 0.00011234492331194268,
+    "gross_median": 8.965330085816334e-05,
+    "funding_mean": 3.0959610689320716e-06,
+    "net_mean": -0.002884559115619125,
+    "net_median": -0.0029081305270145987,
+    "win_rate_net": 0.0005351349543462992
+  },
+  "gates": {
+    "top_decile_net_mean_gt_zero": false,
+    "top_decile_net_ci95_lower_gt_zero": false,
+    "top_decile_gross_mean_ge_0_003": false,
+    "coefficient_positive_ci95_lower_gt_zero": true,
+    "incremental_r2_ge_0_0001": true,
+    "positive_assets_ge_7": false,
+    "positive_blocks_eq_4": false,
+    "quintile_means_non_decreasing": false,
+    "negative_controls_do_not_reproduce": true,
+    "single_asset_positive_pnl_share_le_0_35": true
+  },
+  "decision": "REJECTED",
+  "no_search_declaration": "One 30-minute horizon, one top-decile slice, one 0.30% envelope; no alternatives computed."
+}

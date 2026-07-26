@@ -1,0 +1,22 @@
+{
+  "project": "Discovery V3",
+  "closed_date": "2026-07-24",
+  "status": "CONCLUDED_NO_ROBUST_EDGE",
+  "bot_authorized": false,
+  "final_conclusion": "Não existe evidência científica suficiente para justificar um bot operacional.",
+  "counts": {"confirmed": 0, "rejected": 6, "blocked": 4, "active": 0},
+  "key_results": {
+    "H01": {"decision": "REJECTED", "stage": 3, "holdout": "SEALED_UNOPENED"},
+    "H02": {"decision": "REJECTED", "stage": 3, "gross_mean": 0.00012264795489850796, "cost": 0.003, "positive_assets": 0, "positive_blocks": 0, "holdout": "SEALED_UNOPENED"},
+    "H03": {"decision": "REJECTED", "stage": 0, "reason": "No novel incremental mechanism beyond prior preregistered V2 funding baseline"},
+    "H04": {"decision": "REJECTED", "stage": 3, "gross_mean": 0.00003661769879931941, "cost": 0.0015, "positive_assets": 0, "positive_blocks": 0, "holdout": "SEALED_UNOPENED"},
+    "H05": {"decision": "BLOCKED", "missing": "sequenced point-in-time order book"},
+    "H06": {"decision": "BLOCKED", "missing": "versioned point-in-time exchange address labels"},
+    "H07": {"decision": "BLOCKED", "missing": "official/audited ETF flow vintages and release timestamps"},
+    "H08": {"decision": "BLOCKED", "missing": "historical executable option quote surface"},
+    "H09": {"decision": "REJECTED", "reason": "Correct trade+book experiment cost exceeds expected information"},
+    "H10": {"decision": "REJECTED", "reason": "Would reopen definitive OHLCV/momentum conclusion"}
+  },
+  "stop_rule": "All executable hypotheses closed; remaining hypotheses require decisive unavailable data.",
+  "operational_development": "PROHIBITED"
+}

@@ -1,0 +1,33 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H03",
+  "stage": 0,
+  "decision_date": "2026-07-24",
+  "decision": "REJECTED_AT_STAGE0_NO_NOVEL_INCREMENTAL_MECHANISM",
+  "mechanism_candidate": "Extreme signed funding may proxy crowded levered positioning vulnerable to reversal.",
+  "mechanism_problem": "Funding is an endogenous basis-stabilization transfer, not a direct measurement of position fragility; its directional return implication is ambiguous.",
+  "prior_preregistered_evidence": {
+    "study": "Discovery V2-H02",
+    "funding_only_definition": "positive funding and within-asset percentile rank >= 0.75",
+    "position": "short perpetual for one official funding interval",
+    "fixed_cost": 0.002,
+    "development_baseline_mean_derived": -0.0016122121880029487,
+    "holdout_baseline_mean_derived": 0.00005295257362772282,
+    "derivation": "crowding mean minus registered crowding-minus-funding-only incremental mean",
+    "composite_decision": "REJECTED",
+    "replication": "development and sealed holdout"
+  },
+  "literature": [
+    {"title": "Fundamentals of Perpetual Futures", "url": "https://arxiv.org/abs/2212.06888"},
+    {"title": "Funding Rate Mechanism in Perpetual Futures", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6185958"},
+    {"title": "Crypto Carry", "url": "https://www.bis.org/publ/work1087.pdf"},
+    {"title": "What happens after extreme funding rates?", "url": "https://markettrace.ai/blog/funding-rate-extremes", "role": "secondary_observational_only"}
+  ],
+  "negative_tail_decision": "Not isolated post hoc without materially new position or margin data and a novel mechanism.",
+  "next_stage": null,
+  "reopening_rule": "No changes to quantile, horizon, direction, costs or universe. Reopening requires materially new position/margin/liquidation data and a new preregistered mechanism.",
+  "code_written": false,
+  "data_downloaded": false,
+  "outcomes_computed": false,
+  "next_hypothesis": "H04"
+}

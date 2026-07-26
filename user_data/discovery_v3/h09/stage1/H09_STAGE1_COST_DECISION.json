@@ -1,0 +1,19 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H09",
+  "stage": 1,
+  "decision": "REJECTED_BEFORE_IMPLEMENTATION_COST_EXCEEDS_EXPECTED_INFORMATION",
+  "public_data_available": "Binance aggTrades with buyer-maker",
+  "decisive_missing_data": ["historical executable quotes", "sequenced order-book depth", "latency observations"],
+  "invalid_substitute": "5m aggregated taker-buy volume or tunable CVD window",
+  "budget": {
+    "trade_archive_cost": "high",
+    "book_gap_remains_after_download": true,
+    "probability_of_changing_conclusion": "low",
+    "expected_information_per_cost": "insufficient"
+  },
+  "supporting_project_evidence": "H04 statistically significant 5m leadership produced only 0.37 bp gross versus 15 bp cost",
+  "code_written": false,
+  "data_downloaded": false,
+  "reopening_condition": "Joint point-in-time trade and order-book dataset plus new scientific budget"
+}
