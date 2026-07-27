@@ -1,0 +1,103 @@
+{
+  "program": "Discovery V2",
+  "hypothesis_id": "V2-H01",
+  "title": "Funding/basis carry and convergence in fully funded spot-perpetual cash-and-carry",
+  "version": "1.0.0",
+  "registered_utc": "2026-07-15",
+  "registration_state": {
+    "outcomes_inspected": false,
+    "holdout": "SEALED",
+    "d1_global_state": "CONDITIONAL_PASS_DOCUMENTED_DATASET_LIMITATION",
+    "replaces_old_protocol": false,
+    "reason_new_protocol_is_required": "No D2-D4 economic protocol existed before this outcome-blind registration."
+  },
+  "economic_mechanism": "Persistent positive perpetual-futures funding and positive spot-perpetual basis reflect levered long demand. A fully funded long-spot/short-perpetual position supplies balance sheet, receives funding and is directionally hedged; the effect is economically real only if realized carry and basis convergence exceed conservative execution costs and survive asset and time replication.",
+  "literature": [
+    "https://www.bis.org/publ/work1087.htm",
+    "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4301150"
+  ],
+  "hypothesis": "A strictly ex-ante positive funding observation together with positive spot-perpetual basis identifies persistent carry episodes whose fully funded long-spot/short-perpetual net return is positive, economically material and replicable.",
+  "null_hypothesis": "After conservative costs, the ex-ante positive-funding/positive-basis rule has non-positive or non-replicable delta-neutral return; any apparent effect is explained by market direction, calendar structure or a control signal.",
+  "frozen_universe": ["ADAUSDT", "AVAXUSDT", "BNBUSDT", "BTCUSDT", "DOGEUSDT", "ETHUSDT", "LINKUSDT", "LTCUSDT", "SOLUSDT", "XRPUSDT"],
+  "data_window": {
+    "development": ["2024-07-01T00:00:00Z", "2025-12-31T23:59:59.999Z"],
+    "historical_holdout": ["2026-01-01T00:00:00Z", "2026-06-30T23:59:59.999Z"],
+    "missing_block_global_exclusion": ["2026-06-29T00:00:00Z", "2026-06-29T23:59:59.999Z"]
+  },
+  "required_feeds": ["spot_klines_5m", "usd_m_perp_klines_5m", "usd_m_markPriceKlines_5m", "usd_m_indexPriceKlines_5m", "usd_m_premiumIndexKlines_5m", "usd_m_fundingRate"],
+  "economic_unit": {
+    "matched_notional": 1.0,
+    "spot_leg": "long one unit of notional",
+    "perpetual_leg": "short one unit of notional",
+    "capitalization": "fully funded; two units of committed capital per unit of matched notional",
+    "leverage": 1.0,
+    "reverse_carry": false,
+    "spot_borrow": false
+  },
+  "event_and_execution_rule": {
+    "signal_time": "At each official funding calc_time t, after last_funding_rate becomes observable.",
+    "basis_information": "The last fully completed common 5-minute candle ending immediately before t.",
+    "eligible_signal": "last_funding_rate(t) > 0 and perp_close(t-5m) / spot_close(t-5m) - 1 > 0",
+    "entry": "If flat and eligible, enter both legs at the open of the first common candle strictly after t (t+5m).",
+    "holding": "Remain open while every newly observed funding event is eligible.",
+    "funding_cashflow": "While open at funding event t, short-leg cashflow per initial matched notional equals last_funding_rate(t) * mark_close(t-5m) / perp_entry_price.",
+    "exit": "After the first ineligible funding event, exit both legs at the first common candle open strictly after t; the funding cashflow at t is included because the position was open at settlement.",
+    "excluded_block_position_rule": "For every globally excluded UTC day, force-close any open episode at the last common candle close before the block; ignore all events inside the block; permit a new episode only from the first eligible funding event after the block.",
+    "boundary": "Force-close any open episode at the final common candle close of the stage or temporal block and include it with a boundary flag.",
+    "lookahead_prohibition": "No candle closing after a decision time may determine that decision."
+  },
+  "return_definition": {
+    "gross_per_matched_notional": "spot_exit/spot_entry - 1 + (perp_entry-perp_exit)/perp_entry + sum(funding_cashflows)",
+    "fixed_roundtrip_cost_per_matched_notional": 0.006,
+    "cost_components": "One immutable conservative envelope for entry and exit of both legs, including trading fees and slippage; no account-tier, maker-rebate or historical favorable imputation.",
+    "net_per_matched_notional": "gross_per_matched_notional - 0.006",
+    "committed_capital_return": "net_per_matched_notional / 2",
+    "annualized_committed_capital_return": "365 * sum(net_per_matched_notional) / (2 * sum(episode_duration_days))"
+  },
+  "statistics": {
+    "primary_estimator": "Mean episode net return per matched notional.",
+    "uncertainty": "Cluster bootstrap over UTC entry weeks; every resampled week retains all assets and episodes entering that week.",
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 4101,
+    "confidence_interval": 0.95,
+    "test": "one-sided mean > 0",
+    "multiple_testing": "Holm correction at family-wise alpha 0.05, separately for asset, temporal and negative-control families.",
+    "market_neutrality": "OLS beta of episode net return on contemporaneous spot-leg return, with cluster-bootstrap 95% CI."
+  },
+  "negative_controls": [
+    {"id": "NC_CIRCULAR_30D", "rule": "Within each asset, use the funding/basis eligibility state circularly shifted forward by exactly 30 UTC days; outcomes and execution timestamps remain unchanged."},
+    {"id": "NC_CYCLIC_ASSET", "rule": "Use the contemporaneous eligibility state of the next asset in the frozen alphabetical universe, cyclically; outcomes remain those of the target asset."}
+  ],
+  "d2": {
+    "sample": "development only",
+    "temporal_blocks": [["2024-07-01", "2024-12-31"], ["2025-01-01", "2025-06-30"], ["2025-07-01", "2025-12-31"]],
+    "minimum_completed_episodes_per_asset": 30,
+    "gates": [
+      "At least 8 assets meet the episode minimum.",
+      "Aggregate mean net episode return > 0, bootstrap lower 95% bound > 0 and one-sided p < 0.05.",
+      "Annualized committed-capital return is at least 10%.",
+      "At least 8 assets have positive point estimates and at least 5 have Holm-adjusted p < 0.05.",
+      "All three temporal blocks have positive point estimates and at least two have Holm-adjusted p < 0.05.",
+      "Neither negative control has a positive Holm-adjusted p < 0.05 result.",
+      "Market-neutrality beta absolute point estimate <= 0.10 and its 95% interval contains zero."
+    ]
+  },
+  "d3": {
+    "sample": "sealed historical holdout, opened once only after protocol hash is frozen",
+    "temporal_blocks": [["2026-01-01", "2026-02-28"], ["2026-03-01", "2026-04-30"], ["2026-05-01", "2026-06-30"]],
+    "minimum_completed_episodes_per_asset": 10,
+    "gates": "Identical to D2 except for the pre-registered holdout episode minimum of 10 per asset."
+  },
+  "d4": {
+    "conditional_dataset_sensitivity": "Mandatory regardless of D2/D3 direction: delete every eligible fully observed UTC day globally, one at a time, and rerun the exact D2 and D3 decision pipelines.",
+    "dependence_rule": "If any matched-day deletion changes either stage decision or the resulting final conclusion, H01 is INCONCLUSIVE.",
+    "economic_robustness": "The 0.6% cost envelope is primary and may not be changed. No alternative cost, signal, horizon, lag or universe is tested.",
+    "promotion_constraint": "A historical pass can justify prospective confirmation only; it cannot authorize a bot without prospective replication and execution-level viability evidence."
+  },
+  "final_decision": {
+    "CONFIRMED_READY_FOR_PROSPECTIVE_CONFIRMATION": "D2 PASS, D3 PASS, D4 stable, every replication and economic gate passes; no bot is authorized.",
+    "REJECTED": "At least one D2/D3 gate fails and the D4 matched-block analysis shows that the rejection is stable.",
+    "INCONCLUSIVE": "The matched-block conclusion changes, a required calculation cannot be identified from the frozen data, or a protocol integrity gate fails."
+  },
+  "forbidden": ["parameter search", "alternative lags", "alternative holding rules", "threshold relaxation", "cost retuning", "unregistered variants", "post-outcome protocol edits", "strategy or bot creation"]
+}

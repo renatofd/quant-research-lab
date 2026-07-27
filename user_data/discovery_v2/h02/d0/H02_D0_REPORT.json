@@ -1,0 +1,103 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H02",
+  "stage": "D0 manifest-only",
+  "generated_utc": "2026-07-15T12:17:08.857767Z",
+  "mechanical_result": "D0_MANIFEST_PASS",
+  "outcomes_inspected": false,
+  "market_zip_content_downloaded": false,
+  "source": "Official Binance Data Collection S3 listing metadata",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2026-06-30",
+    "days": 730
+  },
+  "required_new_family": "usd_m_daily_metrics",
+  "expected_objects": 7300,
+  "archives_present": 7300,
+  "checksums_present": 7300,
+  "complete_assets": [
+    "ADAUSDT",
+    "AVAXUSDT",
+    "BNBUSDT",
+    "BTCUSDT",
+    "DOGEUSDT",
+    "ETHUSDT",
+    "LINKUSDT",
+    "LTCUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "minimum_complete_assets": 8,
+  "by_asset": {
+    "ADAUSDT": {
+      "expected_days": 730,
+      "archives_present": 730,
+      "checksums_present": 730,
+      "complete": true
+    },
+    "AVAXUSDT": {
+      "expected_days": 730,
+      "archives_present": 730,
+      "checksums_present": 730,
+      "complete": true
+    },
+    "BNBUSDT": {
+      "expected_days": 730,
+      "archives_present": 730,
+      "checksums_present": 730,
+      "complete": true
+    },
+    "BTCUSDT": {
+      "expected_days": 730,
+      "archives_present": 730,
+      "checksums_present": 730,
+      "complete": true
+    },
+    "DOGEUSDT": {
+      "expected_days": 730,
+      "archives_present": 730,
+      "checksums_present": 730,
+      "complete": true
+    },
+    "ETHUSDT": {
+      "expected_days": 730,
+      "archives_present": 730,
+      "checksums_present": 730,
+      "complete": true
+    },
+    "LINKUSDT": {
+      "expected_days": 730,
+      "archives_present": 730,
+      "checksums_present": 730,
+      "complete": true
+    },
+    "LTCUSDT": {
+      "expected_days": 730,
+      "archives_present": 730,
+      "checksums_present": 730,
+      "complete": true
+    },
+    "SOLUSDT": {
+      "expected_days": 730,
+      "archives_present": 730,
+      "checksums_present": 730,
+      "complete": true
+    },
+    "XRPUSDT": {
+      "expected_days": 730,
+      "archives_present": 730,
+      "checksums_present": 730,
+      "complete": true
+    }
+  },
+  "existing_reusable_data": {
+    "funding_basis_mark_index": "H01 immutable raw",
+    "taker_flow": "H01 USD-M perpetual kline taker fields"
+  },
+  "limitations": [
+    "Listing metadata proves object presence, not CSV schema or content quality.",
+    "D1 must validate downloaded checksums, schemas, timestamps, duplicates, gaps and synchronization before outcomes."
+  ],
+  "next_action": "H02_D1_ACQUIRE_AND_STRUCTURAL_QA"
+}

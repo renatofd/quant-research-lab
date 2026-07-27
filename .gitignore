@@ -1,0 +1,217 @@
+# Freqtrade rules
+config*.json
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+logfile.txt
+user_data/*
+!user_data/strategy/sample_strategy.py
+!user_data/notebooks
+!user_data/models
+!user_data/freqaimodels
+user_data/freqaimodels/*
+user_data/models/*
+user_data/notebooks/*
+freqtrade-plot.html
+freqtrade-profit-plot.html
+freqtrade/rpc/api_server/ui/*
+build_helpers/ta-lib/*
+
+# Macos related
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# memray
+memray-*
+
+# Sphinx documentation
+docs/_build/
+# Mkdocs documentation
+site/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+.env
+.env.*
+!.env.example
+.venv
+.idea
+.vscode
+
+.pytest_cache/
+.mypy_cache/
+
+#exceptions
+!*.gitkeep
+!config_examples/config_binance.example.json
+!config_examples/config_full.example.json
+!config_examples/config_kraken.example.json
+!config_examples/config_freqai.example.json
+
+docker-compose-*.yml
+
+# Sensitive material
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+credentials*.json
+secrets*.json
+
+# Scientific runtime artifacts
+*.feather
+*.parquet
+*.arrow
+*.pickle
+*.pkl
+*.zip
+*.gz
+*.CHECKSUM
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+
+# Publish custom scientific source while retaining local data exclusions.
+!user_data/channels/
+user_data/channels/*
+!user_data/channels/*.py
+
+!user_data/evaluation/
+user_data/evaluation/*
+!user_data/evaluation/*.py
+
+!user_data/indicators/
+user_data/indicators/*
+!user_data/indicators/*.py
+
+!user_data/reports/
+user_data/reports/*
+!user_data/reports/*.py
+
+!user_data/strategies/
+user_data/strategies/*
+!user_data/strategies/*.py
+
+!user_data/lab/
+user_data/lab/*
+!user_data/lab/*.py
+!user_data/lab/strategy_plugins/
+user_data/lab/strategy_plugins/*
+!user_data/lab/strategy_plugins/*.py
+
+!user_data/discovery/
+user_data/discovery/**
+!user_data/discovery/**/
+!user_data/discovery/**/*.py
+!user_data/discovery/**/*.md
+!user_data/discovery/**/*.json
+!user_data/discovery/**/*.csv
+
+!user_data/discovery_v2/
+user_data/discovery_v2/**
+!user_data/discovery_v2/**/
+!user_data/discovery_v2/**/*.py
+!user_data/discovery_v2/**/*.md
+!user_data/discovery_v2/**/*.json
+!user_data/discovery_v2/**/*.csv
+
+!user_data/discovery_v3/
+user_data/discovery_v3/**
+!user_data/discovery_v3/**/
+!user_data/discovery_v3/**/*.py
+!user_data/discovery_v3/**/*.md
+!user_data/discovery_v3/**/*.json
+!user_data/discovery_v3/**/*.csv
+
+# Never publish local data lakes or derived data blobs, even when their
+# extension is otherwise allowed for aggregate reports.
+user_data/discovery/**/raw/**
+user_data/discovery/**/evidence/**
+user_data/discovery/**/normalized/**
+user_data/discovery/**/repair/**
+user_data/discovery/**/boundary/**
+user_data/discovery/**/logs/**
+user_data/discovery_v2/**/raw/**
+user_data/discovery_v2/**/evidence/**
+user_data/discovery_v2/**/normalized/**
+user_data/discovery_v2/**/repair/**
+user_data/discovery_v2/**/boundary/**
+user_data/discovery_v2/**/logs/**
+user_data/discovery_v3/**/raw/**
+user_data/discovery_v3/**/evidence/**
+user_data/discovery_v3/**/normalized/**
+user_data/discovery_v3/**/repair/**
+user_data/discovery_v3/**/boundary/**
+user_data/discovery_v3/**/logs/**

@@ -1,0 +1,11 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H05",
+  "stage": 1,
+  "decision": "BLOCKED_DATA_ORDERBOOK_REQUIRED",
+  "required": ["point_in_time_bid_ask", "multi_level_depth", "sequenced_updates", "aggressive_trades", "cross_asset_temporal_replication"],
+  "available": ["OHLCV", "funding", "trade_archives_without_reconstructible_full_book"],
+  "forbidden_substitute": "OHLCV liquidity proxy; prior A08 permanently rejected",
+  "unblock_condition": "Prospective official book capture or audited historical order-book dataset",
+  "code_written": false
+}

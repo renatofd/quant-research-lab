@@ -1,0 +1,40 @@
+{
+  "phase": 4,
+  "name": "Economic Hypothesis Discovery",
+  "status": "ENCERRADA",
+  "active_hypotheses": [],
+  "operational_bot_justified": false,
+  "conclusion": "Não existe evidência científica suficiente para justificar um bot operacional.",
+  "hypotheses": [
+    {"id":"A01","name":"Liderança BTC e transmissão defasada","classification":"Rejeitada","decision":"BTC LEAD-LAG HYPOTHESIS REJECTED IN PRIMARY SCOPE","central_evidence":"Falharam utilidade econômica líquida, hit rate e especificidade contra controles.","sources":["PHASE4_FIRST_EXPERIMENT.md","user_data/lab/btc_leadership_report.json"],"reopen":"Proibida nos dados e desenho consumidos."},
+    {"id":"A02","name":"Persistência de volatilidade como previsão de risco","classification":"Rejeitada","decision":"VOLATILITY PERSISTENCE HYPOTHESIS REJECTED IN PRIMARY SCOPE","central_evidence":"O efeito não satisfez o gate de concentração.","sources":["PHASE4_A02_PROTOCOL.md","user_data/lab/ph4_a02_volatility_persistence_report.json"],"reopen":"Proibida no escopo atual."},
+    {"id":"A03","name":"Assimetria de volatilidade e jumps assinados","classification":"Rejeitada","decision":"SIGNED VOLATILITY ASYMMETRY HYPOTHESIS REJECTED IN PRIMARY SCOPE","central_evidence":"Falharam incremento de MSE, Holm e concentração.","sources":["PHASE4_A03_PROTOCOL.md","user_data/lab/ph4_a03_signed_volatility_report.json"],"reopen":"Proibida no escopo atual."},
+    {"id":"A04","name":"Co-jumps, contágio e propagação cross-asset","classification":"Inconclusiva, encerrada pelo programa","decision":"INCONCLUSIVE CO-JUMP PROPAGATION AUDIT","central_evidence":"Amostra e identificação insuficientes; nenhuma unidade elegível sustentou o teste.","sources":["PHASE4_A04_PROTOCOL.md","user_data/lab/ph4_a04_cojump_propagation_report.json"],"reopen":"Somente com dados completamente novos e autorização humana separada."},
+    {"id":"A05","name":"Dispersão cross-sectional como estado de mercado","classification":"Rejeitada","decision":"CROSS-SECTIONAL DISPERSION HYPOTHESIS REJECTED IN PRIMARY SCOPE","central_evidence":"A concentração excedeu o limite pré-registrado.","sources":["PHASE4_A05_PROTOCOL.md","user_data/lab/ph4_a05_dispersion_risk_report.json"],"reopen":"Proibida no escopo atual."},
+    {"id":"A06","name":"Reversão cross-sectional em horizonte distinto","classification":"Encerrada/deferida","decision":"NO VALID INDEPENDENT CAMPAIGN","central_evidence":"Identificação inadequada e sobreposição com famílias já rejeitadas.","sources":["PHASE4_RESEARCH_ROADMAP.md"],"reopen":"Somente com hipótese e dados materialmente novos; não por mudança de horizonte."},
+    {"id":"A07","name":"Compressão de volatilidade seguida de expansão","classification":"Rejeitada","decision":"VOLATILITY COMPRESSION HYPOTHESIS REJECTED IN PRIMARY SCOPE","central_evidence":"Beta, Holm e gates centrais falharam.","sources":["PHASE4_A07_PROTOCOL.md","user_data/lab/ph4_a07_volatility_compression_report.json"],"reopen":"Proibida no escopo atual."},
+    {"id":"A08","name":"Proxy OHLCV de iliquidez/impacto","classification":"Rejeitada","decision":"OHLCV ILLIQUIDITY-PROXY HYPOTHESIS REJECTED IN PRIMARY SCOPE","central_evidence":"Beta, ganho mínimo, Holm e replicação falharam com integridade válida.","sources":["PH4_A08_PROTOCOL.md","user_data/discovery/reports/ph4_a08_illiquidity_proxy_report.json"],"reopen":"Encerrada definitivamente para OHLCV."},
+    {"id":"A09","name":"Persistência de volume como proxy de atividade e risco","classification":"Rejeitada","decision":"OHLCV VOLUME-PERSISTENCE HYPOTHESIS REJECTED IN PRIMARY SCOPE","central_evidence":"P1 melhorou MSE 14,0669% e MAE 5,4506%, mas concentrou 74,2851% no bloco 1, 69,1177% em 2025-10-10 e 32,1426% em AVAX; P2 melhorou apenas 0,6836% e 0,6634%.","sources":["PH4_A09_PROTOCOL.md","user_data/discovery/reports/ph4_a09_volume_persistence_report.json"],"reopen":"Encerrada definitivamente no escopo OHLCV."},
+    {"id":"A10","name":"Falsos rompimentos e liquidity grabs com candles","classification":"Encerrada/deferida","decision":"NOT IDENTIFIABLE WITH CURRENT OHLCV","central_evidence":"Candles não identificam a mecânica e a hipótese sobrepõe famílias de breakout rejeitadas.","sources":["PHASE4_RESEARCH_ROADMAP.md"],"reopen":"Somente com dados de microestrutura materialmente novos e autorização humana."},
+    {"id":"A11","name":"Sazonalidade de calendário, sessão e weekend","classification":"Rejeitada","decision":"OHLCV CALENDAR-SEASONALITY HYPOTHESIS REJECTED IN PRIMARY SCOPE","central_evidence":"Todos os retornos líquidos médios e medianos a 0,30% foram negativos; nenhum dos 11 contrastes passou os gates.","sources":["PH4_A11_PROTOCOL.md","user_data/discovery/reports/ph4_a11_calendar_seasonality_report.json"],"reopen":"Encerrada definitivamente no escopo testado."}
+  ],
+  "blocked_hypotheses": [
+    {"id":"B12","name":"Funding/basis como carry e crowding","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B13","name":"Open interest e funding","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B14","name":"Cascatas de liquidação","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B15","name":"Liderança spot versus perp","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B16","name":"Order flow agressor/passivo","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B17","name":"Livro e profundidade","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B18","name":"Fragmentação entre exchanges","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B19","name":"Dispersão de funding/carry","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B20","name":"Fluxos de stablecoins","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B21","name":"Fluxos on-chain de exchanges","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B22","name":"Surpresas macroeconômicas","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B23","name":"Prêmios de opções","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B24","name":"Unlocks e vesting","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B25","name":"Listings, delistings e regulação","status":"Bloqueada por dados indisponíveis"},
+    {"id":"B26","name":"Atenção e sentimento","status":"Bloqueada por dados indisponíveis"}
+  ],
+  "closed_families": ["Trend","Score","Pullback","N-of-M","Ensemble","MeanReversion"],
+  "reopening_rule": "Exige dados materialmente novos, hipótese econômica nova e pré-registrada, holdout prospectivo e autorização humana separada."
+}

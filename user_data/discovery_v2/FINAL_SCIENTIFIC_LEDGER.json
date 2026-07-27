@@ -1,0 +1,11 @@
+{
+  "program":"Discovery V2","status":"CLOSED","closed_utc":"2026-07-15","bot_authorized":false,"recommendation":"DO_NOT_PROMOTE",
+  "tested":[
+    {"id":"V2-H01","decision":"REJECTED","development":"FAIL","holdout":"FAIL","robustness":"729/729 matched-day exclusions stable","artifact":"h01/H01_FINAL_SCIENTIFIC_DECISION.json"},
+    {"id":"V2-H02","decision":"REJECTED","development":"FAIL","holdout":"FAIL","incremental_value":"NEGATIVE","artifact":"h02/H02_FINAL_SCIENTIFIC_DECISION.json"}
+  ],
+  "confirmed":[],"inconclusive":[],
+  "data_blocked":["V2-H03","V2-H04","V2-H05","V2-H06","V2-H07","V2-H08","V2-H09","V2-H10","V2-H11","V2-H12","V2-H13","V2-H14","V2-H15"],
+  "stopping_condition":"All hypotheses executable with the acquired official Binance spot/perpetual/funding/metrics contract are closed; every remaining catalog hypothesis requires indispensable unavailable data.",
+  "final_conclusion":"No robust economic advantage was discovered."
+}

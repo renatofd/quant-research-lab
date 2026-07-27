@@ -1,0 +1,33 @@
+{
+  "program": "Discovery V2",
+  "phase": "0 documental",
+  "previous_project": "ARCHIVED_FINAL",
+  "previous_project_conclusion": "Nenhuma hipótese baseada apenas em OHLCV justificou bot.",
+  "status": "PAUSED_PENDING_D1_AUTHORIZATION",
+  "exact_stop_reason": "D1_AUTHORIZATION_REQUIRED",
+  "active_hypotheses": [],
+  "tested_hypotheses": [],
+  "bot_authorized": false,
+  "d0_mechanical_result": "D0_MECHANICAL_INCONCLUSIVE",
+  "d0_scientific_decision": "CONDITIONAL_PASS_FOR_D1_ACQUISITION_ONLY",
+  "d1_authorized": false,
+  "next_authorized_action": "HUMAN_AUTHORIZATION_FOR_H01_D1_DATASET_CONTENT_AND_STRUCTURAL_QA",
+  "hypotheses": [
+    {"id":"V2-H01","state":"SELECTED_PENDING_DATA","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H02","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H03","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H04","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H05","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H06","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H07","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H08","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H09","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H10","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H11","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H12","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H13","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H14","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"},
+    {"id":"V2-H15","state":"CATALOGUED_NOT_STARTED","active":false,"tested":false,"local_availability":"NÃO"}
+  ],
+  "transition_rule": "The conditional D0 scientific decision permits only requesting D1. H01 remains inactive and untested; D1 requires separate human authorization and is limited to acquisition and structural QA."
+}

@@ -1,0 +1,22 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H04",
+  "stage": 0,
+  "decision_date": "2026-07-24",
+  "status": "STAGE0_PASS",
+  "mechanism": "Information reaches lower-cost, deeper venues first and is transmitted to fragmented venues by arbitrageurs.",
+  "hypothesis": "A completed Binance USD-M 5m return incrementally predicts the immediately following Bybit linear 5m return for the same asset after controlling contemporaneous Bybit return, with cross-asset and temporal replication and economic size above one-leg costs.",
+  "null": "No causal incremental prediction, placebo or synchronization artifact, or effect below costs.",
+  "leader_fixed_ex_ante": "Binance",
+  "follower_fixed_ex_ante": "Bybit",
+  "screening_horizon": "5m",
+  "literature": [
+    {"title": "Price Discovery in Cryptocurrency Markets", "url": "https://www.aeaweb.org/articles?id=10.1257/pandp.20191020"},
+    {"title": "Trading and arbitrage in cryptocurrency markets", "url": "https://doi.org/10.1016/j.jfineco.2019.07.001"},
+    {"title": "Fragmentation, Price Formation, and Cross-Impact in Bitcoin Markets", "url": "https://arxiv.org/abs/2108.09750"},
+    {"title": "Where is the Price of Bitcoin Determined?", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4983566"},
+    {"title": "Price discovery in bitcoin spot and futures markets", "url": "https://doi.org/10.1016/j.jimonfin.2025.103415"}
+  ],
+  "budget": {"five_minute_screen": "moderate", "tick_confirmation": "high_and_deferred"},
+  "authorized_next_stage": 1
+}

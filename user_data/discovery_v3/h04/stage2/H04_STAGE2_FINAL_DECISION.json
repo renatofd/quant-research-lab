@@ -1,0 +1,11 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H04",
+  "stage": 2,
+  "decision_date": "2026-07-24",
+  "decision": "STAGE2_PASS",
+  "authorized_next_stage": 3,
+  "holdout_state": "SEALED_UNOPENED",
+  "manifest_sha256": "1ecc1ab3eef9e76bd7f282a8043416cb5250331ded1d6ea749a2e5e24476fdd0",
+  "report_sha256": "e2788715fd246e0df557c3648752d342dd7622a0812e63a07690e094e90e7f05"
+}

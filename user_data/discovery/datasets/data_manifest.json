@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-07-14T16:41:12.630435+00:00",
+  "available": {
+    "exchange": "Binance",
+    "market": "spot",
+    "timeframe": "5m",
+    "format": "Feather",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "SOL/USDT",
+      "BNB/USDT",
+      "XRP/USDT",
+      "ADA/USDT",
+      "DOGE/USDT",
+      "LINK/USDT",
+      "AVAX/USDT",
+      "LTC/USDT"
+    ],
+    "holdout": "none; all current periods are development-consumed"
+  },
+  "unavailable": [
+    "funding",
+    "basis",
+    "open_interest",
+    "liquidations",
+    "perpetuals",
+    "aggressor_trades",
+    "order_book",
+    "multi_exchange",
+    "options",
+    "onchain_flows",
+    "macro_surprises",
+    "token_events",
+    "sentiment"
+  ],
+  "legacy_data_mutated": false
+}

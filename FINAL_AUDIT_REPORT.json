@@ -1,0 +1,127 @@
+{
+  "audit": {
+    "role": "Independent Scientific Auditor",
+    "question": "A decisão de encerrar definitivamente este projeto é cientificamente correta?",
+    "answer": false,
+    "final_decision": "DECISÃO B",
+    "decision_text": "Existe pelo menos uma hipótese executável ainda não investigada.",
+    "operational_bot_approved": false,
+    "research_definitively_complete": false,
+    "experiments_executed": 0,
+    "backtests_executed": 0,
+    "code_modified": false
+  },
+  "required_document_hashes": {
+    "user_data/discovery/reports/FINAL_REPORT.md": "6e8ec4b139fdb265644e87133c8c262154e48fa8f5d6e045f61d4244a5bdb8d8",
+    "user_data/discovery/reports/FINAL_RESEARCH_REPORT.md": "6e8ec4b139fdb265644e87133c8c262154e48fa8f5d6e045f61d4244a5bdb8d8",
+    "user_data/discovery/reports/HYPOTHESIS_LEDGER_FINAL.md": "330d1c2345014ed7f3e3c20c9ac76aa9c6c0be2f6ae015c8141b5fadc588aa0e",
+    "user_data/discovery/reports/LESSONS_LEARNED.md": "4c2e7079ab4d7a3874d369811886a4d836fce85f1e5f8bd3230414a51660ca4f",
+    "user_data/discovery/reports/KNOWLEDGE_BASE_FINAL.md": "78dac2a951d613b63b55ab763ced0f47ce0eff67a55a534344d0bcf055d0b86e"
+  },
+  "critical_findings": [
+    {
+      "id": "F01",
+      "severity": "critical",
+      "finding": "Criterion C is false under the registered Phase 4 scope.",
+      "effect": "A08, A09 and A11 can be investigated with the existing OHLCV dataset."
+    },
+    {
+      "id": "F02",
+      "severity": "critical",
+      "finding": "Scope drift changed testable proxy hypotheses into stronger data-blocked claims.",
+      "effect": "The registry state does not faithfully represent the preregistered A08/A09/A11 estimands."
+    },
+    {
+      "id": "F03",
+      "severity": "high",
+      "finding": "The reported 0% success probability is not independently estimated.",
+      "effect": "It is a consequence of there being no registry item marked actionable and cannot validate stop criterion D."
+    },
+    {
+      "id": "F04",
+      "severity": "high",
+      "finding": "A02 and A05 were classified too strongly as rejected.",
+      "effect": "Both have strong development risk-prediction evidence and failed only a marginal concentration gate; inconclusive is the defensible label."
+    },
+    {
+      "id": "F05",
+      "severity": "medium",
+      "finding": "The final knowledge base is a synthesis ledger, not complete hypothesis-level coverage.",
+      "effect": "It contains 26 hypotheses but only 10 source artifacts, 11 evidence rows and one global decision."
+    }
+  ],
+  "classification_counts": {
+    "Confirmada": 0,
+    "Rejeitada": 3,
+    "Inconclusiva": 3,
+    "Nunca testada": 3,
+    "Duplicada": 1,
+    "Bloqueada por dados": 16,
+    "total": 26
+  },
+  "hypotheses": [
+    {"id":"A01","classification":"Rejeitada","basis":"Net economics negative; economic CI not positive; BTC specificity controls failed after Holm."},
+    {"id":"A02","classification":"Inconclusiva","basis":"Strong risk forecast across blocks/pairs, but concentration was 30.3708% versus 30% and no prospective holdout exists."},
+    {"id":"A03","classification":"Rejeitada","basis":"Incremental MSE CI crossed zero and concentration was high."},
+    {"id":"A04","classification":"Inconclusiva","basis":"Three of five blocks had fewer than the frozen minimum event count."},
+    {"id":"A05","classification":"Inconclusiva","basis":"Strong risk forecast, but concentration was 30.3991% and no prospective holdout exists."},
+    {"id":"A06","classification":"Duplicada","basis":"Overlaps the RST04 bottom-2 diagnostic and rejected reversal family; a new horizon would be retuning."},
+    {"id":"A07","classification":"Rejeitada","basis":"Compression beta was significantly negative, opposite to the expansion hypothesis."},
+    {"id":"A08","classification":"Nunca testada","basis":"No primary study tested incremental OHLCV proxy value after volatility and volume controls."},
+    {"id":"A09","classification":"Nunca testada","basis":"Existing evidence concerns strategy entry filters, not raw abnormal-volume persistence of activity/risk."},
+    {"id":"A10","classification":"Bloqueada por dados","basis":"Mechanistic identification requires order book, aggressor trades or liquidation events."},
+    {"id":"A11","classification":"Nunca testada","basis":"Trade-conditioned market eligibility is not an unconditional raw seasonality test."},
+    {"id":"B12","classification":"Bloqueada por dados","basis":"Funding, basis and perpetual data absent."},
+    {"id":"B13","classification":"Bloqueada por dados","basis":"Open interest and funding absent."},
+    {"id":"B14","classification":"Bloqueada por dados","basis":"Liquidation events, OI and perpetual data absent."},
+    {"id":"B15","classification":"Bloqueada por dados","basis":"Synchronized spot-perpetual panel absent."},
+    {"id":"B16","classification":"Bloqueada por dados","basis":"Tick trades and aggressor side absent."},
+    {"id":"B17","classification":"Bloqueada por dados","basis":"Order book, depth and spread absent."},
+    {"id":"B18","classification":"Bloqueada por dados","basis":"Synchronized multi-exchange prices and full costs absent."},
+    {"id":"B19","classification":"Bloqueada por dados","basis":"Cross-sectional funding/carry panel absent."},
+    {"id":"B20","classification":"Bloqueada por dados","basis":"Stablecoin flows and exchange labels absent."},
+    {"id":"B21","classification":"Bloqueada por dados","basis":"On-chain flows and validated address labels absent."},
+    {"id":"B22","classification":"Bloqueada por dados","basis":"Timestamped macro consensus and surprise data absent."},
+    {"id":"B23","classification":"Bloqueada por dados","basis":"Option chains, surfaces and forwards absent."},
+    {"id":"B24","classification":"Bloqueada por dados","basis":"Prospective unlock, vesting and free-float dataset absent."},
+    {"id":"B25","classification":"Bloqueada por dados","basis":"Prospective event and surprise classification absent."},
+    {"id":"B26","classification":"Bloqueada por dados","basis":"Leakage-safe attention/sentiment data absent."}
+  ],
+  "executable_uninvestigated": [
+    {
+      "id": "A08",
+      "name": "Proxy OHLCV de iliquidez/impacto",
+      "why_distinct": "Raw proxy prediction is not a strategy entry filter and does not claim direct order-book measurement.",
+      "required_data": ["existing OHLCV returns", "existing volume"],
+      "executable_with_current_lab": true,
+      "limitation": "True liquidity/impact validation still requires trades or order book."
+    },
+    {
+      "id": "A09",
+      "name": "Volume anormal e persistência de atividade/risco",
+      "why_distinct": "Raw activity/risk persistence differs from asking whether a volume filter improves TrendStrategy entries.",
+      "required_data": ["existing OHLCV volume", "existing returns"],
+      "executable_with_current_lab": true,
+      "limitation": "Cannot identify institutional or aggressor/passive flow."
+    },
+    {
+      "id": "A11",
+      "name": "Sazonalidade bruta de retorno/risco",
+      "why_distinct": "Full-grid market seasonality differs from trade-conditioned filter slices.",
+      "required_data": ["existing UTC timestamps", "existing OHLCV returns"],
+      "executable_with_current_lab": true,
+      "limitation": "Current periods are development-consumed; a positive result would require prospective confirmation."
+    }
+  ],
+  "stop_criteria": {
+    "A_30_hypotheses_tested": {"met": false, "reason": "26 registered and fewer directly tested."},
+    "B_no_plausible_remaining": {"met": false, "reason": "A08, A09 and A11 remain distinct and falsifiable."},
+    "C_remaining_data_unavailable": {"met": false, "reason": "A08, A09 and A11 use current OHLCV in their registered limited scope."},
+    "D_success_probability_below_5_percent": {"met": false, "reason": "The 0% value is registry-derived, not an independent calibrated estimate."}
+  },
+  "scope_limit": "No robust strategy or operational bot was found. This audit rejects only definitive research closure, not the no-deployment decision.",
+  "final_answer": {
+    "decision": "DECISÃO B",
+    "hypotheses": ["A08", "A09", "A11"]
+  }
+}

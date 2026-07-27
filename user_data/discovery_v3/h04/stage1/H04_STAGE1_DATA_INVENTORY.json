@@ -1,0 +1,36 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H04",
+  "stage": 1,
+  "decision_date": "2026-07-24",
+  "status": "STAGE1_PASS_FOR_LOW_COST_SCREEN",
+  "assets": ["ADAUSDT", "AVAXUSDT", "BNBUSDT", "BTCUSDT", "DOGEUSDT", "ETHUSDT", "LINKUSDT", "LTCUSDT", "SOLUSDT", "XRPUSDT"],
+  "frequency": "5m",
+  "development": "2024-07-01/2026-06-30",
+  "holdout": "2026-07-01/2026-07-23",
+  "binance": {
+    "source": "https://data.binance.vision/",
+    "location": "user_data/discovery_v2/h01/d1/raw/usd_m_perp_klines_5m",
+    "coverage": 1.0,
+    "reuse": "read_only_development_reference"
+  },
+  "bybit": {
+    "source": "https://api.bybit.com/v5/market/kline",
+    "documentation": "https://bybit-exchange.github.io/docs/v5/market/kline",
+    "category": "linear",
+    "limit": 1000,
+    "authentication": false,
+    "official_checksum": false,
+    "integrity": "raw_response_local_sha256_and_request_provenance"
+  },
+  "stage2_gates": {
+    "retCode_zero": true,
+    "coverage_and_sync_minimum": 0.999,
+    "unique_ordered_5m_timestamps": true,
+    "closed_candles_only": true,
+    "raw_response_hash_coverage": 1.0,
+    "holdout_sealed_before_outcomes": true,
+    "imputation": false
+  },
+  "authorized_next_stage": 2
+}

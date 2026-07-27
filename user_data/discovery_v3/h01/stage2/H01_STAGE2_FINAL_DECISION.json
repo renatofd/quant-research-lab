@@ -1,0 +1,33 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H01",
+  "stage": 2,
+  "decision": "PASS_TO_STAGE_3",
+  "decision_date": "2026-07-24",
+  "holdout": "SEALED",
+  "development": ["2023-06-25", "2024-07-09"],
+  "historical_holdout": ["2024-07-10", "2024-10-13"],
+  "official_archives": 5163,
+  "checksum_failures": 0,
+  "structural_failures": 0,
+  "liquidation_normalization": {
+    "raw_rows": 245912,
+    "unique_rows": 122941,
+    "exact_duplicates_removed": 122971,
+    "raw_archives_modified": false,
+    "normalized_sha256": "15ed6ca3123099a46fe4a5a0c55c569f4a6f588576af9806e16b4214d7a5df9d"
+  },
+  "repair": {
+    "reason": "Monthly COIN-M price archives omitted 2023-08-28 through 2023-08-31.",
+    "same_provider_daily_archives": 84,
+    "unavailable_objects": 0,
+    "original_archives_modified": false,
+    "repair_manifest_sha256": "0120a5b7e280ecf325f6a6aa4652d9690874ec120fd70cffa7d95357c2676b36"
+  },
+  "aligned_price_coverage_per_asset": 0.9999563242487771,
+  "coverage_gate": 0.999,
+  "remaining_gap": ["2024-06-07T09:19:00Z", "2024-06-07T09:48:00Z"],
+  "metrics_limitation": "Large official open-interest gap; optional diagnostic only and never imputed.",
+  "economic_outcomes_computed": false,
+  "next_action": "Exploratory development-only analysis of actual liquidation flow and subsequent price response."
+}

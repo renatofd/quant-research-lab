@@ -1,0 +1,146 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H02",
+  "stage": "D1 definitive additive native-event-time QA",
+  "generated_utc": "2026-07-15T12:36:14.241179Z",
+  "global_result": "D1_QA_FAIL",
+  "previous_reports_immutable": true,
+  "correction": "Metrics are asynchronous snapshots. create_time is the native publication event timestamp, not a candle-grid label. Unique ordered timestamps are retained exactly; analysis must use only the latest publication strictly available before each decision time.",
+  "coverage_unit": "observation count over the frozen 24-month window per asset",
+  "coverage_gate": 0.999,
+  "per_day_gate_used": false,
+  "time_rounding_used": false,
+  "imputation_used": false,
+  "outcomes_inspected": false,
+  "economic_columns_parsed": false,
+  "by_asset": {
+    "ADAUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "missing_observations": 5,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "native_timestamps_unique_ordered": false
+    },
+    "AVAXUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "missing_observations": 5,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "native_timestamps_unique_ordered": false
+    },
+    "BNBUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "missing_observations": 5,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "native_timestamps_unique_ordered": false
+    },
+    "BTCUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "missing_observations": 5,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "native_timestamps_unique_ordered": false
+    },
+    "DOGEUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "missing_observations": 5,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "native_timestamps_unique_ordered": false
+    },
+    "ETHUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "missing_observations": 5,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "native_timestamps_unique_ordered": false
+    },
+    "LINKUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "missing_observations": 5,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "native_timestamps_unique_ordered": false
+    },
+    "LTCUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "missing_observations": 5,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "native_timestamps_unique_ordered": false
+    },
+    "SOLUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "missing_observations": 5,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "native_timestamps_unique_ordered": false
+    },
+    "XRPUSDT": {
+      "files": 730,
+      "expected_observations": 210240,
+      "observed_observations": 210235,
+      "missing_observations": 5,
+      "coverage": 0.9999762176560122,
+      "passes_99_9pct": true,
+      "native_timestamps_unique_ordered": false
+    }
+  },
+  "common_incomplete_dates": [
+    "2024-10-28",
+    "2025-08-29"
+  ],
+  "historical_artifacts_sha256_before": {
+    "d1\\h02_d1_acquire_qa.py": "1e94feef05dc2df3386b75afe1282f2d68aa7bd1f999656191cdf2016ec565a2",
+    "d1\\H02_D1_HOLDOUT.json": "20ef131f5f3818971f0dbec59de76e75b7ab924631f987cf1ba22b2f5018729f",
+    "d1\\H02_D1_INVENTORY.csv": "26b41a2942ae44e26a9dc6f74f71df4acb863e3c0b431b6b0e57c2a749970cf3",
+    "d1\\H02_D1_QA_MATRIX.csv": "c49e68297c25d1b6aa4c913699361f9daba1d81f2ec0524498122eba725a5b16",
+    "d1\\H02_D1_REPORT.json": "47220d4dee30526e718208eff66ee471577ee0b270b0e3db111a9b9c2479febe",
+    "d1\\H02_D1_REPORT.md": "71cabd430289bef99af61d84ea5be9e411feb4e13473b9c124c996daa02596e0",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_MATRIX.csv": "11bab1d2863c8e3521353251eb1ded1863c6019ca8d45147dee1a7ed5e8444ab",
+    "d1_repair\\h02_d1_time_alignment_repair.py": "77ed4126193ee26fc1de2ec95479636744869c2306838a5d55d6efede6918ed4",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.json": "0fb1e7de1cd690b2cf0c0d24d41cb775b5a9d279cbb6762de53ac7d9962d733a",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.md": "2c4b72fb7cb59c1ee30be11cb6f459b6518a69e3caeeddbeb23516285d3ff11d",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_MATRIX.csv": "8160faede21ec9b817fc48d94d97ffe6c9048c9f6130aad322913836309cded6",
+    "d1_repair_v2\\h02_d1_corrected_grid_qa.py": "482c3d9439f5f6cd064f2e20264015a8c631d22dbb268c91350ae7fa0d6a8f03",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_REPORT.json": "d861f24b8afa0bf5157ac371cfe4fb7f0d9fd36a870dff66731030d6a4c24389",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_REPORT.md": "5505bc94bb817e3d5afd93ed2ea03a6dbd178d90fdd250814754164c3d1b8559"
+  },
+  "historical_artifacts_sha256_after": {
+    "d1\\h02_d1_acquire_qa.py": "1e94feef05dc2df3386b75afe1282f2d68aa7bd1f999656191cdf2016ec565a2",
+    "d1\\H02_D1_HOLDOUT.json": "20ef131f5f3818971f0dbec59de76e75b7ab924631f987cf1ba22b2f5018729f",
+    "d1\\H02_D1_INVENTORY.csv": "26b41a2942ae44e26a9dc6f74f71df4acb863e3c0b431b6b0e57c2a749970cf3",
+    "d1\\H02_D1_QA_MATRIX.csv": "c49e68297c25d1b6aa4c913699361f9daba1d81f2ec0524498122eba725a5b16",
+    "d1\\H02_D1_REPORT.json": "47220d4dee30526e718208eff66ee471577ee0b270b0e3db111a9b9c2479febe",
+    "d1\\H02_D1_REPORT.md": "71cabd430289bef99af61d84ea5be9e411feb4e13473b9c124c996daa02596e0",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_MATRIX.csv": "11bab1d2863c8e3521353251eb1ded1863c6019ca8d45147dee1a7ed5e8444ab",
+    "d1_repair\\h02_d1_time_alignment_repair.py": "77ed4126193ee26fc1de2ec95479636744869c2306838a5d55d6efede6918ed4",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.json": "0fb1e7de1cd690b2cf0c0d24d41cb775b5a9d279cbb6762de53ac7d9962d733a",
+    "d1_repair\\H02_D1_TIME_ALIGNMENT_REPORT.md": "2c4b72fb7cb59c1ee30be11cb6f459b6518a69e3caeeddbeb23516285d3ff11d",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_MATRIX.csv": "8160faede21ec9b817fc48d94d97ffe6c9048c9f6130aad322913836309cded6",
+    "d1_repair_v2\\h02_d1_corrected_grid_qa.py": "482c3d9439f5f6cd064f2e20264015a8c631d22dbb268c91350ae7fa0d6a8f03",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_REPORT.json": "d861f24b8afa0bf5157ac371cfe4fb7f0d9fd36a870dff66731030d6a4c24389",
+    "d1_repair_v2\\H02_D1_CORRECTED_GRID_REPORT.md": "5505bc94bb817e3d5afd93ed2ea03a6dbd178d90fdd250814754164c3d1b8559"
+  },
+  "historical_artifacts_unchanged": true,
+  "next_action": "H02_STOP"
+}

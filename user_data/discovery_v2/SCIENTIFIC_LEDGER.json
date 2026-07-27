@@ -1,0 +1,23 @@
+{
+  "program": "Discovery V2",
+  "ledger_version": "2.0.0-additive",
+  "updated_utc": "2026-07-15",
+  "historical_root_ledger_modified": false,
+  "bot_authorized": false,
+  "entries": [
+    {
+      "hypothesis": "V2-H01",
+      "state": "REJECTED",
+      "mechanism": "Unilateral fully funded positive-funding/positive-basis spot-perpetual cash-and-carry",
+      "data_state": "CONDITIONAL_PASS_DOCUMENTED_DATASET_LIMITATION",
+      "development": "FAIL",
+      "holdout": "FAIL",
+      "conditional_sensitivity": "PASS_STABLE_729_OF_729_NO_FLIPS",
+      "promotion": "DO_NOT_PROMOTE",
+      "decision_artifact": "user_data/discovery_v2/h01/H01_FINAL_SCIENTIFIC_DECISION.json"
+    }
+  ],
+  "active_hypothesis": null,
+  "next_catalog_candidate": "V2-H02",
+  "next_state": "PENDING_DATA_EXECUTABILITY_AUDIT"
+}

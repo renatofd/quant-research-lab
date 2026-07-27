@@ -1,0 +1,912 @@
+{
+  "program": "Discovery V2",
+  "study": "V2-H01 D0 manifest-only",
+  "generated_at_utc": "2026-07-14T20:38:50.742683Z",
+  "mechanical_result": "D0_MECHANICAL_INCONCLUSIVE",
+  "scientific_interpretation_permitted": false,
+  "h01_state": "SELECTED_PENDING_DATA",
+  "active_hypotheses": [],
+  "tested_hypotheses": [],
+  "d1_started": false,
+  "market_content_bytes_downloaded": 0,
+  "frozen_scope": {
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06"
+    ],
+    "symbols": [
+      "ADAUSDT",
+      "AVAXUSDT",
+      "BNBUSDT",
+      "BTCUSDT",
+      "DOGEUSDT",
+      "ETHUSDT",
+      "LINKUSDT",
+      "LTCUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "families": [
+      "spot_klines_5m",
+      "usd_m_perp_klines_5m",
+      "usd_m_markPriceKlines_5m",
+      "usd_m_indexPriceKlines_5m",
+      "usd_m_premiumIndexKlines_5m",
+      "usd_m_fundingRate"
+    ],
+    "expected_combinations": 1440
+  },
+  "totals": {
+    "expected": 1440,
+    "present": 1440,
+    "absent": 0,
+    "ambiguous": 0,
+    "query_failed": 0,
+    "declared_market_object_bytes_without_download": 321304758,
+    "checksum_present_for_present_objects": 1440,
+    "checksum_ratio_for_present_objects": 1.0
+  },
+  "query_status_counts": {
+    "OK": 1440
+  },
+  "by_family": {
+    "spot_klines_5m": {
+      "expected": 240,
+      "present": 240,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "checksum_present": 240,
+      "checksum_text_retrieved": 240,
+      "declared_bytes": 93366295
+    },
+    "usd_m_perp_klines_5m": {
+      "expected": 240,
+      "present": 240,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "checksum_present": 240,
+      "checksum_text_retrieved": 240,
+      "declared_bytes": 88365788
+    },
+    "usd_m_markPriceKlines_5m": {
+      "expected": 240,
+      "present": 240,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "checksum_present": 240,
+      "checksum_text_retrieved": 240,
+      "declared_bytes": 46053489
+    },
+    "usd_m_indexPriceKlines_5m": {
+      "expected": 240,
+      "present": 240,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "checksum_present": 240,
+      "checksum_text_retrieved": 240,
+      "declared_bytes": 50519954
+    },
+    "usd_m_premiumIndexKlines_5m": {
+      "expected": 240,
+      "present": 240,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "checksum_present": 240,
+      "checksum_text_retrieved": 240,
+      "declared_bytes": 42786048
+    },
+    "usd_m_fundingRate": {
+      "expected": 240,
+      "present": 240,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "checksum_present": 240,
+      "checksum_text_retrieved": 240,
+      "declared_bytes": 213184
+    }
+  },
+  "by_asset": {
+    "ADAUSDT": {
+      "expected": 144,
+      "present": 144,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "complete_all_six_families_24_months": true
+    },
+    "AVAXUSDT": {
+      "expected": 144,
+      "present": 144,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "complete_all_six_families_24_months": true
+    },
+    "BNBUSDT": {
+      "expected": 144,
+      "present": 144,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "complete_all_six_families_24_months": true
+    },
+    "BTCUSDT": {
+      "expected": 144,
+      "present": 144,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "complete_all_six_families_24_months": true
+    },
+    "DOGEUSDT": {
+      "expected": 144,
+      "present": 144,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "complete_all_six_families_24_months": true
+    },
+    "ETHUSDT": {
+      "expected": 144,
+      "present": 144,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "complete_all_six_families_24_months": true
+    },
+    "LINKUSDT": {
+      "expected": 144,
+      "present": 144,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "complete_all_six_families_24_months": true
+    },
+    "LTCUSDT": {
+      "expected": 144,
+      "present": 144,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "complete_all_six_families_24_months": true
+    },
+    "SOLUSDT": {
+      "expected": 144,
+      "present": 144,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "complete_all_six_families_24_months": true
+    },
+    "XRPUSDT": {
+      "expected": 144,
+      "present": 144,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0,
+      "complete_all_six_families_24_months": true
+    }
+  },
+  "by_month": {
+    "2024-07": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2024-08": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2024-09": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2024-10": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2024-11": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2024-12": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-01": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-02": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-03": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-04": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-05": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-06": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-07": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-08": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-09": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-10": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-11": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2025-12": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2026-01": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2026-02": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2026-03": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2026-04": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2026-05": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    },
+    "2026-06": {
+      "expected": 60,
+      "present": 60,
+      "absent": 0,
+      "ambiguous": 0,
+      "query_failed": 0
+    }
+  },
+  "continuous_coverage": {
+    "ADAUSDT": {
+      "spot_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_perp_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_markPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_fundingRate": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      }
+    },
+    "AVAXUSDT": {
+      "spot_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_perp_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_markPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_fundingRate": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      }
+    },
+    "BNBUSDT": {
+      "spot_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_perp_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_markPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_fundingRate": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      }
+    },
+    "BTCUSDT": {
+      "spot_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_perp_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_markPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_fundingRate": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      }
+    },
+    "DOGEUSDT": {
+      "spot_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_perp_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_markPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_fundingRate": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      }
+    },
+    "ETHUSDT": {
+      "spot_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_perp_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_markPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_fundingRate": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      }
+    },
+    "LINKUSDT": {
+      "spot_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_perp_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_markPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_fundingRate": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      }
+    },
+    "LTCUSDT": {
+      "spot_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_perp_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_markPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_fundingRate": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      }
+    },
+    "SOLUSDT": {
+      "spot_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_perp_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_markPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_fundingRate": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      }
+    },
+    "XRPUSDT": {
+      "spot_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_perp_klines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_markPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_indexPriceKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_premiumIndexKlines_5m": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      },
+      "usd_m_fundingRate": {
+        "present_months": 24,
+        "continuous_24_months": true,
+        "missing_months": [],
+        "ambiguous_months": [],
+        "failed_months": []
+      }
+    }
+  },
+  "assets_complete_all_six_families": [
+    "ADAUSDT",
+    "AVAXUSDT",
+    "BNBUSDT",
+    "BTCUSDT",
+    "DOGEUSDT",
+    "ETHUSDT",
+    "LINKUSDT",
+    "LTCUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "last_modified_metadata": {
+    "minimum_utc": "2024-08-08T08:49:03.000Z",
+    "maximum_utc": "2026-07-06T09:45:45.000Z",
+    "distribution_by_year_month": {
+      "2024-08": 60,
+      "2024-09": 60,
+      "2024-10": 60,
+      "2024-11": 60,
+      "2024-12": 60,
+      "2025-01": 60,
+      "2025-02": 60,
+      "2025-03": 60,
+      "2025-04": 60,
+      "2025-05": 60,
+      "2025-06": 60,
+      "2025-07": 60,
+      "2025-08": 60,
+      "2025-09": 60,
+      "2025-10": 60,
+      "2025-11": 60,
+      "2025-12": 60,
+      "2026-01": 60,
+      "2026-02": 60,
+      "2026-03": 60,
+      "2026-04": 60,
+      "2026-05": 60,
+      "2026-06": 60,
+      "2026-07": 60
+    }
+  },
+  "etag_metadata": {
+    "objects_with_etag": 1440,
+    "unique_etags": 1440,
+    "duplicate_etag_occurrences": 0
+  },
+  "gaps_and_asymmetries": [],
+  "cost_route_document_search": {
+    "contract_specifications_point_in_time": {
+      "classification": "CURRENT_ONLY",
+      "url": "https://developers.binance.com/docs/derivatives/usds-margined-futures/market-data/rest-api/Exchange-Information",
+      "evidence": "Official current exchange-information documentation is known; no official versioned historical archive was established by this manifest-only audit."
+    },
+    "fee_schedules_point_in_time": {
+      "classification": "CURRENT_ONLY",
+      "url": "https://www.binance.com/en/fee/trading",
+      "evidence": "Official current fee information is known; no point-in-time versioned fee schedule was established by the official manifests. No private endpoint was queried."
+    },
+    "borrow_margin_costs_point_in_time": {
+      "classification": "NOT_FOUND",
+      "url": null,
+      "evidence": "No official versioned point-in-time route was established from the reviewed official manifests/catalog. No private endpoint or API-key route was queried."
+    }
+  },
+  "pre_registered_criteria": {
+    "at_least_8_assets_all_6_families_24_months": true,
+    "spot_and_perp_5m_present": true,
+    "mark_index_premium_and_funding_present": true,
+    "funding_present": true,
+    "at_least_99pct_present_objects_have_checksum": true,
+    "no_structural_listing_query_failure": true,
+    "defensible_versioned_operational_cost_route_resolved": false,
+    "holdout_unconsumed_and_no_outcome_inspection": true
+  },
+  "limitations": [
+    "Only official object listings and checksum text were queried.",
+    "Object presence does not establish candle/event-level content quality.",
+    "CURRENT_ONLY cost routes are limitations and were not treated as point-in-time history.",
+    "No outcome, price, return, funding value or market ZIP/CSV content was inspected."
+  ],
+  "next_action": "HUMAN_REVIEW_OF_D0_RESULT_ONLY"
+}

@@ -1,0 +1,9 @@
+{
+  "project": "Discovery V3",
+  "as_of": "2026-07-24",
+  "confirmed": [],
+  "rejected": ["H01", "H02", "H03", "H04", "H09", "H10"],
+  "blocked": ["H05", "H06", "H07", "H08"],
+  "active": [],
+  "queued": []
+}

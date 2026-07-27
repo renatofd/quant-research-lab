@@ -1,0 +1,20 @@
+{
+  "program":"Discovery V2","total_catalogued":15,"tested":2,"rejected":2,"confirmed":0,"inconclusive":0,"data_blocked":13,
+  "items":[
+    {"id":"V2-H01","state":"REJECTED","data":"Binance spot/perp/mark/index/premium/funding"},
+    {"id":"V2-H02","state":"REJECTED","data":"H01 plus official open-interest/taker metrics"},
+    {"id":"V2-H03","state":"DATA_BLOCKED","missing":"subsecond trades/quotes, depth, auditable clocks"},
+    {"id":"V2-H04","state":"DATA_BLOCKED","missing":"point-in-time ETF flows, publication calendar, AUM"},
+    {"id":"V2-H05","state":"DATA_BLOCKED","missing":"point-in-time macro surprises and cross-market intraday data"},
+    {"id":"V2-H06","state":"DATA_BLOCKED","missing":"broad panel, borrow, fees and short-capacity history"},
+    {"id":"V2-H07","state":"DATA_BLOCKED","missing":"signed trades and reconstructible L2"},
+    {"id":"V2-H08","state":"DATA_BLOCKED","missing":"liquidation events, order book and margin history"},
+    {"id":"V2-H09","state":"DATA_BLOCKED","missing":"point-in-time option chains and IV surface"},
+    {"id":"V2-H10","state":"DATA_BLOCKED","missing":"incremental L2/L3 and cancellations"},
+    {"id":"V2-H11","state":"DATA_BLOCKED","missing":"on-chain data and versioned labels"},
+    {"id":"V2-H12","state":"DATA_BLOCKED","missing":"stablecoin mint/burn and treasury/exchange flows"},
+    {"id":"V2-H13","state":"DATA_BLOCKED","missing":"CME trades/quotes/OI and aligned offshore markets"},
+    {"id":"V2-H14","state":"DATA_BLOCKED","missing":"synchronized data from at least three venues"},
+    {"id":"V2-H15","state":"DATA_BLOCKED","missing":"CEX depth, DEX blocks/mempool, gas, MEV and transfer latency"}
+  ]
+}

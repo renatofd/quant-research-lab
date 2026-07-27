@@ -1,0 +1,465 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H01",
+  "stage": 3,
+  "created_utc": "2026-07-24T16:30:13.471741Z",
+  "decision": "REJECT_AT_STAGE_3",
+  "primary_direction": "continuation",
+  "development": {
+    "start_ms": 1687651200000,
+    "end_ms": 1720569540000,
+    "max_analyzed_minute_ms": 1720569540000
+  },
+  "holdout": {
+    "state": "SEALED",
+    "start_ms": 1720569600000,
+    "outcomes_computed": false
+  },
+  "fixed_horizons_minutes": [
+    1,
+    5,
+    15,
+    60
+  ],
+  "bootstrap": {
+    "unit": "UTC day",
+    "replicates": 500,
+    "seed": 20260724
+  },
+  "placebo_shift_days": 7,
+  "horizons": {
+    "1": {
+      "horizon_minutes": 1,
+      "n": 49449,
+      "coefficient": -7.716209490255701e-06,
+      "r2_control": 5.4412410359416796e-05,
+      "r2_full": 6.005144620424563e-05,
+      "incremental_r2": 5.6390358448288325e-06,
+      "coefficient_ci95": [
+        -9.904167171903344e-05,
+        8.45694269516947e-05
+      ],
+      "top_quartile_mean_ci95": [
+        -0.0001704485465881556,
+        4.8052162667037704e-05
+      ],
+      "top_quartile_n": 12367,
+      "top_quartile_aligned_mean": -7.486916373506219e-05,
+      "positive_assets": 1,
+      "positive_temporal_blocks": 0,
+      "temporal_block_effects": {
+        "1": -2.6581508190435414e-05,
+        "2": -6.356819667960366e-05,
+        "3": -0.00010408513293586876,
+        "4": -6.71299207946034e-05
+      },
+      "placebo": {
+        "n": 47973,
+        "coefficient": -7.875657973132211e-06,
+        "r2_control": 5.600932688865079e-06,
+        "r2_full": 8.171519189947851e-05,
+        "incremental_r2": 7.611425921061343e-05,
+        "coefficient_ci95": [
+          -1.6000496501850595e-05,
+          5.615558051904232e-07
+        ],
+        "top_quartile_mean_ci95": [
+          -3.407621771471374e-05,
+          7.351407206254817e-06
+        ],
+        "top_quartile_aligned_mean": -1.3363463831925771e-05
+      },
+      "screen_components": {
+        "coefficient_ci_above_zero": false,
+        "material_top_quartile": false,
+        "incremental_r2": false,
+        "cross_asset": false,
+        "temporal": false,
+        "placebo": false
+      },
+      "screen_pass": false,
+      "per_asset": {
+        "BTCUSD_PERP": {
+          "n": 22524,
+          "coefficient": -2.0281587152195595e-05,
+          "r2_control": 2.0171704170346416e-05,
+          "r2_full": 0.00011944296968269263,
+          "incremental_r2": 9.927126551234622e-05,
+          "top_quartile_n": 5632,
+          "top_quartile_aligned_mean": -4.798795675569614e-05
+        },
+        "ETHUSD_PERP": {
+          "n": 12489,
+          "coefficient": 5.607723541121264e-05,
+          "r2_control": 0.005895540807744348,
+          "r2_full": 0.006336485660340729,
+          "incremental_r2": 0.00044094485259638105,
+          "top_quartile_n": 3123,
+          "top_quartile_aligned_mean": -0.0001285533791261808
+        },
+        "BNBUSD_PERP": {
+          "n": 6332,
+          "coefficient": 0.00015953454497830605,
+          "r2_control": 0.005521085928880787,
+          "r2_full": 0.007874881200988448,
+          "incremental_r2": 0.0023537952721076616,
+          "top_quartile_n": 1584,
+          "top_quartile_aligned_mean": -7.291032136301529e-05
+        },
+        "ADAUSD_PERP": {
+          "n": 4159,
+          "coefficient": -9.470633857441174e-05,
+          "r2_control": 0.0009064482683979191,
+          "r2_full": 0.0012036256712869564,
+          "incremental_r2": 0.00029717740288903727,
+          "top_quartile_n": 1040,
+          "top_quartile_aligned_mean": -2.5743923814488236e-05
+        },
+        "LINKUSD_PERP": {
+          "n": 2357,
+          "coefficient": -0.0002186666145647742,
+          "r2_control": 0.0005459127023093036,
+          "r2_full": 0.0019186209274576482,
+          "incremental_r2": 0.0013727082251483447,
+          "top_quartile_n": 590,
+          "top_quartile_aligned_mean": -0.00034835162619820597
+        },
+        "LTCUSD_PERP": {
+          "n": 1588,
+          "coefficient": 0.00017396980540149067,
+          "r2_control": 0.0010696991316803128,
+          "r2_full": 0.0015847545219954684,
+          "incremental_r2": 0.0005150553903151556,
+          "top_quartile_n": 398,
+          "top_quartile_aligned_mean": 0.00023523747942375567
+        }
+      }
+    },
+    "5": {
+      "horizon_minutes": 5,
+      "n": 49449,
+      "coefficient": 8.726982977190737e-05,
+      "r2_control": 0.011348407512116854,
+      "r2_full": 0.011562134459848772,
+      "incremental_r2": 0.00021372694773191814,
+      "coefficient_ci95": [
+        -1.0917385546098804e-06,
+        0.00018597346041138196
+      ],
+      "top_quartile_mean_ci95": [
+        -0.0006248268607352501,
+        -0.00024920768403240113
+      ],
+      "top_quartile_n": 12367,
+      "top_quartile_aligned_mean": -0.00043912410680240605,
+      "positive_assets": 0,
+      "positive_temporal_blocks": 1,
+      "temporal_block_effects": {
+        "1": -0.0004988352453293268,
+        "2": -0.00044860817217655727,
+        "3": -0.000875371475385273,
+        "4": 0.0002012581763105875
+      },
+      "placebo": {
+        "n": 47973,
+        "coefficient": -1.2976688975021612e-05,
+        "r2_control": 1.1618309509242586e-05,
+        "r2_full": 5.272966064218121e-05,
+        "incremental_r2": 4.111135113293862e-05,
+        "coefficient_ci95": [
+          -4.5661392571851697e-05,
+          1.7992202940183613e-05
+        ],
+        "top_quartile_mean_ci95": [
+          -8.303203884159838e-05,
+          3.879097229144748e-05
+        ],
+        "top_quartile_aligned_mean": -2.1464005989661044e-05
+      },
+      "screen_components": {
+        "coefficient_ci_above_zero": false,
+        "material_top_quartile": false,
+        "incremental_r2": true,
+        "cross_asset": false,
+        "temporal": false,
+        "placebo": false
+      },
+      "screen_pass": false,
+      "per_asset": {
+        "BTCUSD_PERP": {
+          "n": 22524,
+          "coefficient": -2.4186267571049473e-05,
+          "r2_control": 0.0038770930318648977,
+          "r2_full": 0.003915623338566876,
+          "incremental_r2": 3.853030670197821e-05,
+          "top_quartile_n": 5632,
+          "top_quartile_aligned_mean": -0.0002888217767624966
+        },
+        "ETHUSD_PERP": {
+          "n": 12489,
+          "coefficient": 0.00018342870424625465,
+          "r2_control": 0.0047659146508661765,
+          "r2_full": 0.006187324797287896,
+          "incremental_r2": 0.00142141014642172,
+          "top_quartile_n": 3123,
+          "top_quartile_aligned_mean": -0.00012151928963676813
+        },
+        "BNBUSD_PERP": {
+          "n": 6332,
+          "coefficient": 0.00026271677185571484,
+          "r2_control": 0.011039935883953578,
+          "r2_full": 0.013071935971273985,
+          "incremental_r2": 0.002032000087320407,
+          "top_quartile_n": 1584,
+          "top_quartile_aligned_mean": -0.00026795339988317434
+        },
+        "ADAUSD_PERP": {
+          "n": 4159,
+          "coefficient": -0.00015944428473068913,
+          "r2_control": 0.009868268928528323,
+          "r2_full": 0.010138395565266078,
+          "incremental_r2": 0.0002701266367377553,
+          "top_quartile_n": 1040,
+          "top_quartile_aligned_mean": -0.0011463765693600948
+        },
+        "LINKUSD_PERP": {
+          "n": 2357,
+          "coefficient": -0.000424458820098265,
+          "r2_control": 0.026158309620117448,
+          "r2_full": 0.027607971800734044,
+          "incremental_r2": 0.0014496621806165955,
+          "top_quartile_n": 590,
+          "top_quartile_aligned_mean": -0.0020601611069189633
+        },
+        "LTCUSD_PERP": {
+          "n": 1588,
+          "coefficient": 0.00023564826874795394,
+          "r2_control": 0.016490649432250315,
+          "r2_full": 0.016760279658916355,
+          "incremental_r2": 0.00026963022666604,
+          "top_quartile_n": 398,
+          "top_quartile_aligned_mean": -0.0014882763063610882
+        }
+      }
+    },
+    "15": {
+      "horizon_minutes": 15,
+      "n": 49449,
+      "coefficient": 9.105234382005132e-05,
+      "r2_control": 0.011480912576377289,
+      "r2_full": 0.011598456420787717,
+      "incremental_r2": 0.0001175438444104282,
+      "coefficient_ci95": [
+        -4.141449851003431e-05,
+        0.00024689112996638694
+      ],
+      "top_quartile_mean_ci95": [
+        -0.0010857099125520333,
+        -0.00021502811946182723
+      ],
+      "top_quartile_n": 12367,
+      "top_quartile_aligned_mean": -0.0007007248124630778,
+      "positive_assets": 0,
+      "positive_temporal_blocks": 1,
+      "temporal_block_effects": {
+        "1": -0.0006784088552191304,
+        "2": -0.0009142660188884853,
+        "3": -0.0014946786385752681,
+        "4": 0.0005579232030904017
+      },
+      "placebo": {
+        "n": 47973,
+        "coefficient": -9.382547298972255e-06,
+        "r2_control": 1.6987583252969785e-05,
+        "r2_full": 2.404403344158368e-05,
+        "incremental_r2": 7.056450188613894e-06,
+        "coefficient_ci95": [
+          -9.077727735835514e-05,
+          7.243612136641442e-05
+        ],
+        "top_quartile_mean_ci95": [
+          -0.00014910684859093825,
+          0.00012845003703498996
+        ],
+        "top_quartile_aligned_mean": -9.463001893336161e-06
+      },
+      "screen_components": {
+        "coefficient_ci_above_zero": false,
+        "material_top_quartile": false,
+        "incremental_r2": true,
+        "cross_asset": false,
+        "temporal": false,
+        "placebo": false
+      },
+      "screen_pass": false,
+      "per_asset": {
+        "BTCUSD_PERP": {
+          "n": 22524,
+          "coefficient": -4.148476593201705e-05,
+          "r2_control": 0.0033331764258530683,
+          "r2_full": 0.0033838268660711934,
+          "incremental_r2": 5.065044021812515e-05,
+          "top_quartile_n": 5632,
+          "top_quartile_aligned_mean": -0.00044717569225948857
+        },
+        "ETHUSD_PERP": {
+          "n": 12489,
+          "coefficient": 0.00020006517019674732,
+          "r2_control": 0.004029072048301274,
+          "r2_full": 0.004834228878497937,
+          "incremental_r2": 0.0008051568301966627,
+          "top_quartile_n": 3123,
+          "top_quartile_aligned_mean": -0.00025860933791418814
+        },
+        "BNBUSD_PERP": {
+          "n": 6332,
+          "coefficient": 0.0001687476496793001,
+          "r2_control": 0.008085008560638096,
+          "r2_full": 0.008421372876362798,
+          "incremental_r2": 0.00033636431572470205,
+          "top_quartile_n": 1584,
+          "top_quartile_aligned_mean": -0.0007487566113823162
+        },
+        "ADAUSD_PERP": {
+          "n": 4159,
+          "coefficient": -0.00032007877284175463,
+          "r2_control": 0.012429931348867052,
+          "r2_full": 0.013042802859726366,
+          "incremental_r2": 0.0006128715108593141,
+          "top_quartile_n": 1040,
+          "top_quartile_aligned_mean": -0.0017902071707419814
+        },
+        "LINKUSD_PERP": {
+          "n": 2357,
+          "coefficient": -0.0006407475769927156,
+          "r2_control": 0.01872613693213654,
+          "r2_full": 0.020359477511003976,
+          "incremental_r2": 0.0016333405788674371,
+          "top_quartile_n": 590,
+          "top_quartile_aligned_mean": -0.0026769795844329963
+        },
+        "LTCUSD_PERP": {
+          "n": 1588,
+          "coefficient": 0.0006788077541660604,
+          "r2_control": 0.028665138107152655,
+          "r2_full": 0.03017294862337294,
+          "incremental_r2": 0.001507810516220287,
+          "top_quartile_n": 398,
+          "top_quartile_aligned_mean": -0.0017901241452329593
+        }
+      }
+    },
+    "60": {
+      "horizon_minutes": 60,
+      "n": 49449,
+      "coefficient": 4.747966885826782e-05,
+      "r2_control": 0.009767315597749127,
+      "r2_full": 0.009782083957694643,
+      "incremental_r2": 1.4768359945516174e-05,
+      "coefficient_ci95": [
+        -0.00027229532580865277,
+        0.00033146988589531265
+      ],
+      "top_quartile_mean_ci95": [
+        -0.0015810467624391518,
+        -0.00039819384476469074
+      ],
+      "top_quartile_n": 12367,
+      "top_quartile_aligned_mean": -0.001002119018430809,
+      "positive_assets": 0,
+      "positive_temporal_blocks": 1,
+      "temporal_block_effects": {
+        "1": -0.0009950744646793793,
+        "2": -0.0013590034072084574,
+        "3": -0.0019716294494818046,
+        "4": 0.0006217445864144667
+      },
+      "placebo": {
+        "n": 47973,
+        "coefficient": -1.3429611313078849e-05,
+        "r2_control": 0.00022781658417547757,
+        "r2_full": 0.00023152913256485608,
+        "incremental_r2": 3.7125483893785116e-06,
+        "coefficient_ci95": [
+          -0.0002214187720159955,
+          0.0001947694904186812
+        ],
+        "top_quartile_mean_ci95": [
+          -0.0003093330437592855,
+          0.000362642444974794
+        ],
+        "top_quartile_aligned_mean": 2.5983077576268226e-05
+      },
+      "screen_components": {
+        "coefficient_ci_above_zero": false,
+        "material_top_quartile": false,
+        "incremental_r2": false,
+        "cross_asset": false,
+        "temporal": false,
+        "placebo": false
+      },
+      "screen_pass": false,
+      "per_asset": {
+        "BTCUSD_PERP": {
+          "n": 22524,
+          "coefficient": 8.041184616724282e-07,
+          "r2_control": 0.001812378298605699,
+          "r2_full": 0.0018123853444044213,
+          "incremental_r2": 7.045798722238317e-09,
+          "top_quartile_n": 5632,
+          "top_quartile_aligned_mean": -0.0004360368118164569
+        },
+        "ETHUSD_PERP": {
+          "n": 12489,
+          "coefficient": 0.00014721576469367423,
+          "r2_control": 0.002287389685396768,
+          "r2_full": 0.002453174492713761,
+          "incremental_r2": 0.0001657848073169932,
+          "top_quartile_n": 3123,
+          "top_quartile_aligned_mean": -0.0002792074048667537
+        },
+        "BNBUSD_PERP": {
+          "n": 6332,
+          "coefficient": -0.00032902210935497836,
+          "r2_control": 0.013146033002215729,
+          "r2_full": 0.013740239909917018,
+          "incremental_r2": 0.000594206907701289,
+          "top_quartile_n": 1584,
+          "top_quartile_aligned_mean": -0.0019615774628522816
+        },
+        "ADAUSD_PERP": {
+          "n": 4159,
+          "coefficient": -0.0001391946193034688,
+          "r2_control": 0.011182128343645736,
+          "r2_full": 0.011238522958094244,
+          "incremental_r2": 5.639461444850724e-05,
+          "top_quartile_n": 1040,
+          "top_quartile_aligned_mean": -0.0021578872685265745
+        },
+        "LINKUSD_PERP": {
+          "n": 2357,
+          "coefficient": -0.0007206113160500978,
+          "r2_control": 0.015037765013496185,
+          "r2_full": 0.01622774637399127,
+          "incremental_r2": 0.0011899813604950849,
+          "top_quartile_n": 590,
+          "top_quartile_aligned_mean": -0.0038262773079833644
+        },
+        "LTCUSD_PERP": {
+          "n": 1588,
+          "coefficient": -0.0003832427075999932,
+          "r2_control": 0.03037068526644393,
+          "r2_full": 0.030701596419506982,
+          "incremental_r2": 0.0003309111530630515,
+          "top_quartile_n": 398,
+          "top_quartile_aligned_mean": -0.0036598914051477957
+        }
+      }
+    }
+  },
+  "passing_adjacent_pairs": [],
+  "plan_sha256": "6ee012e3fb17dffba31a2d93f44236aa4d7e76a8a5d0cf228f39d75005c894af",
+  "normalized_events_sha256": "15ed6ca3123099a46fe4a5a0c55c569f4a6f588576af9806e16b4214d7a5df9d",
+  "horizon_matrix_sha256": "374e8dbe68934fc100ab4691f5b8d2a378cfc48649cfe6e9520a90c1c8099b0a",
+  "asset_matrix_sha256": "a3ac7d7c33bd5c64c59c9cd4d9e5a80a4f7f81df316619b8a2a8436e629b3fe2"
+}

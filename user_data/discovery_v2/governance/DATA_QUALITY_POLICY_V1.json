@@ -1,0 +1,42 @@
+{
+  "program": "Discovery V2",
+  "policy": "Permanent data-quality state model",
+  "version": "1.0.0",
+  "approved_utc": "2026-07-15",
+  "states": [
+    "PASS",
+    "CONDITIONAL_PASS_DOCUMENTED_DATASET_LIMITATION",
+    "FAIL"
+  ],
+  "unconditional_coverage_gate": 0.999,
+  "conditional_coverage_floor": 0.995,
+  "max_contiguous_gap_hours": 24,
+  "max_affected_sessions_per_rolling_12m": 1,
+  "conditional_criteria": [
+    {"id": "C01", "requirement": "Official-source absence independently documented."},
+    {"id": "C02", "requirement": "URLs, HTTP status, checksums and timestamps make provenance reproducible."},
+    {"id": "C03", "requirement": "Pipeline, schema, time normalization, ordering and file integrity pass."},
+    {"id": "C04", "requirement": "Every missing timestamp is enumerated and the missing set is immutable."},
+    {"id": "C05", "requirement": "Classification occurs before outcome inspection."},
+    {"id": "C06", "requirement": "No corrected object exists from the same source, endpoint, period and schema."},
+    {"id": "C07", "requirement": "No interpolation, fill, reconstruction or synthetic substitution is used."},
+    {"id": "C08", "requirement": "Coverage is at least 99.5% but below the unchanged 99.9% unconditional gate."},
+    {"id": "C09", "requirement": "Maximum contiguous gap is at most 24 hours."},
+    {"id": "C10", "requirement": "At most one affected session occurs in any rolling 12-month window."},
+    {"id": "C11", "requirement": "Required assets and legs use one frozen symmetric common intersection."},
+    {"id": "C12", "requirement": "The gap is not a hypothesis-defining event, regime or causal window."},
+    {"id": "C13", "requirement": "Pre-registered sample and replication minima remain satisfied."},
+    {"id": "C14", "requirement": "Holdout remains sealed at classification."},
+    {"id": "C15", "requirement": "Block-matched sensitivity is pre-registered before outcomes."}
+  ],
+  "decision_rule": "Conditional admission is permitted only when the 99.9% mechanical coverage subgate fails, all hard integrity gates pass, and every C01-C15 criterion passes. Any failed criterion yields FAIL.",
+  "conditional_sensitivity_rule": "Remove every eligible fully observed block of equal duration globally, one block at a time, and rerun the exact frozen scientific decision pipeline. If any deletion changes the final conclusion, classify the hypothesis INCONCLUSIVE.",
+  "separation_of_states": {
+    "mechanical_metric": "PASS or FAIL",
+    "cause": "pipeline failure, experimental failure, or documented official dataset limitation",
+    "global_admissibility": "PASS, CONDITIONAL_PASS_DOCUMENTED_DATASET_LIMITATION, or FAIL",
+    "hypothesis": "UNTESTED until economic stages execute"
+  },
+  "retroactivity": "Permitted only while outcomes remain uninspected and the holdout remains sealed.",
+  "immutability": "Historical reports and raw artifacts are never rewritten; reclassification creates additive versioned artifacts."
+}

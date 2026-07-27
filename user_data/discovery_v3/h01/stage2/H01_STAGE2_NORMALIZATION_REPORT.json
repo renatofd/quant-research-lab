@@ -1,0 +1,45 @@
+{
+  "program": "Discovery V3",
+  "hypothesis": "H01",
+  "stage": 2,
+  "created_utc": "2026-07-24T16:06:51.761666Z",
+  "rule": "Collapse exact full-row duplicates within each immutable provider ZIP; preserve distinct rows even when timestamps collide.",
+  "raw_archives_modified": false,
+  "raw_rows": 245912,
+  "unique_rows": 122941,
+  "exact_duplicates_removed": 122971,
+  "by_symbol": {
+    "ADAUSD_PERP": {
+      "raw_rows": 19504,
+      "unique_rows": 9752,
+      "duplicates_removed": 9752
+    },
+    "BNBUSD_PERP": {
+      "raw_rows": 46668,
+      "unique_rows": 23333,
+      "duplicates_removed": 23335
+    },
+    "BTCUSD_PERP": {
+      "raw_rows": 106722,
+      "unique_rows": 53348,
+      "duplicates_removed": 53374
+    },
+    "ETHUSD_PERP": {
+      "raw_rows": 56148,
+      "unique_rows": 28073,
+      "duplicates_removed": 28075
+    },
+    "LINKUSD_PERP": {
+      "raw_rows": 9604,
+      "unique_rows": 4802,
+      "duplicates_removed": 4802
+    },
+    "LTCUSD_PERP": {
+      "raw_rows": 7266,
+      "unique_rows": 3633,
+      "duplicates_removed": 3633
+    }
+  },
+  "normalized_path": "normalized/liquidation_events.csv.gz",
+  "normalized_sha256": "15ed6ca3123099a46fe4a5a0c55c569f4a6f588576af9806e16b4214d7a5df9d"
+}

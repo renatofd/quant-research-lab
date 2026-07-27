@@ -1,0 +1,12 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H01",
+  "state": "SEALED_BEFORE_OUTCOMES",
+  "created_utc": "2026-07-15T12:02:03.773951Z",
+  "protocol_version": "1.0.0",
+  "protocol_sha256": "f898564074275c28d5aca993a509c2fe7f91c66e35efb1cfc8b508704fa350e3",
+  "instrument_sha256": "f15936f2f0269f8da1399b2196b6b917179ba3e7a1bbf3c5f9021e3cc26f967d",
+  "d1_reclassification_sha256": "4394d684710e422827dbd090b60553eecaac385fbb9a3209c9e75cddd37e0265",
+  "outcomes_inspected": false,
+  "holdout": "SEALED"
+}

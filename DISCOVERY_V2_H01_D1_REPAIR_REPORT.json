@@ -1,0 +1,2102 @@
+{
+  "program": "Discovery V2",
+  "study": "V2-H01 D1 mechanical gap repair investigation",
+  "started_utc": "2026-07-14T22:34:41.696113Z",
+  "completed_utc": "2026-07-14T22:36:09.196445Z",
+  "scope": "Structural timestamps and official archive/checksum metadata only",
+  "conclusion": "RECOVERY_NOT_POSSIBLE_SAME_SOURCE_ENDPOINT",
+  "d1_mechanical_result_before": "D1_QA_MECHANICAL_FAIL",
+  "d1_mechanical_result_after": "D1_QA_MECHANICAL_FAIL",
+  "d2_executed": false,
+  "gate": {
+    "required_coverage": 0.999,
+    "observed_coverage": 0.9986301369863013,
+    "relaxed": false
+  },
+  "holdout": {
+    "state": "SEALED",
+    "economic_analysis_permitted": null,
+    "unchanged": true,
+    "sha256": "11a917bfda428d758174dd8deb3505cc63dc6e6b2966617e2648fcebc7f858f2"
+  },
+  "gap": {
+    "month": "2026-06",
+    "missing_date": "2026-06-29",
+    "missing_start_utc": "2026-06-29T00:00:00Z",
+    "missing_end_utc": "2026-06-29T23:55:00Z",
+    "interval_seconds": 300,
+    "missing_candles_per_symbol_family": 288,
+    "affected_symbol_count": 10,
+    "affected_family_count": 3,
+    "affected_archive_count": 30,
+    "total_missing_symbol_family_candles": 8640,
+    "symbols": [
+      "ADAUSDT",
+      "AVAXUSDT",
+      "BNBUSDT",
+      "BTCUSDT",
+      "DOGEUSDT",
+      "ETHUSDT",
+      "LINKUSDT",
+      "LTCUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "families": [
+      "usd_m_markPriceKlines_5m",
+      "usd_m_indexPriceKlines_5m",
+      "usd_m_premiumIndexKlines_5m"
+    ],
+    "missing_timestamps_utc": [
+      "2026-06-29T00:00:00Z",
+      "2026-06-29T00:05:00Z",
+      "2026-06-29T00:10:00Z",
+      "2026-06-29T00:15:00Z",
+      "2026-06-29T00:20:00Z",
+      "2026-06-29T00:25:00Z",
+      "2026-06-29T00:30:00Z",
+      "2026-06-29T00:35:00Z",
+      "2026-06-29T00:40:00Z",
+      "2026-06-29T00:45:00Z",
+      "2026-06-29T00:50:00Z",
+      "2026-06-29T00:55:00Z",
+      "2026-06-29T01:00:00Z",
+      "2026-06-29T01:05:00Z",
+      "2026-06-29T01:10:00Z",
+      "2026-06-29T01:15:00Z",
+      "2026-06-29T01:20:00Z",
+      "2026-06-29T01:25:00Z",
+      "2026-06-29T01:30:00Z",
+      "2026-06-29T01:35:00Z",
+      "2026-06-29T01:40:00Z",
+      "2026-06-29T01:45:00Z",
+      "2026-06-29T01:50:00Z",
+      "2026-06-29T01:55:00Z",
+      "2026-06-29T02:00:00Z",
+      "2026-06-29T02:05:00Z",
+      "2026-06-29T02:10:00Z",
+      "2026-06-29T02:15:00Z",
+      "2026-06-29T02:20:00Z",
+      "2026-06-29T02:25:00Z",
+      "2026-06-29T02:30:00Z",
+      "2026-06-29T02:35:00Z",
+      "2026-06-29T02:40:00Z",
+      "2026-06-29T02:45:00Z",
+      "2026-06-29T02:50:00Z",
+      "2026-06-29T02:55:00Z",
+      "2026-06-29T03:00:00Z",
+      "2026-06-29T03:05:00Z",
+      "2026-06-29T03:10:00Z",
+      "2026-06-29T03:15:00Z",
+      "2026-06-29T03:20:00Z",
+      "2026-06-29T03:25:00Z",
+      "2026-06-29T03:30:00Z",
+      "2026-06-29T03:35:00Z",
+      "2026-06-29T03:40:00Z",
+      "2026-06-29T03:45:00Z",
+      "2026-06-29T03:50:00Z",
+      "2026-06-29T03:55:00Z",
+      "2026-06-29T04:00:00Z",
+      "2026-06-29T04:05:00Z",
+      "2026-06-29T04:10:00Z",
+      "2026-06-29T04:15:00Z",
+      "2026-06-29T04:20:00Z",
+      "2026-06-29T04:25:00Z",
+      "2026-06-29T04:30:00Z",
+      "2026-06-29T04:35:00Z",
+      "2026-06-29T04:40:00Z",
+      "2026-06-29T04:45:00Z",
+      "2026-06-29T04:50:00Z",
+      "2026-06-29T04:55:00Z",
+      "2026-06-29T05:00:00Z",
+      "2026-06-29T05:05:00Z",
+      "2026-06-29T05:10:00Z",
+      "2026-06-29T05:15:00Z",
+      "2026-06-29T05:20:00Z",
+      "2026-06-29T05:25:00Z",
+      "2026-06-29T05:30:00Z",
+      "2026-06-29T05:35:00Z",
+      "2026-06-29T05:40:00Z",
+      "2026-06-29T05:45:00Z",
+      "2026-06-29T05:50:00Z",
+      "2026-06-29T05:55:00Z",
+      "2026-06-29T06:00:00Z",
+      "2026-06-29T06:05:00Z",
+      "2026-06-29T06:10:00Z",
+      "2026-06-29T06:15:00Z",
+      "2026-06-29T06:20:00Z",
+      "2026-06-29T06:25:00Z",
+      "2026-06-29T06:30:00Z",
+      "2026-06-29T06:35:00Z",
+      "2026-06-29T06:40:00Z",
+      "2026-06-29T06:45:00Z",
+      "2026-06-29T06:50:00Z",
+      "2026-06-29T06:55:00Z",
+      "2026-06-29T07:00:00Z",
+      "2026-06-29T07:05:00Z",
+      "2026-06-29T07:10:00Z",
+      "2026-06-29T07:15:00Z",
+      "2026-06-29T07:20:00Z",
+      "2026-06-29T07:25:00Z",
+      "2026-06-29T07:30:00Z",
+      "2026-06-29T07:35:00Z",
+      "2026-06-29T07:40:00Z",
+      "2026-06-29T07:45:00Z",
+      "2026-06-29T07:50:00Z",
+      "2026-06-29T07:55:00Z",
+      "2026-06-29T08:00:00Z",
+      "2026-06-29T08:05:00Z",
+      "2026-06-29T08:10:00Z",
+      "2026-06-29T08:15:00Z",
+      "2026-06-29T08:20:00Z",
+      "2026-06-29T08:25:00Z",
+      "2026-06-29T08:30:00Z",
+      "2026-06-29T08:35:00Z",
+      "2026-06-29T08:40:00Z",
+      "2026-06-29T08:45:00Z",
+      "2026-06-29T08:50:00Z",
+      "2026-06-29T08:55:00Z",
+      "2026-06-29T09:00:00Z",
+      "2026-06-29T09:05:00Z",
+      "2026-06-29T09:10:00Z",
+      "2026-06-29T09:15:00Z",
+      "2026-06-29T09:20:00Z",
+      "2026-06-29T09:25:00Z",
+      "2026-06-29T09:30:00Z",
+      "2026-06-29T09:35:00Z",
+      "2026-06-29T09:40:00Z",
+      "2026-06-29T09:45:00Z",
+      "2026-06-29T09:50:00Z",
+      "2026-06-29T09:55:00Z",
+      "2026-06-29T10:00:00Z",
+      "2026-06-29T10:05:00Z",
+      "2026-06-29T10:10:00Z",
+      "2026-06-29T10:15:00Z",
+      "2026-06-29T10:20:00Z",
+      "2026-06-29T10:25:00Z",
+      "2026-06-29T10:30:00Z",
+      "2026-06-29T10:35:00Z",
+      "2026-06-29T10:40:00Z",
+      "2026-06-29T10:45:00Z",
+      "2026-06-29T10:50:00Z",
+      "2026-06-29T10:55:00Z",
+      "2026-06-29T11:00:00Z",
+      "2026-06-29T11:05:00Z",
+      "2026-06-29T11:10:00Z",
+      "2026-06-29T11:15:00Z",
+      "2026-06-29T11:20:00Z",
+      "2026-06-29T11:25:00Z",
+      "2026-06-29T11:30:00Z",
+      "2026-06-29T11:35:00Z",
+      "2026-06-29T11:40:00Z",
+      "2026-06-29T11:45:00Z",
+      "2026-06-29T11:50:00Z",
+      "2026-06-29T11:55:00Z",
+      "2026-06-29T12:00:00Z",
+      "2026-06-29T12:05:00Z",
+      "2026-06-29T12:10:00Z",
+      "2026-06-29T12:15:00Z",
+      "2026-06-29T12:20:00Z",
+      "2026-06-29T12:25:00Z",
+      "2026-06-29T12:30:00Z",
+      "2026-06-29T12:35:00Z",
+      "2026-06-29T12:40:00Z",
+      "2026-06-29T12:45:00Z",
+      "2026-06-29T12:50:00Z",
+      "2026-06-29T12:55:00Z",
+      "2026-06-29T13:00:00Z",
+      "2026-06-29T13:05:00Z",
+      "2026-06-29T13:10:00Z",
+      "2026-06-29T13:15:00Z",
+      "2026-06-29T13:20:00Z",
+      "2026-06-29T13:25:00Z",
+      "2026-06-29T13:30:00Z",
+      "2026-06-29T13:35:00Z",
+      "2026-06-29T13:40:00Z",
+      "2026-06-29T13:45:00Z",
+      "2026-06-29T13:50:00Z",
+      "2026-06-29T13:55:00Z",
+      "2026-06-29T14:00:00Z",
+      "2026-06-29T14:05:00Z",
+      "2026-06-29T14:10:00Z",
+      "2026-06-29T14:15:00Z",
+      "2026-06-29T14:20:00Z",
+      "2026-06-29T14:25:00Z",
+      "2026-06-29T14:30:00Z",
+      "2026-06-29T14:35:00Z",
+      "2026-06-29T14:40:00Z",
+      "2026-06-29T14:45:00Z",
+      "2026-06-29T14:50:00Z",
+      "2026-06-29T14:55:00Z",
+      "2026-06-29T15:00:00Z",
+      "2026-06-29T15:05:00Z",
+      "2026-06-29T15:10:00Z",
+      "2026-06-29T15:15:00Z",
+      "2026-06-29T15:20:00Z",
+      "2026-06-29T15:25:00Z",
+      "2026-06-29T15:30:00Z",
+      "2026-06-29T15:35:00Z",
+      "2026-06-29T15:40:00Z",
+      "2026-06-29T15:45:00Z",
+      "2026-06-29T15:50:00Z",
+      "2026-06-29T15:55:00Z",
+      "2026-06-29T16:00:00Z",
+      "2026-06-29T16:05:00Z",
+      "2026-06-29T16:10:00Z",
+      "2026-06-29T16:15:00Z",
+      "2026-06-29T16:20:00Z",
+      "2026-06-29T16:25:00Z",
+      "2026-06-29T16:30:00Z",
+      "2026-06-29T16:35:00Z",
+      "2026-06-29T16:40:00Z",
+      "2026-06-29T16:45:00Z",
+      "2026-06-29T16:50:00Z",
+      "2026-06-29T16:55:00Z",
+      "2026-06-29T17:00:00Z",
+      "2026-06-29T17:05:00Z",
+      "2026-06-29T17:10:00Z",
+      "2026-06-29T17:15:00Z",
+      "2026-06-29T17:20:00Z",
+      "2026-06-29T17:25:00Z",
+      "2026-06-29T17:30:00Z",
+      "2026-06-29T17:35:00Z",
+      "2026-06-29T17:40:00Z",
+      "2026-06-29T17:45:00Z",
+      "2026-06-29T17:50:00Z",
+      "2026-06-29T17:55:00Z",
+      "2026-06-29T18:00:00Z",
+      "2026-06-29T18:05:00Z",
+      "2026-06-29T18:10:00Z",
+      "2026-06-29T18:15:00Z",
+      "2026-06-29T18:20:00Z",
+      "2026-06-29T18:25:00Z",
+      "2026-06-29T18:30:00Z",
+      "2026-06-29T18:35:00Z",
+      "2026-06-29T18:40:00Z",
+      "2026-06-29T18:45:00Z",
+      "2026-06-29T18:50:00Z",
+      "2026-06-29T18:55:00Z",
+      "2026-06-29T19:00:00Z",
+      "2026-06-29T19:05:00Z",
+      "2026-06-29T19:10:00Z",
+      "2026-06-29T19:15:00Z",
+      "2026-06-29T19:20:00Z",
+      "2026-06-29T19:25:00Z",
+      "2026-06-29T19:30:00Z",
+      "2026-06-29T19:35:00Z",
+      "2026-06-29T19:40:00Z",
+      "2026-06-29T19:45:00Z",
+      "2026-06-29T19:50:00Z",
+      "2026-06-29T19:55:00Z",
+      "2026-06-29T20:00:00Z",
+      "2026-06-29T20:05:00Z",
+      "2026-06-29T20:10:00Z",
+      "2026-06-29T20:15:00Z",
+      "2026-06-29T20:20:00Z",
+      "2026-06-29T20:25:00Z",
+      "2026-06-29T20:30:00Z",
+      "2026-06-29T20:35:00Z",
+      "2026-06-29T20:40:00Z",
+      "2026-06-29T20:45:00Z",
+      "2026-06-29T20:50:00Z",
+      "2026-06-29T20:55:00Z",
+      "2026-06-29T21:00:00Z",
+      "2026-06-29T21:05:00Z",
+      "2026-06-29T21:10:00Z",
+      "2026-06-29T21:15:00Z",
+      "2026-06-29T21:20:00Z",
+      "2026-06-29T21:25:00Z",
+      "2026-06-29T21:30:00Z",
+      "2026-06-29T21:35:00Z",
+      "2026-06-29T21:40:00Z",
+      "2026-06-29T21:45:00Z",
+      "2026-06-29T21:50:00Z",
+      "2026-06-29T21:55:00Z",
+      "2026-06-29T22:00:00Z",
+      "2026-06-29T22:05:00Z",
+      "2026-06-29T22:10:00Z",
+      "2026-06-29T22:15:00Z",
+      "2026-06-29T22:20:00Z",
+      "2026-06-29T22:25:00Z",
+      "2026-06-29T22:30:00Z",
+      "2026-06-29T22:35:00Z",
+      "2026-06-29T22:40:00Z",
+      "2026-06-29T22:45:00Z",
+      "2026-06-29T22:50:00Z",
+      "2026-06-29T22:55:00Z",
+      "2026-06-29T23:00:00Z",
+      "2026-06-29T23:05:00Z",
+      "2026-06-29T23:10:00Z",
+      "2026-06-29T23:15:00Z",
+      "2026-06-29T23:20:00Z",
+      "2026-06-29T23:25:00Z",
+      "2026-06-29T23:30:00Z",
+      "2026-06-29T23:35:00Z",
+      "2026-06-29T23:40:00Z",
+      "2026-06-29T23:45:00Z",
+      "2026-06-29T23:50:00Z",
+      "2026-06-29T23:55:00Z"
+    ],
+    "all_30_missing_sets_identical": true
+  },
+  "alignment": {
+    "mark_index_premium_aligned_with_each_other": true,
+    "internal_offset_detected": false,
+    "structural_gap_against_spot_and_perp": true,
+    "spot_and_perp_comparison": {
+      "spot_klines_5m": {
+        "ADAUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "AVAXUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "BNBUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "BTCUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "DOGEUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "ETHUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "LINKUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "LTCUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "SOLUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "XRPUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        }
+      },
+      "usd_m_perp_klines_5m": {
+        "ADAUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "AVAXUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "BNBUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "BTCUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "DOGEUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "ETHUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "LINKUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "LTCUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "SOLUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        },
+        "XRPUSDT": {
+          "contains_all_288_missing_period_timestamps": true,
+          "missing_from_2026_06_29": 0
+        }
+      }
+    }
+  },
+  "recovery_investigation": {
+    "same_source": "data.binance.vision",
+    "same_endpoint_family": "public archive daily/monthly paths",
+    "same_schema": "5m USD-M markPriceKlines/indexPriceKlines/premiumIndexKlines",
+    "same_period": "2026-06-29",
+    "daily_archives_404_count": 30,
+    "daily_checksums_404_count": 30,
+    "monthly_checksums_200_and_unchanged_count": 30,
+    "adjacent_daily_controls_available": true,
+    "legitimate_recovery_available": false,
+    "reason": "All 30 exact daily archives and all 30 matching checksum objects return HTTP 404; the 30 current monthly checksums match the immutable D1 files, so no corrected official monthly object exists. Using another endpoint, schema, aggregation, interpolation, or synthetic fill would violate the repair constraints.",
+    "affected_sources": [
+      {
+        "symbol": "ADAUSDT",
+        "family": "usd_m_markPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/ADAUSDT/2026-06/ADAUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "abcc5bf92ed243696ad5206f6e190ce4e9967268417595e24939b3a39020dd25",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:47:38 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "abcc5bf92ed243696ad5206f6e190ce4e9967268417595e24939b3a39020dd25",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "AVAXUSDT",
+        "family": "usd_m_markPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/AVAXUSDT/2026-06/AVAXUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "5a611f5bfdb8b88774f77054604f73d55c73ed9889ec7a77ad081cec5fe17ca5",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:47:48 GMT",
+          "content_length": "90"
+        },
+        "official_monthly_sha256": "5a611f5bfdb8b88774f77054604f73d55c73ed9889ec7a77ad081cec5fe17ca5",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "BNBUSDT",
+        "family": "usd_m_markPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/BNBUSDT/2026-06/BNBUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "c2c7734078ec2a02b2c465fc26a94632148da1df965deb0e6c3108b07ecb18d8",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:47:55 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "c2c7734078ec2a02b2c465fc26a94632148da1df965deb0e6c3108b07ecb18d8",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "BTCUSDT",
+        "family": "usd_m_markPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/BTCUSDT/2026-06/BTCUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "e02cf899d32a506fcb3165e795040dadea291989bdd12082bec1a83875d908fc",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:47:58 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "e02cf899d32a506fcb3165e795040dadea291989bdd12082bec1a83875d908fc",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "family": "usd_m_markPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/DOGEUSDT/2026-06/DOGEUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "c5f96e4e5b852844a9a6f72b15a2d9d0cc03c0ec9cb14df5ef9886c6b23e940c",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:48:11 GMT",
+          "content_length": "90"
+        },
+        "official_monthly_sha256": "c5f96e4e5b852844a9a6f72b15a2d9d0cc03c0ec9cb14df5ef9886c6b23e940c",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "ETHUSDT",
+        "family": "usd_m_markPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/ETHUSDT/2026-06/ETHUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "de38736aea72c09d2802071b7c49bb108557fc5a5c81022bf8d706fd7e42430d",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:48:16 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "de38736aea72c09d2802071b7c49bb108557fc5a5c81022bf8d706fd7e42430d",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "LINKUSDT",
+        "family": "usd_m_markPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/LINKUSDT/2026-06/LINKUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "a34b12388d5ee18a55d06aa623d1cc35c6eb02d9db73466afd4b6e3804e84e7e",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:48:39 GMT",
+          "content_length": "90"
+        },
+        "official_monthly_sha256": "a34b12388d5ee18a55d06aa623d1cc35c6eb02d9db73466afd4b6e3804e84e7e",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "LTCUSDT",
+        "family": "usd_m_markPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/LTCUSDT/2026-06/LTCUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "9863a1026c49476fd5c3572b5afef0f8d88519a7929a62bfe737b0c59549400c",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:48:41 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "9863a1026c49476fd5c3572b5afef0f8d88519a7929a62bfe737b0c59549400c",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "SOLUSDT",
+        "family": "usd_m_markPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/SOLUSDT/2026-06/SOLUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "0af68742b32f759dd96a0b93e945184ad85a61a630e09a16e9072174a46cfa55",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:49:12 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "0af68742b32f759dd96a0b93e945184ad85a61a630e09a16e9072174a46cfa55",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "XRPUSDT",
+        "family": "usd_m_markPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/XRPUSDT/2026-06/XRPUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "47c62563101585f9749763bca4b9b1813ac4ddfdcd1232dd074e54baa8244fcd",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:49:33 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "47c62563101585f9749763bca4b9b1813ac4ddfdcd1232dd074e54baa8244fcd",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "ADAUSDT",
+        "family": "usd_m_indexPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/ADAUSDT/2026-06/ADAUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "a7a517ecdd5a14c58599d59b03880bed4014478411c833b47e03891ee5e11da1",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:43:00 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "a7a517ecdd5a14c58599d59b03880bed4014478411c833b47e03891ee5e11da1",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "AVAXUSDT",
+        "family": "usd_m_indexPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/AVAXUSDT/2026-06/AVAXUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "a3c55bb428920eca1cafaac8407e41c42b506ccea45539a668fa32d6804ad43d",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:43:09 GMT",
+          "content_length": "90"
+        },
+        "official_monthly_sha256": "a3c55bb428920eca1cafaac8407e41c42b506ccea45539a668fa32d6804ad43d",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "BNBUSDT",
+        "family": "usd_m_indexPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/BNBUSDT/2026-06/BNBUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "e3a820f335b6cb7e6dfc00b4360057fcdee2d4a17534d39a608335d151e5670c",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:43:15 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "e3a820f335b6cb7e6dfc00b4360057fcdee2d4a17534d39a608335d151e5670c",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "BTCUSDT",
+        "family": "usd_m_indexPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/BTCUSDT/2026-06/BTCUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "5960d455925651ff325d1f611e0584e2e0c0bc157a0c29ee91bb2efae736cff5",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:43:18 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "5960d455925651ff325d1f611e0584e2e0c0bc157a0c29ee91bb2efae736cff5",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "family": "usd_m_indexPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/DOGEUSDT/2026-06/DOGEUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "f9c816ff4586343eafc521b55b8af788e014b5a6dea0b5b5d5ec042895071cc4",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:43:29 GMT",
+          "content_length": "90"
+        },
+        "official_monthly_sha256": "f9c816ff4586343eafc521b55b8af788e014b5a6dea0b5b5d5ec042895071cc4",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "ETHUSDT",
+        "family": "usd_m_indexPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/ETHUSDT/2026-06/ETHUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "d8c0ac865cbc92b4e0c5cb02e141edf7be716932200c5e7e2c4bc3e8a075bb38",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:43:34 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "d8c0ac865cbc92b4e0c5cb02e141edf7be716932200c5e7e2c4bc3e8a075bb38",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "LINKUSDT",
+        "family": "usd_m_indexPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/LINKUSDT/2026-06/LINKUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "032ee5337f2e764e0b6d78eab85854e646058c6e87cfa0dc080069322006c410",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:43:54 GMT",
+          "content_length": "90"
+        },
+        "official_monthly_sha256": "032ee5337f2e764e0b6d78eab85854e646058c6e87cfa0dc080069322006c410",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "LTCUSDT",
+        "family": "usd_m_indexPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/LTCUSDT/2026-06/LTCUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "b508972125157bb70180d7363d5e03043c7c599f6c96838e582e46dfce56c550",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:43:56 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "b508972125157bb70180d7363d5e03043c7c599f6c96838e582e46dfce56c550",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "SOLUSDT",
+        "family": "usd_m_indexPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/SOLUSDT/2026-06/SOLUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "e6b42494ff59fdd0eff7ca38b6e569abfd4f21c180bcf25b2d2e17b6376e7b31",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:44:23 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "e6b42494ff59fdd0eff7ca38b6e569abfd4f21c180bcf25b2d2e17b6376e7b31",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "XRPUSDT",
+        "family": "usd_m_indexPriceKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/XRPUSDT/2026-06/XRPUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "c0662074450e2b245f9f0d7b778d5fab55a54892105003fd05b1f359378ae9bd",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/indexPriceKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 11:44:42 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "c0662074450e2b245f9f0d7b778d5fab55a54892105003fd05b1f359378ae9bd",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "ADAUSDT",
+        "family": "usd_m_premiumIndexKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/ADAUSDT/2026-06/ADAUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "e3a2751378b226ef397df51bd4c52acc2e332f22a599bb68b29b887fba0d441f",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 10:51:24 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "e3a2751378b226ef397df51bd4c52acc2e332f22a599bb68b29b887fba0d441f",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/ADAUSDT/5m/ADAUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "AVAXUSDT",
+        "family": "usd_m_premiumIndexKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/AVAXUSDT/2026-06/AVAXUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "b75f081ecfdfe6c89e327428c9d0ed4d55b41ddac36a34962bce0052dd2f5034",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 10:51:33 GMT",
+          "content_length": "90"
+        },
+        "official_monthly_sha256": "b75f081ecfdfe6c89e327428c9d0ed4d55b41ddac36a34962bce0052dd2f5034",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/AVAXUSDT/5m/AVAXUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "BNBUSDT",
+        "family": "usd_m_premiumIndexKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/BNBUSDT/2026-06/BNBUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "c28aaac609f53e72c73fbd24a426fbb1376952144f2268a6f1ea12b40fac7905",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 10:51:40 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "c28aaac609f53e72c73fbd24a426fbb1376952144f2268a6f1ea12b40fac7905",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/BNBUSDT/5m/BNBUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "BTCUSDT",
+        "family": "usd_m_premiumIndexKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/BTCUSDT/2026-06/BTCUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "273358ae98040d79240d6412a7beaa77548da9fd2913ac85cdc7d4a3b323f45e",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 10:51:42 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "273358ae98040d79240d6412a7beaa77548da9fd2913ac85cdc7d4a3b323f45e",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "family": "usd_m_premiumIndexKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/DOGEUSDT/2026-06/DOGEUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "aaf28764a2fa6acbd3cde10333e2e68f71a2d974d7482441548ede6e369be6b5",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 10:51:53 GMT",
+          "content_length": "90"
+        },
+        "official_monthly_sha256": "aaf28764a2fa6acbd3cde10333e2e68f71a2d974d7482441548ede6e369be6b5",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/DOGEUSDT/5m/DOGEUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "ETHUSDT",
+        "family": "usd_m_premiumIndexKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/ETHUSDT/2026-06/ETHUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "a1b9041b58969c98e18dadcaaaa88dd3d82fdbee94226a0db739f1fd523ef675",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 10:51:58 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "a1b9041b58969c98e18dadcaaaa88dd3d82fdbee94226a0db739f1fd523ef675",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/ETHUSDT/5m/ETHUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "LINKUSDT",
+        "family": "usd_m_premiumIndexKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/LINKUSDT/2026-06/LINKUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "732802df35b6897946243205cba88247a9ad9ca13adfb65e7b5a64edd8d93530",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 10:52:18 GMT",
+          "content_length": "90"
+        },
+        "official_monthly_sha256": "732802df35b6897946243205cba88247a9ad9ca13adfb65e7b5a64edd8d93530",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/LINKUSDT/5m/LINKUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "LTCUSDT",
+        "family": "usd_m_premiumIndexKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/LTCUSDT/2026-06/LTCUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "4995771f69a4ccbb45e1a41fb563d1d0b8a13ef65921aa15b48f5a89d45d0c38",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 10:52:20 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "4995771f69a4ccbb45e1a41fb563d1d0b8a13ef65921aa15b48f5a89d45d0c38",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/LTCUSDT/5m/LTCUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "SOLUSDT",
+        "family": "usd_m_premiumIndexKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/SOLUSDT/2026-06/SOLUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "898bda4fbf0ea3082b9eebc813c2db89dd1e5bdafa7d4024574840085816e67a",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 10:52:47 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "898bda4fbf0ea3082b9eebc813c2db89dd1e5bdafa7d4024574840085816e67a",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/SOLUSDT/5m/SOLUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      },
+      {
+        "symbol": "XRPUSDT",
+        "family": "usd_m_premiumIndexKlines_5m",
+        "source_monthly_archive": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06.zip",
+        "local_monthly_archive": "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/XRPUSDT/2026-06/XRPUSDT-5m-2026-06.zip",
+        "local_monthly_sha256": "8888abb120e6cd7327c1e4d8ce3f9dbb8f5ead1e3d2b5a625aa3d10dce97a8ac",
+        "official_monthly_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/monthly/premiumIndexKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Thu, 02 Jul 2026 10:53:06 GMT",
+          "content_length": "89"
+        },
+        "official_monthly_sha256": "8888abb120e6cd7327c1e4d8ce3f9dbb8f5ead1e3d2b5a625aa3d10dce97a8ac",
+        "official_monthly_checksum_matches_local": true,
+        "daily_archive_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06-29.zip",
+          "method": "HEAD",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "daily_checksum_probe": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/XRPUSDT/5m/XRPUSDT-5m-2026-06-29.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 404,
+          "attempts": 1,
+          "last_modified": null,
+          "content_length": null,
+          "body": null
+        },
+        "rows_present_in_month": 8352,
+        "rows_expected_in_month": 8640,
+        "missing_candles": 288,
+        "missing_set_exactly_2026_06_29": true
+      }
+    ],
+    "adjacent_controls": [
+      {
+        "family": "usd_m_markPriceKlines_5m",
+        "date": "2026-06-28",
+        "archive": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-28.zip",
+          "method": "HEAD",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Mon, 29 Jun 2026 11:48:26 GMT",
+          "content_length": "7834",
+          "body": null
+        },
+        "checksum": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-28.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Mon, 29 Jun 2026 11:48:26 GMT",
+          "content_length": "92",
+          "body": "1327f2d4a979ba9f94ff2bedd7a1104357f690b98337f7ca8e2dc807f9f2b526  BTCUSDT-5m-2026-06-28.zip"
+        }
+      },
+      {
+        "family": "usd_m_markPriceKlines_5m",
+        "date": "2026-06-30",
+        "archive": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-30.zip",
+          "method": "HEAD",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Wed, 01 Jul 2026 10:31:53 GMT",
+          "content_length": "7805",
+          "body": null
+        },
+        "checksum": {
+          "url": "https://data.binance.vision/data/futures/um/daily/markPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-30.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Wed, 01 Jul 2026 10:31:52 GMT",
+          "content_length": "92",
+          "body": "eec731771afdca39158341da45924690c4fe7ef84b909f12d78bc4e2ba3e4709  BTCUSDT-5m-2026-06-30.zip"
+        }
+      },
+      {
+        "family": "usd_m_indexPriceKlines_5m",
+        "date": "2026-06-28",
+        "archive": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-28.zip",
+          "method": "HEAD",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Mon, 29 Jun 2026 11:40:40 GMT",
+          "content_length": "7850",
+          "body": null
+        },
+        "checksum": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-28.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Mon, 29 Jun 2026 11:40:40 GMT",
+          "content_length": "92",
+          "body": "036d252977383c2db750d909021f4561bcd287e3179f256f85b9c60638acd6fa  BTCUSDT-5m-2026-06-28.zip"
+        }
+      },
+      {
+        "family": "usd_m_indexPriceKlines_5m",
+        "date": "2026-06-30",
+        "archive": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-30.zip",
+          "method": "HEAD",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Wed, 01 Jul 2026 10:14:09 GMT",
+          "content_length": "7975",
+          "body": null
+        },
+        "checksum": {
+          "url": "https://data.binance.vision/data/futures/um/daily/indexPriceKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-30.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Wed, 01 Jul 2026 10:14:09 GMT",
+          "content_length": "92",
+          "body": "60d255bde8f80a8e34b8b6325705f4f456c24a19a312bed170ab8e614257bd90  BTCUSDT-5m-2026-06-30.zip"
+        }
+      },
+      {
+        "family": "usd_m_premiumIndexKlines_5m",
+        "date": "2026-06-28",
+        "archive": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-28.zip",
+          "method": "HEAD",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Mon, 29 Jun 2026 12:27:46 GMT",
+          "content_length": "6289",
+          "body": null
+        },
+        "checksum": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-28.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Mon, 29 Jun 2026 12:27:46 GMT",
+          "content_length": "92",
+          "body": "6330c2163319fe62f6d2353703d4e7beadb68ed108288a868a8661dfcc263bd2  BTCUSDT-5m-2026-06-28.zip"
+        }
+      },
+      {
+        "family": "usd_m_premiumIndexKlines_5m",
+        "date": "2026-06-30",
+        "archive": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-30.zip",
+          "method": "HEAD",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Wed, 01 Jul 2026 10:14:27 GMT",
+          "content_length": "6265",
+          "body": null
+        },
+        "checksum": {
+          "url": "https://data.binance.vision/data/futures/um/daily/premiumIndexKlines/BTCUSDT/5m/BTCUSDT-5m-2026-06-30.zip.CHECKSUM",
+          "method": "GET",
+          "http_status": 200,
+          "attempts": 1,
+          "last_modified": "Wed, 01 Jul 2026 10:14:27 GMT",
+          "content_length": "92",
+          "body": "ee47a164018e34082472e7d13785f765d67aee2666fefca997196b0a326348c9  BTCUSDT-5m-2026-06-30.zip"
+        }
+      }
+    ]
+  },
+  "integrity": {
+    "target_raw_archives_unchanged": true,
+    "target_raw_hashes_before": {
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/ADAUSDT/2026-06/ADAUSDT-5m-2026-06.zip": "abcc5bf92ed243696ad5206f6e190ce4e9967268417595e24939b3a39020dd25",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/AVAXUSDT/2026-06/AVAXUSDT-5m-2026-06.zip": "5a611f5bfdb8b88774f77054604f73d55c73ed9889ec7a77ad081cec5fe17ca5",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/BNBUSDT/2026-06/BNBUSDT-5m-2026-06.zip": "c2c7734078ec2a02b2c465fc26a94632148da1df965deb0e6c3108b07ecb18d8",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/BTCUSDT/2026-06/BTCUSDT-5m-2026-06.zip": "e02cf899d32a506fcb3165e795040dadea291989bdd12082bec1a83875d908fc",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/DOGEUSDT/2026-06/DOGEUSDT-5m-2026-06.zip": "c5f96e4e5b852844a9a6f72b15a2d9d0cc03c0ec9cb14df5ef9886c6b23e940c",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/ETHUSDT/2026-06/ETHUSDT-5m-2026-06.zip": "de38736aea72c09d2802071b7c49bb108557fc5a5c81022bf8d706fd7e42430d",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/LINKUSDT/2026-06/LINKUSDT-5m-2026-06.zip": "a34b12388d5ee18a55d06aa623d1cc35c6eb02d9db73466afd4b6e3804e84e7e",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/LTCUSDT/2026-06/LTCUSDT-5m-2026-06.zip": "9863a1026c49476fd5c3572b5afef0f8d88519a7929a62bfe737b0c59549400c",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/SOLUSDT/2026-06/SOLUSDT-5m-2026-06.zip": "0af68742b32f759dd96a0b93e945184ad85a61a630e09a16e9072174a46cfa55",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/XRPUSDT/2026-06/XRPUSDT-5m-2026-06.zip": "47c62563101585f9749763bca4b9b1813ac4ddfdcd1232dd074e54baa8244fcd",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/ADAUSDT/2026-06/ADAUSDT-5m-2026-06.zip": "a7a517ecdd5a14c58599d59b03880bed4014478411c833b47e03891ee5e11da1",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/AVAXUSDT/2026-06/AVAXUSDT-5m-2026-06.zip": "a3c55bb428920eca1cafaac8407e41c42b506ccea45539a668fa32d6804ad43d",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/BNBUSDT/2026-06/BNBUSDT-5m-2026-06.zip": "e3a820f335b6cb7e6dfc00b4360057fcdee2d4a17534d39a608335d151e5670c",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/BTCUSDT/2026-06/BTCUSDT-5m-2026-06.zip": "5960d455925651ff325d1f611e0584e2e0c0bc157a0c29ee91bb2efae736cff5",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/DOGEUSDT/2026-06/DOGEUSDT-5m-2026-06.zip": "f9c816ff4586343eafc521b55b8af788e014b5a6dea0b5b5d5ec042895071cc4",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/ETHUSDT/2026-06/ETHUSDT-5m-2026-06.zip": "d8c0ac865cbc92b4e0c5cb02e141edf7be716932200c5e7e2c4bc3e8a075bb38",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/LINKUSDT/2026-06/LINKUSDT-5m-2026-06.zip": "032ee5337f2e764e0b6d78eab85854e646058c6e87cfa0dc080069322006c410",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/LTCUSDT/2026-06/LTCUSDT-5m-2026-06.zip": "b508972125157bb70180d7363d5e03043c7c599f6c96838e582e46dfce56c550",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/SOLUSDT/2026-06/SOLUSDT-5m-2026-06.zip": "e6b42494ff59fdd0eff7ca38b6e569abfd4f21c180bcf25b2d2e17b6376e7b31",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/XRPUSDT/2026-06/XRPUSDT-5m-2026-06.zip": "c0662074450e2b245f9f0d7b778d5fab55a54892105003fd05b1f359378ae9bd",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/ADAUSDT/2026-06/ADAUSDT-5m-2026-06.zip": "e3a2751378b226ef397df51bd4c52acc2e332f22a599bb68b29b887fba0d441f",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/AVAXUSDT/2026-06/AVAXUSDT-5m-2026-06.zip": "b75f081ecfdfe6c89e327428c9d0ed4d55b41ddac36a34962bce0052dd2f5034",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/BNBUSDT/2026-06/BNBUSDT-5m-2026-06.zip": "c28aaac609f53e72c73fbd24a426fbb1376952144f2268a6f1ea12b40fac7905",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/BTCUSDT/2026-06/BTCUSDT-5m-2026-06.zip": "273358ae98040d79240d6412a7beaa77548da9fd2913ac85cdc7d4a3b323f45e",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/DOGEUSDT/2026-06/DOGEUSDT-5m-2026-06.zip": "aaf28764a2fa6acbd3cde10333e2e68f71a2d974d7482441548ede6e369be6b5",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/ETHUSDT/2026-06/ETHUSDT-5m-2026-06.zip": "a1b9041b58969c98e18dadcaaaa88dd3d82fdbee94226a0db739f1fd523ef675",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/LINKUSDT/2026-06/LINKUSDT-5m-2026-06.zip": "732802df35b6897946243205cba88247a9ad9ca13adfb65e7b5a64edd8d93530",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/LTCUSDT/2026-06/LTCUSDT-5m-2026-06.zip": "4995771f69a4ccbb45e1a41fb563d1d0b8a13ef65921aa15b48f5a89d45d0c38",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/SOLUSDT/2026-06/SOLUSDT-5m-2026-06.zip": "898bda4fbf0ea3082b9eebc813c2db89dd1e5bdafa7d4024574840085816e67a",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/XRPUSDT/2026-06/XRPUSDT-5m-2026-06.zip": "8888abb120e6cd7327c1e4d8ce3f9dbb8f5ead1e3d2b5a625aa3d10dce97a8ac"
+    },
+    "target_raw_hashes_after": {
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/ADAUSDT/2026-06/ADAUSDT-5m-2026-06.zip": "abcc5bf92ed243696ad5206f6e190ce4e9967268417595e24939b3a39020dd25",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/AVAXUSDT/2026-06/AVAXUSDT-5m-2026-06.zip": "5a611f5bfdb8b88774f77054604f73d55c73ed9889ec7a77ad081cec5fe17ca5",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/BNBUSDT/2026-06/BNBUSDT-5m-2026-06.zip": "c2c7734078ec2a02b2c465fc26a94632148da1df965deb0e6c3108b07ecb18d8",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/BTCUSDT/2026-06/BTCUSDT-5m-2026-06.zip": "e02cf899d32a506fcb3165e795040dadea291989bdd12082bec1a83875d908fc",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/DOGEUSDT/2026-06/DOGEUSDT-5m-2026-06.zip": "c5f96e4e5b852844a9a6f72b15a2d9d0cc03c0ec9cb14df5ef9886c6b23e940c",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/ETHUSDT/2026-06/ETHUSDT-5m-2026-06.zip": "de38736aea72c09d2802071b7c49bb108557fc5a5c81022bf8d706fd7e42430d",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/LINKUSDT/2026-06/LINKUSDT-5m-2026-06.zip": "a34b12388d5ee18a55d06aa623d1cc35c6eb02d9db73466afd4b6e3804e84e7e",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/LTCUSDT/2026-06/LTCUSDT-5m-2026-06.zip": "9863a1026c49476fd5c3572b5afef0f8d88519a7929a62bfe737b0c59549400c",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/SOLUSDT/2026-06/SOLUSDT-5m-2026-06.zip": "0af68742b32f759dd96a0b93e945184ad85a61a630e09a16e9072174a46cfa55",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_markPriceKlines_5m/XRPUSDT/2026-06/XRPUSDT-5m-2026-06.zip": "47c62563101585f9749763bca4b9b1813ac4ddfdcd1232dd074e54baa8244fcd",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/ADAUSDT/2026-06/ADAUSDT-5m-2026-06.zip": "a7a517ecdd5a14c58599d59b03880bed4014478411c833b47e03891ee5e11da1",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/AVAXUSDT/2026-06/AVAXUSDT-5m-2026-06.zip": "a3c55bb428920eca1cafaac8407e41c42b506ccea45539a668fa32d6804ad43d",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/BNBUSDT/2026-06/BNBUSDT-5m-2026-06.zip": "e3a820f335b6cb7e6dfc00b4360057fcdee2d4a17534d39a608335d151e5670c",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/BTCUSDT/2026-06/BTCUSDT-5m-2026-06.zip": "5960d455925651ff325d1f611e0584e2e0c0bc157a0c29ee91bb2efae736cff5",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/DOGEUSDT/2026-06/DOGEUSDT-5m-2026-06.zip": "f9c816ff4586343eafc521b55b8af788e014b5a6dea0b5b5d5ec042895071cc4",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/ETHUSDT/2026-06/ETHUSDT-5m-2026-06.zip": "d8c0ac865cbc92b4e0c5cb02e141edf7be716932200c5e7e2c4bc3e8a075bb38",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/LINKUSDT/2026-06/LINKUSDT-5m-2026-06.zip": "032ee5337f2e764e0b6d78eab85854e646058c6e87cfa0dc080069322006c410",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/LTCUSDT/2026-06/LTCUSDT-5m-2026-06.zip": "b508972125157bb70180d7363d5e03043c7c599f6c96838e582e46dfce56c550",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/SOLUSDT/2026-06/SOLUSDT-5m-2026-06.zip": "e6b42494ff59fdd0eff7ca38b6e569abfd4f21c180bcf25b2d2e17b6376e7b31",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_indexPriceKlines_5m/XRPUSDT/2026-06/XRPUSDT-5m-2026-06.zip": "c0662074450e2b245f9f0d7b778d5fab55a54892105003fd05b1f359378ae9bd",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/ADAUSDT/2026-06/ADAUSDT-5m-2026-06.zip": "e3a2751378b226ef397df51bd4c52acc2e332f22a599bb68b29b887fba0d441f",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/AVAXUSDT/2026-06/AVAXUSDT-5m-2026-06.zip": "b75f081ecfdfe6c89e327428c9d0ed4d55b41ddac36a34962bce0052dd2f5034",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/BNBUSDT/2026-06/BNBUSDT-5m-2026-06.zip": "c28aaac609f53e72c73fbd24a426fbb1376952144f2268a6f1ea12b40fac7905",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/BTCUSDT/2026-06/BTCUSDT-5m-2026-06.zip": "273358ae98040d79240d6412a7beaa77548da9fd2913ac85cdc7d4a3b323f45e",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/DOGEUSDT/2026-06/DOGEUSDT-5m-2026-06.zip": "aaf28764a2fa6acbd3cde10333e2e68f71a2d974d7482441548ede6e369be6b5",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/ETHUSDT/2026-06/ETHUSDT-5m-2026-06.zip": "a1b9041b58969c98e18dadcaaaa88dd3d82fdbee94226a0db739f1fd523ef675",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/LINKUSDT/2026-06/LINKUSDT-5m-2026-06.zip": "732802df35b6897946243205cba88247a9ad9ca13adfb65e7b5a64edd8d93530",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/LTCUSDT/2026-06/LTCUSDT-5m-2026-06.zip": "4995771f69a4ccbb45e1a41fb563d1d0b8a13ef65921aa15b48f5a89d45d0c38",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/SOLUSDT/2026-06/SOLUSDT-5m-2026-06.zip": "898bda4fbf0ea3082b9eebc813c2db89dd1e5bdafa7d4024574840085816e67a",
+      "user_data/discovery_v2/h01/d1/raw/usd_m_premiumIndexKlines_5m/XRPUSDT/2026-06/XRPUSDT-5m-2026-06.zip": "8888abb120e6cd7327c1e4d8ce3f9dbb8f5ead1e3d2b5a625aa3d10dce97a8ac"
+    },
+    "six_original_d1_artifacts_unchanged": true,
+    "original_d1_artifact_sha256_before": {
+      "DISCOVERY_V2_H01_D1_INVENTORY.csv": "3725748f376e3086421bdeee48e96535772d7b37c367381764a8ade606f5f77c",
+      "DISCOVERY_V2_H01_D1_QA_MATRIX.csv": "52644a7597032ce91376a9530dee0db19e44d21d679fe8478d8980eb22e2864e",
+      "DISCOVERY_V2_H01_D1_PROVENANCE.json": "63729f4554cfc4b8a6daa9d0cd758f935f62ab62d34b7de5cc2513d854031995",
+      "DISCOVERY_V2_H01_D1_HOLDOUT.json": "11a917bfda428d758174dd8deb3505cc63dc6e6b2966617e2648fcebc7f858f2",
+      "DISCOVERY_V2_H01_D1_REPORT.json": "eccc4076113a22972b79e65cff555d3c527585e17f029b5925b8184b947931d0",
+      "DISCOVERY_V2_H01_D1_REPORT.md": "dd8ef5ead019277eeb6bcfe3c4d5712784ae1b9c52957513476e4c1fcf3c9500"
+    },
+    "original_d1_artifact_sha256_after": {
+      "DISCOVERY_V2_H01_D1_INVENTORY.csv": "3725748f376e3086421bdeee48e96535772d7b37c367381764a8ade606f5f77c",
+      "DISCOVERY_V2_H01_D1_QA_MATRIX.csv": "52644a7597032ce91376a9530dee0db19e44d21d679fe8478d8980eb22e2864e",
+      "DISCOVERY_V2_H01_D1_PROVENANCE.json": "63729f4554cfc4b8a6daa9d0cd758f935f62ab62d34b7de5cc2513d854031995",
+      "DISCOVERY_V2_H01_D1_HOLDOUT.json": "11a917bfda428d758174dd8deb3505cc63dc6e6b2966617e2648fcebc7f858f2",
+      "DISCOVERY_V2_H01_D1_REPORT.json": "eccc4076113a22972b79e65cff555d3c527585e17f029b5925b8184b947931d0",
+      "DISCOVERY_V2_H01_D1_REPORT.md": "dd8ef5ead019277eeb6bcfe3c4d5712784ae1b9c52957513476e4c1fcf3c9500"
+    },
+    "gaps_filled": false,
+    "existing_data_modified": false,
+    "replacement_data_downloaded": false
+  },
+  "prohibitions_observed": {
+    "economic_analysis_executed": false,
+    "outcomes_calculated": false,
+    "price_or_funding_values_used_or_reported": false,
+    "hypothesis_modified": false,
+    "protocol_modified": false,
+    "gate_modified": false,
+    "d2_executed": false
+  },
+  "qa_target_rows": [
+    {
+      "symbol": "ADAUSDT",
+      "family": "usd_m_markPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "ADAUSDT",
+      "family": "usd_m_indexPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "ADAUSDT",
+      "family": "usd_m_premiumIndexKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "family": "usd_m_markPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "family": "usd_m_indexPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "family": "usd_m_premiumIndexKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "BNBUSDT",
+      "family": "usd_m_markPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "BNBUSDT",
+      "family": "usd_m_indexPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "BNBUSDT",
+      "family": "usd_m_premiumIndexKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "BTCUSDT",
+      "family": "usd_m_markPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "BTCUSDT",
+      "family": "usd_m_indexPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "BTCUSDT",
+      "family": "usd_m_premiumIndexKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "family": "usd_m_markPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "family": "usd_m_indexPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "family": "usd_m_premiumIndexKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "ETHUSDT",
+      "family": "usd_m_markPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "ETHUSDT",
+      "family": "usd_m_indexPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "ETHUSDT",
+      "family": "usd_m_premiumIndexKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "LINKUSDT",
+      "family": "usd_m_markPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "LINKUSDT",
+      "family": "usd_m_indexPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "LINKUSDT",
+      "family": "usd_m_premiumIndexKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "LTCUSDT",
+      "family": "usd_m_markPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "LTCUSDT",
+      "family": "usd_m_indexPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "LTCUSDT",
+      "family": "usd_m_premiumIndexKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "SOLUSDT",
+      "family": "usd_m_markPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "SOLUSDT",
+      "family": "usd_m_indexPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "SOLUSDT",
+      "family": "usd_m_premiumIndexKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "XRPUSDT",
+      "family": "usd_m_markPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "XRPUSDT",
+      "family": "usd_m_indexPriceKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    },
+    {
+      "symbol": "XRPUSDT",
+      "family": "usd_m_premiumIndexKlines_5m",
+      "row_count": 8352,
+      "expected_grid_rows": 8640,
+      "missing_grid_rows": 288,
+      "irregular_intervals": 1
+    }
+  ],
+  "instrument_sha256": "3ea6bcefaf67bafb576b7541de136a785ea9ec51e9b42a8f089bb962849f15f9",
+  "artifact_integrity_correction": {
+    "utc": "2026-07-14T22:38:29.777553Z",
+    "scope": "Mechanical UTF-8 mojibake repair and Markdown table header only; no data, metric, gate, or conclusion changed.",
+    "pre_correction_sha256": {
+      "d1_repair_investigation.py": "57520d54f0224a7c1865c631ac041b1f877b1e6ccfe721c275d6c4d0bbb0ade7",
+      "DISCOVERY_V2_H01_D1_REPAIR_REPORT.md": "146448b116e1dd9c37b5afa5be475be5fea0873a13eb2fc14e79759791411c4a",
+      "DISCOVERY_V2_H01_D1_REPAIR_REPORT.json": "bb2d1807487865e5a2e4a024a5502d202418003a9dcfa2b91bb67948831479b7"
+    },
+    "post_correction_source_sha256": "3ea6bcefaf67bafb576b7541de136a785ea9ec51e9b42a8f089bb962849f15f9",
+    "post_correction_markdown_sha256": "65c1b9f71f0e5c0314595a0f9602749e41f7d81295bce0da59b97da0f9fd4c50",
+    "backup_location_outside_repository": "C:\\Users\\renat\\Documents\\Codex\\2026-07-11\\referenced-chatgpt-conversation-this-is-untrusted\\d1_repair_encoding_backup_20260714"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H04",
+  "stage": 3,
+  "decision": "REJECTED",
+  "development": "2024-07-01/2026-06-30",
+  "holdout_state": "SEALED_UNOPENED",
+  "holdout_read": false,
+  "panel_observations": 2102380,
+  "primary": {
+    "observations": 210240,
+    "gross_mean": 3.661769879931941e-05,
+    "gross_median": -0.00012018990037964122,
+    "net_mean": -0.0014633823012006808,
+    "net_median": -0.0016201899003796412,
+    "net_win_rate": 0.29418283866057837,
+    "net_bootstrap_ci95": [
+      -0.0015097524109792117,
+      -0.001413223677179887
+    ],
+    "cost": 0.0015
+  },
+  "regression": {
+    "n": 2102380,
+    "coefficient": 0.45939815164996906,
+    "standard_error": 0.00912273080053229,
+    "normal_p_value": 0.0,
+    "r2": 0.002315824998719185,
+    "incremental_r2": 0.0012034034568514373,
+    "bootstrap_ci95": [
+      0.3278387693812582,
+      0.5287554832467071
+    ]
+  },
+  "replication": {
+    "positive_assets": 0,
+    "positive_blocks": 0,
+    "asset_concentration": 0.12224538322173749
+  },
+  "controls_reproducing": [],
+  "gates": {
+    "net_mean_gt_zero": false,
+    "net_bootstrap_ci95_lower_gt_zero": false,
+    "gross_mean_ge_0_0015": false,
+    "coefficient_positive_ci95_lower_gt_zero": true,
+    "incremental_r2_ge_0_0001": true,
+    "positive_assets_ge_7": false,
+    "positive_blocks_eq_4": false,
+    "binance_coefficient_gt_reverse_leader": true,
+    "placebos_do_not_reproduce": true,
+    "asset_concentration_le_0_35": true
+  },
+  "plan_sha256": "ae5d1ce4d107190e65ac0f0efd420ee194aad96703ed0eea7caec98e5a887f23",
+  "no_search": "One leader, one follower, one 5m horizon, one top decile and one 0.15% cost envelope."
+}

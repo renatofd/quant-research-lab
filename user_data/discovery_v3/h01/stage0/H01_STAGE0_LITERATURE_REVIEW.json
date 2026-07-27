@@ -1,0 +1,19 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H01",
+  "hypothesis": "Liquidation Cascades",
+  "stage": 0,
+  "decision": "PASS_TO_STAGE_1",
+  "decision_date": "2026-07-24",
+  "mechanism": "Binding margin constraints create urgent forced orders; market impact can trigger further margin breaches and propagate through fragmented venues.",
+  "profit_rationale": "Forced, price-insensitive flow may create time-ordered continuation while active or temporary-impact reversal after exhaustion, but execution costs may eliminate the effect.",
+  "required_next_gate": "Official, timestamped historical liquidation events; OHLCV-only proxies are prohibited.",
+  "code_written": false,
+  "market_data_downloaded": false,
+  "sources": [
+    "https://arxiv.org/abs/2102.04591",
+    "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6579278",
+    "https://doi.org/10.1016/j.ejor.2022.10.036",
+    "https://www.bankofcanada.ca/2025/07/staff-working-paper-2025-22/"
+  ]
+}

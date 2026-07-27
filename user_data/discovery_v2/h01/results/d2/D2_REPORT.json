@@ -1,0 +1,243 @@
+{
+  "stage": "D2",
+  "decision": "FAIL",
+  "extra_exclusion": null,
+  "gates": {
+    "sample": false,
+    "aggregate": false,
+    "economic": false,
+    "cross_asset": false,
+    "temporal": false,
+    "negative_controls": true,
+    "market_neutrality": false
+  },
+  "sample_summary": {
+    "sufficient_assets": 5,
+    "positive_assets": 0,
+    "holm_significant_assets": 0
+  },
+  "aggregate": {
+    "n": 471,
+    "clusters": 72,
+    "mean": -0.005109863723075625,
+    "ci95": [
+      -0.00553073102064104,
+      -0.0046050913551271755
+    ],
+    "p_one_sided": 1.0,
+    "annualized_committed_capital_return": -0.7751232243113679
+  },
+  "market_neutrality": {
+    "beta": 0.014922922292162738,
+    "ci95": [
+      0.006232199432258251,
+      0.021237899550484687
+    ]
+  },
+  "by_asset": {
+    "ADAUSDT": {
+      "n": 31,
+      "clusters": 18,
+      "mean": -0.004793011304625997,
+      "ci95": [
+        -0.00571454088982212,
+        -0.0030147164928072305
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -0.5894882925200343,
+      "holm_p": 1.0
+    },
+    "AVAXUSDT": {
+      "n": 84,
+      "clusters": 44,
+      "mean": -0.005371183509226341,
+      "ci95": [
+        -0.005721423698974931,
+        -0.004734739172376513
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -1.228958853678206,
+      "holm_p": 1.0
+    },
+    "BNBUSDT": {
+      "n": 101,
+      "clusters": 39,
+      "mean": -0.005502282273773312,
+      "ci95": [
+        -0.005720927463896995,
+        -0.005155778903722425
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -0.9449755932469122,
+      "holm_p": 1.0
+    },
+    "BTCUSDT": {
+      "n": 15,
+      "clusters": 10,
+      "mean": -0.004389824707036334,
+      "ci95": [
+        -0.005541031806247278,
+        -0.0025001491051833686
+      ],
+      "p_one_sided": 0.9998000199980002,
+      "annualized_committed_capital_return": -0.30552063903843973,
+      "holm_p": 1.0
+    },
+    "DOGEUSDT": {
+      "n": 23,
+      "clusters": 12,
+      "mean": -0.00436187945944908,
+      "ci95": [
+        -0.005596230021556874,
+        -0.0021086397664054975
+      ],
+      "p_one_sided": 0.9998000199980002,
+      "annualized_committed_capital_return": -0.435928310262798,
+      "holm_p": 1.0
+    },
+    "ETHUSDT": {
+      "n": 12,
+      "clusters": 9,
+      "mean": -0.003316867194960125,
+      "ci95": [
+        -0.005632033742057387,
+        -0.0002516337386679848
+      ],
+      "p_one_sided": 0.9878012198780122,
+      "annualized_committed_capital_return": -0.17716924773079692,
+      "holm_p": 1.0
+    },
+    "LINKUSDT": {
+      "n": 140,
+      "clusters": 65,
+      "mean": -0.0055200482594410395,
+      "ci95": [
+        -0.005724531059680946,
+        -0.005256236581557732
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -1.6149301491838004,
+      "holm_p": 1.0
+    },
+    "LTCUSDT": {
+      "n": 19,
+      "clusters": 13,
+      "mean": -0.003974674931424317,
+      "ci95": [
+        -0.0058427868803354035,
+        0.00048252015387411897
+      ],
+      "p_one_sided": 0.964003599640036,
+      "annualized_committed_capital_return": -0.3180504305703189,
+      "holm_p": 1.0
+    },
+    "SOLUSDT": {
+      "n": 16,
+      "clusters": 12,
+      "mean": -0.004152406716015691,
+      "ci95": [
+        -0.005003454475060149,
+        -0.0030516463927871425
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -0.30826341383302924,
+      "holm_p": 1.0
+    },
+    "XRPUSDT": {
+      "n": 30,
+      "clusters": 17,
+      "mean": -0.004350514890388065,
+      "ci95": [
+        -0.005334896643510301,
+        -0.0029851849671236304
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -0.4410938708310121,
+      "holm_p": 1.0
+    }
+  },
+  "temporal_blocks": [
+    {
+      "window": [
+        "2024-07-01",
+        "2024-12-31"
+      ],
+      "n": 176,
+      "clusters": 25,
+      "mean": -0.004229975271264214,
+      "ci95": [
+        -0.005294955795252168,
+        -0.0030640975681631285
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -0.3433870405551977,
+      "holm_p": 1.0
+    },
+    {
+      "window": [
+        "2025-01-01",
+        "2025-06-30"
+      ],
+      "n": 82,
+      "clusters": 21,
+      "mean": -0.005646244047377975,
+      "ci95": [
+        -0.005751863883010135,
+        -0.005576438764220937
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -2.4610497719129536,
+      "holm_p": 1.0
+    },
+    {
+      "window": [
+        "2025-07-01",
+        "2025-12-31"
+      ],
+      "n": 213,
+      "clusters": 27,
+      "mean": -0.0056304138682681856,
+      "ci95": [
+        -0.005738193065510639,
+        -0.005548309395077296
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -1.6015564757138434,
+      "holm_p": 1.0
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "NC_CIRCULAR_30D",
+      "n": 447,
+      "clusters": 71,
+      "mean": -0.0057379646091296165,
+      "ci95": [
+        -0.005945692445774744,
+        -0.005437056977726607
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -0.8479869708356365,
+      "holm_p": 1.0
+    },
+    {
+      "id": "NC_CYCLIC_ASSET",
+      "n": 471,
+      "clusters": 72,
+      "mean": -0.005230471591515327,
+      "ci95": [
+        -0.005693565998267531,
+        -0.004689065136820794
+      ],
+      "p_one_sided": 1.0,
+      "annualized_committed_capital_return": -0.7934184206079209,
+      "holm_p": 1.0
+    }
+  ],
+  "program": "Discovery V2",
+  "hypothesis": "V2-H01",
+  "protocol_sha256": "f898564074275c28d5aca993a509c2fe7f91c66e35efb1cfc8b508704fa350e3",
+  "instrument_sha256": "f15936f2f0269f8da1399b2196b6b917179ba3e7a1bbf3c5f9021e3cc26f967d",
+  "outcomes_inspected": true,
+  "holdout_opened": false
+}

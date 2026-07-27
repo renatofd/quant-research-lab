@@ -1,0 +1,102 @@
+{
+  "program": "Discovery V2",
+  "hypothesis": "V2-H02",
+  "stage": "D1 additive timestamp-semantic repair",
+  "generated_utc": "2026-07-15T12:29:31.815941Z",
+  "original_mechanical_result": "D1_QA_FAIL",
+  "original_result_unchanged": true,
+  "corrected_global_result": "D1_QA_FAIL",
+  "cause": "QA treated official metric create_time publication jitter as missing observations by demanding exact-second grid equality.",
+  "normalization": "Deterministically map each official create_time to floor(create_time/300)*300 UTC; no value fill, interpolation, row creation or deletion.",
+  "outcomes_inspected": false,
+  "economic_columns_parsed": false,
+  "files": 7300,
+  "normalized_pass": 9,
+  "complete_assets": [],
+  "by_asset": {
+    "ADAUSDT": {
+      "files": 730,
+      "pass": 1,
+      "minimum_normalized_coverage": 0.9791666666666666,
+      "maximum_publication_offset_seconds": 262,
+      "complete": false
+    },
+    "AVAXUSDT": {
+      "files": 730,
+      "pass": 1,
+      "minimum_normalized_coverage": 0.9791666666666666,
+      "maximum_publication_offset_seconds": 262,
+      "complete": false
+    },
+    "BNBUSDT": {
+      "files": 730,
+      "pass": 1,
+      "minimum_normalized_coverage": 0.9791666666666666,
+      "maximum_publication_offset_seconds": 262,
+      "complete": false
+    },
+    "BTCUSDT": {
+      "files": 730,
+      "pass": 1,
+      "minimum_normalized_coverage": 0.9791666666666666,
+      "maximum_publication_offset_seconds": 262,
+      "complete": false
+    },
+    "DOGEUSDT": {
+      "files": 730,
+      "pass": 1,
+      "minimum_normalized_coverage": 0.9791666666666666,
+      "maximum_publication_offset_seconds": 262,
+      "complete": false
+    },
+    "ETHUSDT": {
+      "files": 730,
+      "pass": 1,
+      "minimum_normalized_coverage": 0.9791666666666666,
+      "maximum_publication_offset_seconds": 262,
+      "complete": false
+    },
+    "LINKUSDT": {
+      "files": 730,
+      "pass": 1,
+      "minimum_normalized_coverage": 0.9791666666666666,
+      "maximum_publication_offset_seconds": 262,
+      "complete": false
+    },
+    "LTCUSDT": {
+      "files": 730,
+      "pass": 1,
+      "minimum_normalized_coverage": 0.9791666666666666,
+      "maximum_publication_offset_seconds": 270,
+      "complete": false
+    },
+    "SOLUSDT": {
+      "files": 730,
+      "pass": 1,
+      "minimum_normalized_coverage": 0.9791666666666666,
+      "maximum_publication_offset_seconds": 278,
+      "complete": false
+    },
+    "XRPUSDT": {
+      "files": 730,
+      "pass": 0,
+      "minimum_normalized_coverage": 0.9791666666666666,
+      "maximum_publication_offset_seconds": 262,
+      "complete": false
+    }
+  },
+  "original_artifacts_sha256_before": {
+    "H02_D1_REPORT.json": "47220d4dee30526e718208eff66ee471577ee0b270b0e3db111a9b9c2479febe",
+    "H02_D1_QA_MATRIX.csv": "c49e68297c25d1b6aa4c913699361f9daba1d81f2ec0524498122eba725a5b16",
+    "H02_D1_INVENTORY.csv": "26b41a2942ae44e26a9dc6f74f71df4acb863e3c0b431b6b0e57c2a749970cf3",
+    "H02_D1_HOLDOUT.json": "20ef131f5f3818971f0dbec59de76e75b7ab924631f987cf1ba22b2f5018729f"
+  },
+  "original_artifacts_sha256_after": {
+    "H02_D1_REPORT.json": "47220d4dee30526e718208eff66ee471577ee0b270b0e3db111a9b9c2479febe",
+    "H02_D1_QA_MATRIX.csv": "c49e68297c25d1b6aa4c913699361f9daba1d81f2ec0524498122eba725a5b16",
+    "H02_D1_INVENTORY.csv": "26b41a2942ae44e26a9dc6f74f71df4acb863e3c0b431b6b0e57c2a749970cf3",
+    "H02_D1_HOLDOUT.json": "20ef131f5f3818971f0dbec59de76e75b7ab924631f987cf1ba22b2f5018729f"
+  },
+  "original_artifacts_unchanged": true,
+  "next_action": "H02_STOP"
+}

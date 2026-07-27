@@ -1,0 +1,120 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H04",
+  "stage": 2,
+  "generated_utc": "2026-07-24T17:08:50.206552+00:00",
+  "status": "PASS",
+  "api_responses": 2170,
+  "valid_local_hashes": 2170,
+  "errors": [],
+  "by_symbol": {
+    "ADAUSDT": {
+      "expected_rows": 216864,
+      "bybit_rows": 216864,
+      "binance_rows": 216864,
+      "common_rows": 216864,
+      "bybit_coverage": 1.0,
+      "binance_coverage": 1.0,
+      "synchronization": 1.0,
+      "bybit_duplicates": 0
+    },
+    "AVAXUSDT": {
+      "expected_rows": 216864,
+      "bybit_rows": 216864,
+      "binance_rows": 216864,
+      "common_rows": 216864,
+      "bybit_coverage": 1.0,
+      "binance_coverage": 1.0,
+      "synchronization": 1.0,
+      "bybit_duplicates": 0
+    },
+    "BNBUSDT": {
+      "expected_rows": 216864,
+      "bybit_rows": 216864,
+      "binance_rows": 216864,
+      "common_rows": 216864,
+      "bybit_coverage": 1.0,
+      "binance_coverage": 1.0,
+      "synchronization": 1.0,
+      "bybit_duplicates": 0
+    },
+    "BTCUSDT": {
+      "expected_rows": 216864,
+      "bybit_rows": 216864,
+      "binance_rows": 216864,
+      "common_rows": 216864,
+      "bybit_coverage": 1.0,
+      "binance_coverage": 1.0,
+      "synchronization": 1.0,
+      "bybit_duplicates": 0
+    },
+    "DOGEUSDT": {
+      "expected_rows": 216864,
+      "bybit_rows": 216864,
+      "binance_rows": 216864,
+      "common_rows": 216864,
+      "bybit_coverage": 1.0,
+      "binance_coverage": 1.0,
+      "synchronization": 1.0,
+      "bybit_duplicates": 0
+    },
+    "ETHUSDT": {
+      "expected_rows": 216864,
+      "bybit_rows": 216864,
+      "binance_rows": 216864,
+      "common_rows": 216864,
+      "bybit_coverage": 1.0,
+      "binance_coverage": 1.0,
+      "synchronization": 1.0,
+      "bybit_duplicates": 0
+    },
+    "LINKUSDT": {
+      "expected_rows": 216864,
+      "bybit_rows": 216864,
+      "binance_rows": 216864,
+      "common_rows": 216864,
+      "bybit_coverage": 1.0,
+      "binance_coverage": 1.0,
+      "synchronization": 1.0,
+      "bybit_duplicates": 0
+    },
+    "LTCUSDT": {
+      "expected_rows": 216864,
+      "bybit_rows": 216864,
+      "binance_rows": 216864,
+      "common_rows": 216864,
+      "bybit_coverage": 1.0,
+      "binance_coverage": 1.0,
+      "synchronization": 1.0,
+      "bybit_duplicates": 0
+    },
+    "SOLUSDT": {
+      "expected_rows": 216864,
+      "bybit_rows": 216864,
+      "binance_rows": 216864,
+      "common_rows": 216864,
+      "bybit_coverage": 1.0,
+      "binance_coverage": 1.0,
+      "synchronization": 1.0,
+      "bybit_duplicates": 0
+    },
+    "XRPUSDT": {
+      "expected_rows": 216864,
+      "bybit_rows": 216864,
+      "binance_rows": 216864,
+      "common_rows": 216864,
+      "bybit_coverage": 1.0,
+      "binance_coverage": 1.0,
+      "synchronization": 1.0,
+      "bybit_duplicates": 0
+    }
+  },
+  "holdout_state": "SEALED_UNOPENED",
+  "outcomes_inspected": false,
+  "economic_statistics_computed": false,
+  "imputation": false,
+  "sources": [
+    "https://api.bybit.com/v5/market/kline",
+    "https://data.binance.vision/"
+  ]
+}

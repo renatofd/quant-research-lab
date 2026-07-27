@@ -1,0 +1,11 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H08",
+  "stage": 1,
+  "decision": "BLOCKED_DATA_HISTORICAL_OPTION_SURFACE_REQUIRED",
+  "mechanism": "variance risk premium and tail-risk demand",
+  "available": "Deribit public historical trades and limited volatility/mark endpoints",
+  "missing": ["full point-in-time chain", "historical bid_ask", "open_interest_snapshots", "complete mark_iv_surface"],
+  "unblock_condition": "Prospective official snapshots or audited historical option quote dataset",
+  "code_written": false
+}

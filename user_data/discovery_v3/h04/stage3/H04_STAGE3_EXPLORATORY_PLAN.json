@@ -1,0 +1,32 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H04",
+  "stage": 3,
+  "frozen_date": "2026-07-24",
+  "development": "2024-07-01/2026-06-30",
+  "holdout": "2026-07-01/2026-07-23",
+  "holdout_state": "SEALED_UNOPENED",
+  "leader": "Binance_USDM",
+  "follower": "Bybit_linear",
+  "horizon_minutes": 5,
+  "signal": "Binance close/open return at t",
+  "control": "Bybit close/open return at t",
+  "outcome": "Bybit open-to-open return from t+5m to t+10m",
+  "economic_slice": "within-asset top decile absolute Binance return",
+  "aligned_return": "sign(Binance_return_t) * Bybit_return_t_plus_1",
+  "roundtrip_cost": 0.0015,
+  "bootstrap": {"unit": "UTC_day", "replicates": 1000, "seed": 20260724},
+  "controls": ["reverse_leader", "circular_shift_plus_7d", "reverse_time", "lag_minus_5m"],
+  "gates": {
+    "net_mean_and_ci_lower_positive": true,
+    "gross_mean_minimum": 0.0015,
+    "coefficient_and_ci_lower_positive": true,
+    "incremental_r2_minimum": 0.0001,
+    "positive_assets_minimum": 7,
+    "positive_blocks_required": 4,
+    "reverse_leader_must_not_equal_or_exceed": true,
+    "placebos_must_not_reproduce": true,
+    "max_asset_positive_pnl_share": 0.35
+  },
+  "no_search": ["lags", "horizons", "costs", "thresholds", "leaders", "followers"]
+}

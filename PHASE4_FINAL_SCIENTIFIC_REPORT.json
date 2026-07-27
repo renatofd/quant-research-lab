@@ -1,0 +1,36 @@
+{
+  "document": "PHASE4_FINAL_SCIENTIFIC_REPORT",
+  "phase": 4,
+  "status": "ENCERRADA",
+  "active_hypotheses": [],
+  "central_question": "Alguma hipótese econômica pré-registrada demonstrou informação incremental, robusta e economicamente útil após custos no universo disponível?",
+  "conclusion": "Não existe evidência científica suficiente para justificar um bot operacional.",
+  "operational_bot_justified": false,
+  "program_design": {
+    "market_data": "Binance spot OHLCV 5m",
+    "universe": ["BTC/USDT","ETH/USDT","SOL/USDT","BNB/USDT","XRP/USDT","ADA/USDT","DOGE/USDT","LINK/USDT","AVAX/USDT","LTC/USDT"],
+    "validation": ["preregistration","internal chronological OOS","temporal bootstrap","Holm correction","negative controls","cross-asset and cross-block replication"],
+    "holdout_status": "development-consumed; no prospective virgin holdout"
+  },
+  "phase4_results": [
+    {"id":"A01","status":"Rejeitada","decision":"BTC LEAD-LAG HYPOTHESIS REJECTED IN PRIMARY SCOPE"},
+    {"id":"A02","status":"Rejeitada","decision":"VOLATILITY PERSISTENCE HYPOTHESIS REJECTED IN PRIMARY SCOPE"},
+    {"id":"A03","status":"Rejeitada","decision":"SIGNED VOLATILITY ASYMMETRY HYPOTHESIS REJECTED IN PRIMARY SCOPE"},
+    {"id":"A04","status":"Inconclusiva e encerrada pelo programa","decision":"INCONCLUSIVE CO-JUMP PROPAGATION AUDIT"},
+    {"id":"A05","status":"Rejeitada","decision":"CROSS-SECTIONAL DISPERSION HYPOTHESIS REJECTED IN PRIMARY SCOPE"},
+    {"id":"A06","status":"Encerrada/deferida","decision":"NO VALID INDEPENDENT CAMPAIGN"},
+    {"id":"A07","status":"Rejeitada","decision":"VOLATILITY COMPRESSION HYPOTHESIS REJECTED IN PRIMARY SCOPE"},
+    {"id":"A08","status":"Rejeitada","decision":"OHLCV ILLIQUIDITY-PROXY HYPOTHESIS REJECTED IN PRIMARY SCOPE"},
+    {"id":"A09","status":"Rejeitada","decision":"OHLCV VOLUME-PERSISTENCE HYPOTHESIS REJECTED IN PRIMARY SCOPE"},
+    {"id":"A10","status":"Encerrada/deferida","decision":"NOT IDENTIFIABLE WITH CURRENT OHLCV"},
+    {"id":"A11","status":"Rejeitada","decision":"OHLCV CALENDAR-SEASONALITY HYPOTHESIS REJECTED IN PRIMARY SCOPE"}
+  ],
+  "key_evidence": {
+    "A09": {"integrity_valid":true,"activity_mse_improvement_pct":14.0669,"activity_mae_improvement_pct":5.4506,"block1_concentration_pct":74.2851,"day_2025_10_10_concentration_pct":69.1177,"avax_concentration_pct":32.1426,"risk_mse_improvement_pct":0.6836,"risk_mae_improvement_pct":0.6634,"operational_justification":false},
+    "A11": {"integrity_valid":true,"protocol_sha256":"5FF6E981A6AF7D88C09C37398DF2C55566F97C8D3305745E74F4EF7C135D157A","units":50,"pairs":10,"blocks":5,"contrasts":11,"bootstrap_replicates_per_contrast":1000,"all_conservative_net_mean_median_negative":true,"any_mse_mae_gain_ge_5pct":false,"any_contrast_passed_all_gates":false,"bootstrap_limitation":"One complete UTC week per unit caused some degenerate intervals; deterministic economic gates still failed."}
+  },
+  "blocked_data_families": ["B12","B13","B14","B15","B16","B17","B18","B19","B20","B21","B22","B23","B24","B25","B26"],
+  "closed_strategy_families": ["Trend","Score","Pullback","N-of-M","Ensemble","MeanReversion"],
+  "limitations": ["Results are scope-bound, not universal absence proofs.","All available data are development-consumed.","OHLCV cannot identify microstructure, derivatives, on-chain, options or event mechanisms."],
+  "stopping_criteria": {"all_executable_ohlcv_hypotheses_closed":true,"remaining_hypotheses_require_unavailable_data":true,"expected_success_of_more_ohlcv_variants_below_5pct":true,"operational_experiment_justified":false}
+}

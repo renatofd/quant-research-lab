@@ -1,0 +1,46 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H01",
+  "stage": 1,
+  "decision": "PASS_TO_STAGE_2",
+  "inventory_date": "2026-07-24",
+  "outcomes_inspected": false,
+  "market_data_downloaded_by_v3": false,
+  "primary_source": {
+    "provider": "Binance Data Vision",
+    "market": "COIN-M perpetual",
+    "event_family": "daily/liquidationSnapshot",
+    "official_checksums": true,
+    "candidate_symbols": [
+      "BTCUSD_PERP",
+      "ETHUSD_PERP",
+      "BNBUSD_PERP",
+      "ADAUSD_PERP",
+      "LINKUSD_PERP",
+      "LTCUSD_PERP"
+    ],
+    "btc_inventory": {
+      "zip_objects": 472,
+      "checksum_objects": 472,
+      "first_date": "2023-06-25",
+      "last_date": "2024-10-14"
+    },
+    "usd_m_liquidation_archive_found": false
+  },
+  "required_families": [
+    "coin_m_liquidationSnapshot",
+    "coin_m_klines_1m",
+    "coin_m_markPriceKlines_1m",
+    "coin_m_indexPriceKlines_1m",
+    "coin_m_metrics",
+    "spot_klines_1m"
+  ],
+  "secondary_sources": {
+    "bybit": "real-time full liquidation stream found; no complete official historical archive selected",
+    "okx": "documented public liquidation information; no immutable bulk archive selected",
+    "deribit": "public historical trades include liquidation flag; deferred as independent replication after Stage 3",
+    "coinbase": "no official historical public forced-liquidation label found"
+  },
+  "holdout_rule": "last 20% of mechanically valid common interval, chronological, sealed before outcomes",
+  "next_action": "Acquire and mechanically validate the six-symbol Binance COIN-M panel without computing forward outcomes."
+}

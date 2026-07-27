@@ -1,0 +1,40 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H02",
+  "state": "SEALED",
+  "sealed_before_new_archive_open": true,
+  "development_reference": {
+    "period": "2024-07-01/2026-06-30",
+    "classification": "development_only",
+    "location": "user_data/discovery_v2/h01/d1/raw",
+    "inventory_sha256": "3725748f376e3086421bdeee48e96535772d7b37c367381764a8ade606f5f77c",
+    "qa_matrix_sha256": "52644a7597032ce91376a9530dee0db19e44d21d679fe8478d8980eb22e2864e"
+  },
+  "sealed_holdout": {
+    "start_utc": "2026-07-01T00:00:00Z",
+    "end_utc": "2026-07-23T23:59:59.999Z"
+  },
+  "qa_scope": [
+    "checksums",
+    "zip_structure",
+    "schema",
+    "timestamps",
+    "gaps",
+    "duplicates",
+    "continuity",
+    "synchronization"
+  ],
+  "outcome_calculation_permitted": false,
+  "prohibited_during_stage2": [
+    "basis",
+    "returns",
+    "convergence",
+    "pnl",
+    "correlation",
+    "regression",
+    "funding aggregation",
+    "price statistics"
+  ],
+  "prospective_replication_still_required_if_positive": true,
+  "created_utc": "2026-07-24T16:45:38.953864Z"
+}

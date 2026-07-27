@@ -1,0 +1,16 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H02",
+  "stage": 2,
+  "generated_utc": "2026-07-24T16:48:54.105134Z",
+  "official_sources": [
+    "https://data.binance.vision/",
+    "https://fapi.binance.com/fapi/v1/fundingRate"
+  ],
+  "script_version": "1.0.0",
+  "script_sha256": "07b86b09859ddc9694d4b36887266eb10b7dabce21d7e3526cbcd5a0cd459808",
+  "raw_archive_count": 1150,
+  "raw_archive_bytes": 10216750,
+  "holdout_opened": false,
+  "outcome_analysis_performed": false
+}

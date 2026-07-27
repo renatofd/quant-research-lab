@@ -1,0 +1,10 @@
+{
+  "project": "Discovery V3",
+  "hypothesis_id": "H06",
+  "stage": 1,
+  "decision": "BLOCKED_DATA_POINT_IN_TIME_LABELS_REQUIRED",
+  "blocker": "No point-in-time versioned exchange-address labels or intraday BTC/ETH/USDT flow panel",
+  "why_public_chain_is_insufficient": "Entity resolution and knowledge-date leakage remain unresolved",
+  "unblock_condition": "Audited versioned labels plus raw-chain provenance, or authorized provider with historical label snapshots",
+  "code_written": false
+}

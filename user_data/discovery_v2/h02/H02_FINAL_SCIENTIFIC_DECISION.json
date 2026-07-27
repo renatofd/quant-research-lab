@@ -1,0 +1,9 @@
+{
+  "program":"Discovery V2","hypothesis":"V2-H02","decision":"REJECTED","decision_utc":"2026-07-15","bot_authorized":false,"promotion":"DO_NOT_PROMOTE",
+  "d1":{"final":"D1_QA_PASS_REQUIRED_FIELDS","coverage_per_asset":0.9999762176560122,"required_fields_complete":true,"optional_long_short_ratios_excluded_not_imputed":true,"native_time_backward_asof_required":true},
+  "d2":{"decision":"FAIL","crowding_events":686,"mean_net_short_return":-0.002732839895144648,"ci95":[-0.0053180566878693325,-0.0002978475964072344],"incremental_vs_funding_only":-0.0011206277071426993,"positive_assets":1,"significant_assets":0},
+  "d3":{"decision":"FAIL","crowding_events":198,"mean_net_short_return":-0.0011362795294475763,"ci95":[-0.004056765280590392,0.0021906386301337056],"incremental_vs_funding_only":-0.0011892321030752995,"positive_assets":5,"significant_assets":0},
+  "interpretation":"Funding plus high positive OI growth and taker-buy dominance did not identify profitable deleveraging shorts and added negative value beyond extreme funding alone in both development and sealed holdout.",
+  "reopening_rule":"Do not reopen by changing quartiles, OI window, horizon, cost, controls or universe.",
+  "artifact_sha256":{"D1_REQUIRED_FIELDS_REPORT.json":"893c049a6d3f9d009fabef5d3145ab0a83089ae778ffcebb3ae6ccbeb8e796d5","H02_EXPERIMENT_SEAL.json":"075c017ece620ecbace01bb9b0c9319d2db08bfc73ef2b62c7023d8a9f3affc1","D2_REPORT.json":"a10832b5bbaf4a7228d2320ab9809ea1e0a84986c37432c1aa62574dbf8347da","D3_REPORT.json":"ea6186e95d033c17e65f3ae8e053d753c8802cfcc112eef5aea56a1d05c06432","D4_REPORT.json":"c907d85a8b0739b73742de034deced6f5364008b3fe284198dd3c3ea5a15842b"}
+}
